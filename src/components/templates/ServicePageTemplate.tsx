@@ -1,9 +1,8 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
-import { QuoteForm } from "@/components/forms/QuoteForm";
-import { Phone, Star, ChevronRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Sidebar } from "@/components/layout/Sidebar";
+import { ChevronRight } from "lucide-react";
 
 interface ServicePageTemplateProps {
   title: string;
@@ -65,7 +64,7 @@ export function ServicePageTemplate({
         </div>
       </section>
 
-      {/* Main Content */}
+      {/* Main Content with Sidebar */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -105,37 +104,8 @@ export function ServicePageTemplate({
             </div>
 
             {/* Sidebar */}
-            <div className="lg:col-span-1 space-y-6">
-              {/* Quote Form */}
-              <div className="bg-primary rounded-lg p-6">
-                <h3 className="text-xl font-bold text-primary-foreground text-center mb-4">
-                  Get a Free Quote
-                </h3>
-                <QuoteForm variant="sidebar" className="space-y-3" />
-              </div>
-
-              {/* Reviews Widget */}
-              <div className="bg-primary rounded-lg p-6">
-                <h3 className="text-xl font-bold text-primary-foreground text-center mb-4">
-                  Client Reviews
-                </h3>
-                <div className="flex justify-center gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <Star key={star} className="h-6 w-6 text-accent fill-accent" />
-                  ))}
-                </div>
-                <p className="text-primary-foreground/80 text-sm text-center">
-                  Rated 5.0 Stars (54 Reviews)
-                </p>
-              </div>
-
-              {/* Phone CTA */}
-              <a href="tel:2816459935">
-                <Button size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
-                  <Phone className="mr-2 h-5 w-5" />
-                  (281) 645-9935
-                </Button>
-              </a>
+            <div className="lg:col-span-1">
+              <Sidebar />
             </div>
           </div>
         </div>
