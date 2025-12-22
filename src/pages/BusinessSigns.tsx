@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
-import { Star } from "lucide-react";
+import { Star, DollarSign, CreditCard, BadgeDollarSign } from "lucide-react";
 
 const businessSignTypes = [
   { name: "ADA Signs", path: "/ada-signs", image: "https://cdn.markmywordsmedia.com/sign-images/services/ada-signs.jpg" },
@@ -31,28 +31,46 @@ const BusinessSigns = () => {
     <Layout>
       {/* Hero Section */}
       <section 
-        className="relative bg-cover bg-center py-16 md:py-24"
+        className="relative bg-cover bg-center py-12 md:py-20"
         style={{ backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/50" />
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="text-center lg:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            {/* Left side - Title */}
+            <div className="text-center lg:text-left pt-8">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 Business Signs
               </h2>
-              <p className="text-xl text-white/90">Design | Production | Installation</p>
+              <p className="text-xl md:text-2xl text-white/90">Design | Production | Installation</p>
             </div>
-            <div className="bg-primary rounded-lg p-6">
-              <h3 className="text-xl font-bold text-primary-foreground mb-4 text-center">GET A FREE QUOTE</h3>
-              <QuoteForm variant="hero" />
+            
+            {/* Right side - Quote Form Card */}
+            <div className="bg-primary rounded-lg overflow-hidden shadow-xl">
+              <div className="bg-primary p-4">
+                <h3 className="text-xl font-bold text-primary-foreground text-center">GET A FREE QUOTE</h3>
+              </div>
+              <div className="bg-white p-6">
+                <QuoteForm variant="hero" />
+              </div>
+              <div className="bg-primary p-4 text-center">
+                <p className="text-sm font-bold text-primary-foreground mb-2">RATED 5.0 STARS</p>
+                <div className="flex items-center justify-center gap-1 mb-2">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-accent text-accent" />
+                  ))}
+                </div>
+                <Link to="/reviews" className="text-primary-foreground/80 hover:text-primary-foreground text-sm underline">
+                  (Based on 54 Client Reviews)
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="py-12">
+      <section className="py-12 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Main Content Area */}
@@ -90,7 +108,7 @@ const BusinessSigns = () => {
                   Call Royal Signs & Awnings at <a href="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</a> for your Free Consultation with a Business Signs Expert!
                 </p>
 
-                <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Cohesive Commercial Signs</h2>
+                <h2 className="text-2xl font-bold text-foreground mt-8 mb-4 clear-both">Cohesive Commercial Signs</h2>
                 
                 <div className="float-right ml-6 mb-4">
                   <img 
@@ -191,18 +209,41 @@ const BusinessSigns = () => {
             {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-24 space-y-6">
-                <div className="bg-card rounded-lg p-6 shadow-md">
-                  <h3 className="font-bold text-lg mb-4">RATED 5.0 STARS</h3>
-                  <div className="flex items-center gap-1 mb-2">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                    ))}
+                {/* We Accept Card */}
+                <div className="bg-primary rounded-lg p-6 text-center">
+                  <h3 className="font-bold text-lg text-primary-foreground mb-4">We Accept:</h3>
+                  <div className="flex items-center justify-center gap-3 flex-wrap">
+                    <DollarSign className="h-8 w-8 text-primary-foreground" />
+                    <BadgeDollarSign className="h-8 w-8 text-primary-foreground" />
+                    <CreditCard className="h-8 w-8 text-primary-foreground" />
+                    <span className="text-primary-foreground font-bold text-sm">VISA</span>
+                    <span className="text-primary-foreground font-bold text-sm">MC</span>
+                    <span className="text-primary-foreground font-bold text-sm">DISC</span>
+                    <span className="text-primary-foreground font-bold text-sm">AMEX</span>
                   </div>
-                  <p className="font-semibold">Royal Signs & Awnings</p>
-                  <Link to="/reviews" className="text-accent hover:underline text-sm">
-                    (Based on 54 Client Reviews)
-                  </Link>
                 </div>
+
+                {/* Client Review Card */}
+                <div className="bg-primary rounded-lg overflow-hidden">
+                  <div className="bg-primary p-4 text-center">
+                    <h3 className="font-bold text-lg text-primary-foreground">Client Review</h3>
+                  </div>
+                  <div className="bg-white p-6">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="font-semibold text-foreground">Highly recommend Royal signs for all your business signage and building banners.</span>
+                    </div>
+                    <div className="flex items-center gap-1 mb-3">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="h-5 w-5 fill-accent text-accent" />
+                      ))}
+                    </div>
+                    <p className="text-muted-foreground text-sm mb-3">
+                      Royal signs & awnings continue to impress us with their workmanship and customer service. We have been using them for over 5 years with three of our businesses and they have de... <Link to="/reviews" className="text-accent hover:underline">read more</Link>
+                    </p>
+                    <p className="text-right text-foreground font-semibold text-sm">- Yaman Subei</p>
+                  </div>
+                </div>
+
                 <Sidebar />
               </div>
             </div>
