@@ -11,12 +11,12 @@ export default function RealEstateSigns() {
   return (
     <UniversalPageTemplate
       title="Real Estate Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/custom-home-300x176.jpg"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-custom-aframe-storefront-dental-signage-300x188.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Houston Real Estate Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-monument-attorney-at-law-signage-1.jpg"
         imageAlt="Real Estate Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function RealEstateSigns() {
 
       <ContentSection
         title="Custom Real Estate Signage"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
         imageAlt="Custom Real Estate Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function RealEstateSigns() {
 
       <ContentSection
         title="Real Estate Brochure Holders"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/monument-signs-1.webp"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-bulk-yard-vote-for-political-candidate-signs-300x225.jpg"
         imageAlt="Real Estate Brochure Holders"
         imagePosition="left"
       >

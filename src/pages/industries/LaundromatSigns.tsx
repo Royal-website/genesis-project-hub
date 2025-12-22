@@ -11,12 +11,12 @@ export default function LaundromatSigns() {
   return (
     <UniversalPageTemplate
       title="Laundromat Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-custom-metal-attorney-at-law-building-sign-300x162.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Laundromat Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-storefront-outdoor-building-e1590775795316-300x235.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
         imageAlt="Laundromat Signs"
       >
         <p className="mb-4">
@@ -32,8 +32,8 @@ export default function LaundromatSigns() {
 
       <ContentSection
         title="Illuminated Signs for your Laundromat"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-install-fab-300x225.jpg"
-        imageAlt="Laundromat Channel Letters"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/hanging-3-300x200.jpg"
+        imageAlt="Illuminated Laundromat Signs"
       >
         <p className="mb-4">
           Laundromats usually have customers coming in throughout the day, which is why many of them are open 24/7. Evenings makes it harder for people to scout for laundromats in the area, so the most practical way to get your coin laundry business noticed is by getting yourself some lighted or illuminated signage. When used as outdoor signage, you're also getting yourself 24/7 advertising tools!
@@ -45,8 +45,8 @@ export default function LaundromatSigns() {
 
       <ContentSection
         title="Vinyl Informational Signage"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
-        imageAlt="Laundromat Vinyl Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/03/window-vinyl-300x262.jpg"
+        imageAlt="Vinyl Signs"
         imagePosition="left"
       >
         <p className="mb-4">

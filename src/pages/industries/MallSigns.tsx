@@ -11,12 +11,12 @@ export default function MallSigns() {
   return (
     <UniversalPageTemplate
       title="Mall Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Store.png"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Mall Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-storefront-outdoor-building-e1590775795316-300x235.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
         imageAlt="Mall Signs"
       >
         <p className="mb-4">
@@ -32,8 +32,8 @@ export default function MallSigns() {
 
       <ContentSection
         title="Wide Selection of Mall Sign Options"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-install-fab-300x225.jpg"
-        imageAlt="Mall Storefront Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/hanging-3-300x200.jpg"
+        imageAlt="Mall Wayfinding Signs"
       >
         <p className="mb-4">
           One tricky part with mall signs is knowing exactly which type, which design, which placement gives your business the most impact and the best results. Here at Royal Signs & Awnings, we do our very best to make this part as easy and hassle-free as possible by having an extensive selection of sign options, talented artists who can customize any sign according to your brand, and top-of-the-line equipment for the creation of your personalized sign.
@@ -45,7 +45,7 @@ export default function MallSigns() {
 
       <ContentSection
         title="Quick and Clean Installation by Sign Specialists"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-custom-aframe-storefront-dental-signage-300x188.jpg"
         imageAlt="Mall Channel Letters"
         imagePosition="left"
       >

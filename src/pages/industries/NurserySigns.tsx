@@ -11,12 +11,12 @@ export default function NurserySigns() {
   return (
     <UniversalPageTemplate
       title="Nursery Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Outdoor-Signs.jpg"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-attractive-storefront-nursery-sign-300x213.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Nursery Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/monument-signs-1.webp"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-attractive-storefront-nursery-sign-300x213.jpg"
         imageAlt="Nursery Signs"
       >
         <p className="mb-4">
@@ -32,8 +32,8 @@ export default function NurserySigns() {
 
       <ContentSection
         title="Highly Customizable Outdoor Signage"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
-        imageAlt="Nursery Outdoor Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-monument-attorney-at-law-signage-1.jpg"
+        imageAlt="Outdoor Nursery Signs"
       >
         <p className="mb-4">
           Outdoor signs can come in all shapes, sizes, colors, and substrates, which is great! But sometimes business owners can get a bit confused as to which one would be best for their nursery. Well this is exactly why Royal Signs & Awnings exists.
@@ -45,8 +45,8 @@ export default function NurserySigns() {
 
       <ContentSection
         title="Informational Signs, Directory Signs, and Wayfinding Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
-        imageAlt="Nursery Wayfinding Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/hanging-3-300x200.jpg"
+        imageAlt="Wayfinding Signs"
         imagePosition="left"
       >
         <p className="mb-4">

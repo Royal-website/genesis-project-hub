@@ -11,12 +11,12 @@ export default function PoliticalSigns() {
   return (
     <UniversalPageTemplate
       title="Political Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-political-yard-web-allen-multi-campaign-signage-300x160.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Political Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-political-yard-web-allen-multi-campaign-signage-300x160.jpg"
         imageAlt="Political Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function PoliticalSigns() {
 
       <ContentSection
         title="Affordable Campaign Signage"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-bulk-yard-vote-for-political-candidate-signs-300x225.jpg"
         imageAlt="Campaign Yard Signs"
       >
         <p className="mb-4">
@@ -45,8 +45,8 @@ export default function PoliticalSigns() {
 
       <ContentSection
         title="Smart and Strategic Sign Design"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/custom-home-300x176.jpg"
-        imageAlt="Political Sign Design"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
+        imageAlt="Strategic Sign Design"
         imagePosition="left"
       >
         <p className="mb-4">
