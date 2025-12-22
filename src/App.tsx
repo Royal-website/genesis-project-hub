@@ -52,7 +52,16 @@ const App = () => (
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/contact-us" element={<ContactUs />} />
           
-          {/* Location-based routes: /service-location-tx format (e.g., /awning-signs-alief-tx) */}
+          {/* General location pages: /location-tx format (e.g., /thompsons-tx) */}
+          {locations.map(location => (
+            <Route 
+              key={location}
+              path={`/${location}`} 
+              element={<LocationPage />} 
+            />
+          ))}
+          
+          {/* Service-location pages: /service-location-tx format (e.g., /awning-signs-alief-tx) */}
           {services.map(service => 
             locations.map(location => (
               <Route 
