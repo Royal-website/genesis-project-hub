@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Clock, Star } from "lucide-react";
 
-const locations = ["alief", "houston", "missouri-city", "richmond", "rosenberg", "sugar-land", "thompsons"];
+// Location slugs with -tx suffix matching original site URLs
+const locations = ["alief-tx", "houston-tx", "missouri-city-tx", "richmond-tx", "rosenberg-tx", "sugar-land-tx", "thompsons-tx"];
 const locationNames: Record<string, string> = {
-  "alief": "Alief",
-  "houston": "Houston", 
-  "missouri-city": "Missouri City",
-  "richmond": "Richmond",
-  "rosenberg": "Rosenberg",
-  "sugar-land": "Sugar Land",
-  "thompsons": "Thompsons"
+  "alief-tx": "Alief",
+  "houston-tx": "Houston", 
+  "missouri-city-tx": "Missouri City",
+  "richmond-tx": "Richmond",
+  "rosenberg-tx": "Rosenberg",
+  "sugar-land-tx": "Sugar Land",
+  "thompsons-tx": "Thompsons"
 };
 
 const quickLinks = [
@@ -19,57 +20,25 @@ const quickLinks = [
   { name: "Contact Us", path: "/contact-us" },
 ];
 
+// Service groups for footer layout (service-location-tx format)
 const locationServices = [
-  {
-    title: "Sign Company",
-    service: "sign-company",
-  },
-  {
-    title: "Indoor Signs",
-    service: "indoor-signs",
-  },
-  {
-    title: "Outdoor Signs",
-    service: "outdoor-signs",
-  },
-  {
-    title: "Awning Signs",
-    service: "awning-signs",
-  },
+  { title: "Sign Company", service: "sign-company" },
+  { title: "Indoor Signs", service: "indoor-signs" },
+  { title: "Outdoor Signs", service: "outdoor-signs" },
+  { title: "Awning Signs", service: "awning-signs" },
 ];
 
 const locationServices2 = [
-  {
-    title: "Custom Signs",
-    service: "custom-signs",
-  },
-  {
-    title: "Business Signs",
-    service: "business-signs",
-  },
-  {
-    title: "Metal Signs",
-    service: "metal-signs",
-  },
-  {
-    title: "Pole Signs",
-    service: "pole-signs",
-  },
+  { title: "Custom Signs", service: "custom-signs" },
+  { title: "Business Signs", service: "business-signs" },
+  { title: "Metal Signs", service: "metal-signs" },
+  { title: "Pole Signs", service: "pole-signs" },
 ];
 
 const locationServices3 = [
-  {
-    title: "Canopy Tents",
-    service: "canopy-tents",
-  },
-  {
-    title: "Monument Signs",
-    service: "monument-signs",
-  },
-  {
-    title: "Sign Repair",
-    service: "sign-repair",
-  },
+  { title: "Canopy Tents", service: "canopy-tents" },
+  { title: "Monument Signs", service: "monument-signs" },
+  { title: "Sign Repair", service: "sign-repair" },
 ];
 
 export function Footer() {
@@ -190,7 +159,7 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Location Links Section */}
+      {/* Location Links Section - Using service-location-tx format */}
       <div className="border-t border-primary-foreground/20">
         <div className="container mx-auto px-4 py-8">
           {/* Row 1 */}
@@ -199,9 +168,9 @@ export function Footer() {
               <div key={index}>
                 <ul className="space-y-1">
                   {locations.map((loc) => (
-                    <li key={`${loc}-${svc.service}`}>
+                    <li key={`${svc.service}-${loc}`}>
                       <Link 
-                        to={`/${loc}-${svc.service}`}
+                        to={`/${svc.service}-${loc}`}
                         className="text-sm hover:text-accent transition-colors"
                       >
                         {locationNames[loc]} {svc.title}
@@ -219,9 +188,9 @@ export function Footer() {
               <div key={index}>
                 <ul className="space-y-1">
                   {locations.map((loc) => (
-                    <li key={`${loc}-${svc.service}`}>
+                    <li key={`${svc.service}-${loc}`}>
                       <Link 
-                        to={`/${loc}-${svc.service}`}
+                        to={`/${svc.service}-${loc}`}
                         className="text-sm hover:text-accent transition-colors"
                       >
                         {locationNames[loc]} {svc.title}
@@ -239,9 +208,9 @@ export function Footer() {
               <div key={index}>
                 <ul className="space-y-1">
                   {locations.map((loc) => (
-                    <li key={`${loc}-${svc.service}`}>
+                    <li key={`${svc.service}-${loc}`}>
                       <Link 
-                        to={`/${loc}-${svc.service}`}
+                        to={`/${svc.service}-${loc}`}
                         className="text-sm hover:text-accent transition-colors"
                       >
                         {locationNames[loc]} {svc.title}

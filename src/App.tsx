@@ -17,9 +17,23 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-// Generate location routes
-const locations = ["alief", "houston", "missouri-city", "richmond", "rosenberg", "sugar-land", "thompsons"];
-const services = ["sign-company", "indoor-signs", "outdoor-signs", "awning-signs", "custom-signs", "business-signs", "metal-signs", "pole-signs", "canopy-tents", "monument-signs", "sign-repair"];
+// Location slugs matching the original site (with -tx suffix)
+const locations = ["alief-tx", "houston-tx", "missouri-city-tx", "richmond-tx", "rosenberg-tx", "sugar-land-tx", "thompsons-tx"];
+
+// Services that have location-specific pages
+const services = [
+  "sign-company",
+  "indoor-signs", 
+  "outdoor-signs", 
+  "awning-signs", 
+  "custom-signs", 
+  "business-signs", 
+  "metal-signs", 
+  "pole-signs", 
+  "canopy-tents", 
+  "monument-signs", 
+  "sign-repair"
+];
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -38,12 +52,12 @@ const App = () => (
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/contact-us" element={<ContactUs />} />
           
-          {/* Location-based routes */}
-          {locations.map(location => 
-            services.map(service => (
+          {/* Location-based routes: /service-location-tx format (e.g., /awning-signs-alief-tx) */}
+          {services.map(service => 
+            locations.map(location => (
               <Route 
-                key={`${location}-${service}`}
-                path={`/${location}-${service}`} 
+                key={`${service}-${location}`}
+                path={`/${service}-${location}`} 
                 element={<LocationPage />} 
               />
             ))
