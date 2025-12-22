@@ -1,0 +1,426 @@
+HTTrack3.49-2 launched on Sun, 21 Dec 2025 20:04:00 at https://www.houstonsignsandawnings.com/
+(httrack https://www.houstonsignsandawnings.com/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:04:02	Warning: 	Note: due to https://www.houstonsignsandawnings.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+20:05:57	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/Firefox/ (from https://www.houstonsignsandawnings.com/)
+20:08:54	Warning: 	Link https://www.houstonsignsandawnings.com/promotional-signs/ not scanned (follow robots meta tag)
+20:08:55	Warning: 	Link https://www.houstonsignsandawnings.com/office-signs/ not scanned (follow robots meta tag)
+20:08:56	Warning: 	Link https://www.houstonsignsandawnings.com/banners/ not scanned (follow robots meta tag)
+20:08:57	Warning: 	Link https://www.houstonsignsandawnings.com/dimensional-letters/ not scanned (follow robots meta tag)
+20:08:58	Warning: 	Link https://www.houstonsignsandawnings.com/hanging-signs/ not scanned (follow robots meta tag)
+20:08:59	Warning: 	Link https://www.houstonsignsandawnings.com/blade-signs/ not scanned (follow robots meta tag)
+20:09:00	Warning: 	Link https://www.houstonsignsandawnings.com/retail-signs/ not scanned (follow robots meta tag)
+20:09:01	Warning: 	Link https://www.houstonsignsandawnings.com/cabinet-signs/ not scanned (follow robots meta tag)
+20:09:02	Warning: 	Link https://www.houstonsignsandawnings.com/channel-letters/ not scanned (follow robots meta tag)
+20:09:03	Warning: 	Link https://www.houstonsignsandawnings.com/lighted-signs/ not scanned (follow robots meta tag)
+20:09:23	Warning: 	Link https://www.houstonsignsandawnings.com/post-panel-signs/ not scanned (follow robots meta tag)
+20:09:24	Warning: 	Link https://www.houstonsignsandawnings.com/pylon-signs/ not scanned (follow robots meta tag)
+20:09:25	Warning: 	Link https://www.houstonsignsandawnings.com/storefront-signs/ not scanned (follow robots meta tag)
+20:09:43	Warning: 	Link https://www.houstonsignsandawnings.com/wayfinding-signs/ not scanned (follow robots meta tag)
+20:09:44	Warning: 	Link https://www.houstonsignsandawnings.com/floor-signs/ not scanned (follow robots meta tag)
+20:09:45	Warning: 	Link https://www.houstonsignsandawnings.com/lobby-signs/ not scanned (follow robots meta tag)
+20:09:46	Warning: 	Link https://www.houstonsignsandawnings.com/pop-signs/ not scanned (follow robots meta tag)
+20:09:47	Warning: 	Link https://www.houstonsignsandawnings.com/room-id-signs/ not scanned (follow robots meta tag)
+20:09:48	Warning: 	Link https://www.houstonsignsandawnings.com/wall-signs/ not scanned (follow robots meta tag)
+20:09:49	Warning: 	Link https://www.houstonsignsandawnings.com/car-wraps/ not scanned (follow robots meta tag)
+20:09:50	Warning: 	Link https://www.houstonsignsandawnings.com/ada-signs/ not scanned (follow robots meta tag)
+20:09:51	Warning: 	Link https://www.houstonsignsandawnings.com/acrylic-signs/ not scanned (follow robots meta tag)
+20:09:52	Warning: 	Link https://www.houstonsignsandawnings.com/building-signs/ not scanned (follow robots meta tag)
+20:10:04	Warning: 	Link https://www.houstonsignsandawnings.com/coronavirus-signage/ not scanned (follow robots meta tag)
+20:10:05	Warning: 	Link https://www.houstonsignsandawnings.com/corrugated-signs/ not scanned (follow robots meta tag)
+20:10:06	Warning: 	Link https://www.houstonsignsandawnings.com/custom-tablecovers/ not scanned (follow robots meta tag)
+20:10:07	Warning: 	Link https://www.houstonsignsandawnings.com/dibond-signs/ not scanned (follow robots meta tag)
+20:10:08	Warning: 	Link https://www.houstonsignsandawnings.com/digital-signs/ not scanned (follow robots meta tag)
+20:10:09	Warning: 	Link https://www.houstonsignsandawnings.com/door-signs/ not scanned (follow robots meta tag)
+20:10:10	Warning: 	Link https://www.houstonsignsandawnings.com/electronic-signs/ not scanned (follow robots meta tag)
+20:10:11	Warning: 	Link https://www.houstonsignsandawnings.com/fleet-wraps/ not scanned (follow robots meta tag)
+20:10:12	Warning: 	Link https://www.houstonsignsandawnings.com/foamcore-signs/ not scanned (follow robots meta tag)
+20:10:13	Warning: 	Link https://www.houstonsignsandawnings.com/informational-signs/ not scanned (follow robots meta tag)
+20:10:14	Warning: 	Link https://www.houstonsignsandawnings.com/led-signs/ not scanned (follow robots meta tag)
+20:10:15	Warning: 	Link https://www.houstonsignsandawnings.com/large-banners/ not scanned (follow robots meta tag)
+20:10:17	Warning: 	Link https://www.houstonsignsandawnings.com/menu-boards/ not scanned (follow robots meta tag)
+20:10:33	Warning: 	Link https://www.houstonsignsandawnings.com/portable-signs/ not scanned (follow robots meta tag)
+20:10:34	Warning: 	Link https://www.houstonsignsandawnings.com/printed-backdrops/ not scanned (follow robots meta tag)
+20:10:35	Warning: 	Link https://www.houstonsignsandawnings.com/safety-signs/ not scanned (follow robots meta tag)
+20:10:36	Warning: 	Link https://www.houstonsignsandawnings.com/sandblasted-signs/ not scanned (follow robots meta tag)
+20:10:37	Warning: 	Link https://www.houstonsignsandawnings.com/tabletop-displays/ not scanned (follow robots meta tag)
+20:10:38	Warning: 	Link https://www.houstonsignsandawnings.com/temporary-signs/ not scanned (follow robots meta tag)
+20:10:39	Warning: 	Link https://www.houstonsignsandawnings.com/tenant-signs/ not scanned (follow robots meta tag)
+20:10:40	Warning: 	Link https://www.houstonsignsandawnings.com/trade-show-displays/ not scanned (follow robots meta tag)
+20:10:41	Warning: 	Link https://www.houstonsignsandawnings.com/tradeshow-booths/ not scanned (follow robots meta tag)
+20:10:42	Warning: 	Link https://www.houstonsignsandawnings.com/tradeshow-exhibits/ not scanned (follow robots meta tag)
+20:10:43	Warning: 	Link https://www.houstonsignsandawnings.com/truck-wraps/ not scanned (follow robots meta tag)
+20:10:44	Warning: 	Link https://www.houstonsignsandawnings.com/van-wraps/ not scanned (follow robots meta tag)
+20:10:45	Warning: 	Link https://www.houstonsignsandawnings.com/window-graphics/ not scanned (follow robots meta tag)
+20:10:46	Warning: 	Link https://www.houstonsignsandawnings.com/window-signs/ not scanned (follow robots meta tag)
+20:10:47	Warning: 	Link https://www.houstonsignsandawnings.com/automotive-signs/ not scanned (follow robots meta tag)
+20:10:48	Warning: 	Link https://www.houstonsignsandawnings.com/bank-signs/ not scanned (follow robots meta tag)
+20:10:49	Warning: 	Link https://www.houstonsignsandawnings.com/bar-signs/ not scanned (follow robots meta tag)
+20:10:50	Warning: 	Link https://www.houstonsignsandawnings.com/barber-signs/ not scanned (follow robots meta tag)
+20:10:51	Warning: 	Link https://www.houstonsignsandawnings.com/church-signs/ not scanned (follow robots meta tag)
+20:10:52	Warning: 	Link https://www.houstonsignsandawnings.com/city-signs/ not scanned (follow robots meta tag)
+20:10:53	Warning: 	Link https://www.houstonsignsandawnings.com/college-signs/ not scanned (follow robots meta tag)
+20:10:54	Warning: 	Link https://www.houstonsignsandawnings.com/construction-signs/ not scanned (follow robots meta tag)
+20:10:55	Warning: 	Link https://www.houstonsignsandawnings.com/convenience-store-signs/ not scanned (follow robots meta tag)
+20:10:56	Warning: 	Link https://www.houstonsignsandawnings.com/corporate-signs/ not scanned (follow robots meta tag)
+20:10:57	Warning: 	Link https://www.houstonsignsandawnings.com/dealership-signs/ not scanned (follow robots meta tag)
+20:10:58	Warning: 	Link https://www.houstonsignsandawnings.com/dentist-signs/ not scanned (follow robots meta tag)
+20:10:59	Warning: 	Link https://www.houstonsignsandawnings.com/doctor-signs/ not scanned (follow robots meta tag)
+20:11:00	Warning: 	Link https://www.houstonsignsandawnings.com/gas-station-signs/ not scanned (follow robots meta tag)
+20:11:02	Warning: 	Link https://www.houstonsignsandawnings.com/hospital-signs/ not scanned (follow robots meta tag)
+20:11:03	Warning: 	Link https://www.houstonsignsandawnings.com/hospitality-signs/ not scanned (follow robots meta tag)
+20:11:04	Warning: 	Link https://www.houstonsignsandawnings.com/hotel-signs/ not scanned (follow robots meta tag)
+20:11:05	Warning: 	Link https://www.houstonsignsandawnings.com/laundromat-signs/ not scanned (follow robots meta tag)
+20:11:06	Warning: 	Link https://www.houstonsignsandawnings.com/lawyer-signs/ not scanned (follow robots meta tag)
+20:11:07	Warning: 	Link https://www.houstonsignsandawnings.com/mall-signs/ not scanned (follow robots meta tag)
+20:11:08	Warning: 	Link https://www.houstonsignsandawnings.com/manufacturing-signs/ not scanned (follow robots meta tag)
+20:11:09	Warning: 	Link https://www.houstonsignsandawnings.com/new-business-signs/ not scanned (follow robots meta tag)
+20:11:10	Warning: 	Link https://www.houstonsignsandawnings.com/nursery-signs/ not scanned (follow robots meta tag)
+20:11:11	Warning: 	Link https://www.houstonsignsandawnings.com/political-signs/ not scanned (follow robots meta tag)
+20:11:12	Warning: 	Link https://www.houstonsignsandawnings.com/property-management-signs/ not scanned (follow robots meta tag)
+20:11:13	Warning: 	Link https://www.houstonsignsandawnings.com/real-estate-signs/ not scanned (follow robots meta tag)
+20:11:14	Warning: 	Link https://www.houstonsignsandawnings.com/restaurant-signs/ not scanned (follow robots meta tag)
+20:11:15	Warning: 	Link https://www.houstonsignsandawnings.com/salon-signs/ not scanned (follow robots meta tag)
+20:11:16	Warning: 	Link https://www.houstonsignsandawnings.com/school-signs/ not scanned (follow robots meta tag)
+20:11:17	Warning: 	Link https://www.houstonsignsandawnings.com/small-business-signs/ not scanned (follow robots meta tag)
+20:11:18	Warning: 	Link https://www.houstonsignsandawnings.com/warehouse-signs/ not scanned (follow robots meta tag)
+20:17:13	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/indoor-signs/Firefox/ (from https://www.houstonsignsandawnings.com/indoor-signs/)
+20:17:13	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=754
+20:17:13	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=754 to https://www.houstonsignsandawnings.com/indoor-signs/
+20:17:13	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/reviews/Firefox/ (from https://www.houstonsignsandawnings.com/reviews/)
+20:17:13	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=103
+20:17:13	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=103 to https://www.houstonsignsandawnings.com/reviews/
+20:17:14	Warning: 	Link https://www.houstonsignsandawnings.com/write-a-review/ not scanned (follow robots meta tag)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/outdoor-signs/Firefox/ (from https://www.houstonsignsandawnings.com/outdoor-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=752
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=752 to https://www.houstonsignsandawnings.com/outdoor-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/awning-signs/Firefox/ (from https://www.houstonsignsandawnings.com/awning-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=2635
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=2635 to https://www.houstonsignsandawnings.com/awning-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/vehicle-wraps/Firefox/ (from https://www.houstonsignsandawnings.com/vehicle-wraps/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=764
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=764 to https://www.houstonsignsandawnings.com/vehicle-wraps/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-signs/Firefox/ (from https://www.houstonsignsandawnings.com/custom-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=750
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=750 to https://www.houstonsignsandawnings.com/custom-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/business-signs/Firefox/ (from https://www.houstonsignsandawnings.com/business-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=2114
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=2114 to https://www.houstonsignsandawnings.com/business-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/contact-us/Firefox/ (from https://www.houstonsignsandawnings.com/contact-us/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=82
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=82 to https://www.houstonsignsandawnings.com/contact-us/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/promotional-signs/Firefox/ (from https://www.houstonsignsandawnings.com/promotional-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/office-signs/Firefox/ (from https://www.houstonsignsandawnings.com/office-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/banners/Firefox/ (from https://www.houstonsignsandawnings.com/banners/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/dimensional-letters/Firefox/ (from https://www.houstonsignsandawnings.com/dimensional-letters/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/hanging-signs/Firefox/ (from https://www.houstonsignsandawnings.com/hanging-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/blade-signs/Firefox/ (from https://www.houstonsignsandawnings.com/blade-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/retail-signs/Firefox/ (from https://www.houstonsignsandawnings.com/retail-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/cabinet-signs/Firefox/ (from https://www.houstonsignsandawnings.com/cabinet-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/channel-letters/Firefox/ (from https://www.houstonsignsandawnings.com/channel-letters/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/lighted-signs/Firefox/ (from https://www.houstonsignsandawnings.com/lighted-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/monument-signs/Firefox/ (from https://www.houstonsignsandawnings.com/monument-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=2063
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=2063 to https://www.houstonsignsandawnings.com/monument-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pole-signs/Firefox/ (from https://www.houstonsignsandawnings.com/pole-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=2053
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=2053 to https://www.houstonsignsandawnings.com/pole-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/post-panel-signs/Firefox/ (from https://www.houstonsignsandawnings.com/post-panel-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pylon-signs/Firefox/ (from https://www.houstonsignsandawnings.com/pylon-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/storefront-signs/Firefox/ (from https://www.houstonsignsandawnings.com/storefront-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sign-repairs/Firefox/ (from https://www.houstonsignsandawnings.com/sign-repairs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5322
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5322 to https://www.houstonsignsandawnings.com/sign-repairs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/high-rise-signs/Firefox/ (from https://www.houstonsignsandawnings.com/high-rise-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5350
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5350 to https://www.houstonsignsandawnings.com/high-rise-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/wayfinding-signs/Firefox/ (from https://www.houstonsignsandawnings.com/wayfinding-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/floor-signs/Firefox/ (from https://www.houstonsignsandawnings.com/floor-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/lobby-signs/Firefox/ (from https://www.houstonsignsandawnings.com/lobby-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pop-signs/Firefox/ (from https://www.houstonsignsandawnings.com/pop-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/room-id-signs/Firefox/ (from https://www.houstonsignsandawnings.com/room-id-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/wall-signs/Firefox/ (from https://www.houstonsignsandawnings.com/wall-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/car-wraps/Firefox/ (from https://www.houstonsignsandawnings.com/car-wraps/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/ada-signs/Firefox/ (from https://www.houstonsignsandawnings.com/ada-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/acrylic-signs/Firefox/ (from https://www.houstonsignsandawnings.com/acrylic-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/building-signs/Firefox/ (from https://www.houstonsignsandawnings.com/building-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/canopy-tents/Firefox/ (from https://www.houstonsignsandawnings.com/canopy-tents/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=3418
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=3418 to https://www.houstonsignsandawnings.com/canopy-tents/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/coronavirus-signage/Firefox/ (from https://www.houstonsignsandawnings.com/coronavirus-signage/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/corrugated-signs/Firefox/ (from https://www.houstonsignsandawnings.com/corrugated-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-tablecovers/Firefox/ (from https://www.houstonsignsandawnings.com/custom-tablecovers/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/dibond-signs/Firefox/ (from https://www.houstonsignsandawnings.com/dibond-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/digital-signs/Firefox/ (from https://www.houstonsignsandawnings.com/digital-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/door-signs/Firefox/ (from https://www.houstonsignsandawnings.com/door-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/electronic-signs/Firefox/ (from https://www.houstonsignsandawnings.com/electronic-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/fleet-wraps/Firefox/ (from https://www.houstonsignsandawnings.com/fleet-wraps/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/foamcore-signs/Firefox/ (from https://www.houstonsignsandawnings.com/foamcore-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/informational-signs/Firefox/ (from https://www.houstonsignsandawnings.com/informational-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/led-signs/Firefox/ (from https://www.houstonsignsandawnings.com/led-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/large-banners/Firefox/ (from https://www.houstonsignsandawnings.com/large-banners/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/menu-boards/Firefox/ (from https://www.houstonsignsandawnings.com/menu-boards/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/metal-signs/Firefox/ (from https://www.houstonsignsandawnings.com/metal-signs/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=2751
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=2751 to https://www.houstonsignsandawnings.com/metal-signs/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/portable-signs/Firefox/ (from https://www.houstonsignsandawnings.com/portable-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/printed-backdrops/Firefox/ (from https://www.houstonsignsandawnings.com/printed-backdrops/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/safety-signs/Firefox/ (from https://www.houstonsignsandawnings.com/safety-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sandblasted-signs/Firefox/ (from https://www.houstonsignsandawnings.com/sandblasted-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/tabletop-displays/Firefox/ (from https://www.houstonsignsandawnings.com/tabletop-displays/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/temporary-signs/Firefox/ (from https://www.houstonsignsandawnings.com/temporary-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/tenant-signs/Firefox/ (from https://www.houstonsignsandawnings.com/tenant-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/trade-show-displays/Firefox/ (from https://www.houstonsignsandawnings.com/trade-show-displays/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/tradeshow-booths/Firefox/ (from https://www.houstonsignsandawnings.com/tradeshow-booths/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/tradeshow-exhibits/Firefox/ (from https://www.houstonsignsandawnings.com/tradeshow-exhibits/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/truck-wraps/Firefox/ (from https://www.houstonsignsandawnings.com/truck-wraps/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/van-wraps/Firefox/ (from https://www.houstonsignsandawnings.com/van-wraps/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/window-graphics/Firefox/ (from https://www.houstonsignsandawnings.com/window-graphics/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/window-signs/Firefox/ (from https://www.houstonsignsandawnings.com/window-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/automotive-signs/Firefox/ (from https://www.houstonsignsandawnings.com/automotive-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/bank-signs/Firefox/ (from https://www.houstonsignsandawnings.com/bank-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/bar-signs/Firefox/ (from https://www.houstonsignsandawnings.com/bar-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/barber-signs/Firefox/ (from https://www.houstonsignsandawnings.com/barber-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/church-signs/Firefox/ (from https://www.houstonsignsandawnings.com/church-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/city-signs/Firefox/ (from https://www.houstonsignsandawnings.com/city-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/college-signs/Firefox/ (from https://www.houstonsignsandawnings.com/college-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/construction-signs/Firefox/ (from https://www.houstonsignsandawnings.com/construction-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/convenience-store-signs/Firefox/ (from https://www.houstonsignsandawnings.com/convenience-store-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/corporate-signs/Firefox/ (from https://www.houstonsignsandawnings.com/corporate-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/dealership-signs/Firefox/ (from https://www.houstonsignsandawnings.com/dealership-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/dentist-signs/Firefox/ (from https://www.houstonsignsandawnings.com/dentist-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/doctor-signs/Firefox/ (from https://www.houstonsignsandawnings.com/doctor-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/gas-station-signs/Firefox/ (from https://www.houstonsignsandawnings.com/gas-station-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/hospital-signs/Firefox/ (from https://www.houstonsignsandawnings.com/hospital-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/hospitality-signs/Firefox/ (from https://www.houstonsignsandawnings.com/hospitality-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/hotel-signs/Firefox/ (from https://www.houstonsignsandawnings.com/hotel-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/laundromat-signs/Firefox/ (from https://www.houstonsignsandawnings.com/laundromat-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/lawyer-signs/Firefox/ (from https://www.houstonsignsandawnings.com/lawyer-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/mall-signs/Firefox/ (from https://www.houstonsignsandawnings.com/mall-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/manufacturing-signs/Firefox/ (from https://www.houstonsignsandawnings.com/manufacturing-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/new-business-signs/Firefox/ (from https://www.houstonsignsandawnings.com/new-business-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/nursery-signs/Firefox/ (from https://www.houstonsignsandawnings.com/nursery-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/political-signs/Firefox/ (from https://www.houstonsignsandawnings.com/political-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/property-management-signs/Firefox/ (from https://www.houstonsignsandawnings.com/property-management-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/real-estate-signs/Firefox/ (from https://www.houstonsignsandawnings.com/real-estate-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/restaurant-signs/Firefox/ (from https://www.houstonsignsandawnings.com/restaurant-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/salon-signs/Firefox/ (from https://www.houstonsignsandawnings.com/salon-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/school-signs/Firefox/ (from https://www.houstonsignsandawnings.com/school-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/small-business-signs/Firefox/ (from https://www.houstonsignsandawnings.com/small-business-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/warehouse-signs/Firefox/ (from https://www.houstonsignsandawnings.com/warehouse-signs/)
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/privacy-policy/Firefox/ (from https://www.houstonsignsandawnings.com/privacy-policy/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=339
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=339 to https://www.houstonsignsandawnings.com/privacy-policy/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/terms-of-service/Firefox/ (from https://www.houstonsignsandawnings.com/terms-of-service/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=431
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=431 to https://www.houstonsignsandawnings.com/terms-of-service/
+20:17:14	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/alief-tx/)
+20:17:14	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4794
+20:17:14	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4794 to https://www.houstonsignsandawnings.com/alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4795
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4795 to https://www.houstonsignsandawnings.com/missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4796
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4796 to https://www.houstonsignsandawnings.com/richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4797
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4797 to https://www.houstonsignsandawnings.com/rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4798
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4798 to https://www.houstonsignsandawnings.com/sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4799
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4799 to https://www.houstonsignsandawnings.com/thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/custom-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4834
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4834 to https://www.houstonsignsandawnings.com/custom-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/custom-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4835
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4835 to https://www.houstonsignsandawnings.com/custom-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/custom-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4836
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4836 to https://www.houstonsignsandawnings.com/custom-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/custom-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4837
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4837 to https://www.houstonsignsandawnings.com/custom-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/custom-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4838
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4838 to https://www.houstonsignsandawnings.com/custom-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/custom-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/custom-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4839
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4839 to https://www.houstonsignsandawnings.com/custom-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/canopy-tents-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/canopy-tents-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5127
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5127 to https://www.houstonsignsandawnings.com/canopy-tents-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/canopy-tents-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/canopy-tents-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5129
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5129 to https://www.houstonsignsandawnings.com/canopy-tents-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/canopy-tents-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/canopy-tents-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5131
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5131 to https://www.houstonsignsandawnings.com/canopy-tents-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/canopy-tents-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/canopy-tents-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5133
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5133 to https://www.houstonsignsandawnings.com/canopy-tents-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/canopy-tents-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/canopy-tents-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5135
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5135 to https://www.houstonsignsandawnings.com/canopy-tents-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/canopy-tents-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/canopy-tents-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5137
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5137 to https://www.houstonsignsandawnings.com/canopy-tents-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/indoor-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/indoor-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4802
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4802 to https://www.houstonsignsandawnings.com/indoor-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/indoor-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/indoor-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4803
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4803 to https://www.houstonsignsandawnings.com/indoor-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/indoor-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/indoor-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4804
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4804 to https://www.houstonsignsandawnings.com/indoor-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/indoor-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/indoor-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4805
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4805 to https://www.houstonsignsandawnings.com/indoor-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/indoor-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/indoor-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4806
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4806 to https://www.houstonsignsandawnings.com/indoor-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/indoor-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/indoor-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4807
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4807 to https://www.houstonsignsandawnings.com/indoor-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/business-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/business-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4842
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4842 to https://www.houstonsignsandawnings.com/business-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/business-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/business-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4843
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4843 to https://www.houstonsignsandawnings.com/business-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/business-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/business-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4844
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4844 to https://www.houstonsignsandawnings.com/business-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/business-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/business-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4845
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4845 to https://www.houstonsignsandawnings.com/business-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/business-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/business-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4846
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4846 to https://www.houstonsignsandawnings.com/business-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/business-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/business-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4847
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4847 to https://www.houstonsignsandawnings.com/business-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/monument-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/monument-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5141
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5141 to https://www.houstonsignsandawnings.com/monument-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/monument-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/monument-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5143
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5143 to https://www.houstonsignsandawnings.com/monument-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/monument-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/monument-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5145
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5145 to https://www.houstonsignsandawnings.com/monument-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/monument-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/monument-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5147
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5147 to https://www.houstonsignsandawnings.com/monument-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/monument-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/monument-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5149
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5149 to https://www.houstonsignsandawnings.com/monument-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/monument-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/monument-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5151
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5151 to https://www.houstonsignsandawnings.com/monument-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/outdoor-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/outdoor-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4810
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4810 to https://www.houstonsignsandawnings.com/outdoor-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/outdoor-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/outdoor-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4811
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4811 to https://www.houstonsignsandawnings.com/outdoor-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/outdoor-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/outdoor-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4812
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4812 to https://www.houstonsignsandawnings.com/outdoor-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/outdoor-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/outdoor-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4813
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4813 to https://www.houstonsignsandawnings.com/outdoor-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/outdoor-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/outdoor-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4814
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4814 to https://www.houstonsignsandawnings.com/outdoor-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/outdoor-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/outdoor-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4815
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4815 to https://www.houstonsignsandawnings.com/outdoor-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/metal-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/metal-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5101
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5101 to https://www.houstonsignsandawnings.com/metal-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/metal-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/metal-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5103
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5103 to https://www.houstonsignsandawnings.com/metal-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/metal-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/metal-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5105
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5105 to https://www.houstonsignsandawnings.com/metal-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/metal-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/metal-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5107
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5107 to https://www.houstonsignsandawnings.com/metal-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/metal-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/metal-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5109
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5109 to https://www.houstonsignsandawnings.com/metal-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/metal-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/metal-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5111
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5111 to https://www.houstonsignsandawnings.com/metal-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sign-repairs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/sign-repairs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5329
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5329 to https://www.houstonsignsandawnings.com/sign-repairs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sign-repairs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/sign-repairs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5331
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5331 to https://www.houstonsignsandawnings.com/sign-repairs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sign-repairs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/sign-repairs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5333
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5333 to https://www.houstonsignsandawnings.com/sign-repairs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sign-repairs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/sign-repairs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5335
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5335 to https://www.houstonsignsandawnings.com/sign-repairs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sign-repairs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/sign-repairs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5337
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5337 to https://www.houstonsignsandawnings.com/sign-repairs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/sign-repairs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/sign-repairs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5339
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5339 to https://www.houstonsignsandawnings.com/sign-repairs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/awning-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/awning-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4818
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4818 to https://www.houstonsignsandawnings.com/awning-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/awning-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/awning-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4819
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4819 to https://www.houstonsignsandawnings.com/awning-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/awning-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/awning-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4820
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4820 to https://www.houstonsignsandawnings.com/awning-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/awning-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/awning-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4821
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4821 to https://www.houstonsignsandawnings.com/awning-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/awning-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/awning-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4822
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4822 to https://www.houstonsignsandawnings.com/awning-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/awning-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/awning-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=4823
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=4823 to https://www.houstonsignsandawnings.com/awning-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pole-signs-alief-tx/Firefox/ (from https://www.houstonsignsandawnings.com/pole-signs-alief-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5114
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5114 to https://www.houstonsignsandawnings.com/pole-signs-alief-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pole-signs-missouri-city-tx/Firefox/ (from https://www.houstonsignsandawnings.com/pole-signs-missouri-city-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5116
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5116 to https://www.houstonsignsandawnings.com/pole-signs-missouri-city-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pole-signs-richmond-tx/Firefox/ (from https://www.houstonsignsandawnings.com/pole-signs-richmond-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5118
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5118 to https://www.houstonsignsandawnings.com/pole-signs-richmond-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pole-signs-rosenberg-tx/Firefox/ (from https://www.houstonsignsandawnings.com/pole-signs-rosenberg-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5120
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5120 to https://www.houstonsignsandawnings.com/pole-signs-rosenberg-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pole-signs-sugar-land-tx/Firefox/ (from https://www.houstonsignsandawnings.com/pole-signs-sugar-land-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5122
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5122 to https://www.houstonsignsandawnings.com/pole-signs-sugar-land-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/pole-signs-thompsons-tx/Firefox/ (from https://www.houstonsignsandawnings.com/pole-signs-thompsons-tx/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=5124
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=5124 to https://www.houstonsignsandawnings.com/pole-signs-thompsons-tx/
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/write-a-review/Firefox/ (from https://www.houstonsignsandawnings.com/write-a-review/)
+20:17:28	Error: 	"Not Found" (404) at link https://www.houstonsignsandawnings.com/vinyl-signs/Firefox/ (from https://www.houstonsignsandawnings.com/vinyl-signs/)
+20:17:28	Warning: 	Moved Permanently for https://www.houstonsignsandawnings.com/?p=766
+20:17:28	Warning: 	File has moved from https://www.houstonsignsandawnings.com/?p=766 to https://www.houstonsignsandawnings.com/vinyl-signs/
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 minutes 28 seconds : 819 links scanned, 569 files written (54821234 bytes overall) [20817094 bytes received at 25763 bytes/sec], 65413713 bytes transferred using HTTP compression in 607 files, ratio 18%, 108.3 requests per connection
+(166 errors, 249 warnings, 0 messages)
