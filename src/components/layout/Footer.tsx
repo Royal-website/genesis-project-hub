@@ -1,66 +1,99 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin, Clock, Star } from "lucide-react";
 
-const serviceLinks = [
-  { name: "Indoor Signs", path: "/indoor-signs" },
-  { name: "Outdoor Signs", path: "/outdoor-signs" },
-  { name: "Awning Signs", path: "/awning-signs" },
-  { name: "Vehicle Wraps", path: "/vehicle-wraps" },
-  { name: "Custom Signs", path: "/custom-signs" },
-  { name: "Business Signs", path: "/business-signs" },
-];
+const locations = ["Alief", "Houston", "Missouri City", "Richmond", "Rosenberg", "Sugar Land", "Thompsons"];
 
-const companyLinks = [
-  { name: "About Us", path: "/about" },
-  { name: "Reviews", path: "/reviews" },
+const quickLinks = [
+  { name: "Houston Sign Company", path: "/" },
+  { name: "Privacy Policy", path: "/privacy" },
+  { name: "Terms of Service", path: "/terms" },
   { name: "Contact Us", path: "/contact-us" },
-  { name: "Free Quote", path: "/contact-us" },
 ];
 
-const paymentMethods = [
-  "Visa", "Mastercard", "American Express", "Discover", "PayPal"
+const locationServices = [
+  {
+    title: "Sign Company",
+    locations: locations.map(loc => ({ name: `${loc} Sign Company`, path: `/${loc.toLowerCase().replace(' ', '-')}-sign-company` }))
+  },
+  {
+    title: "Indoor Signs",
+    locations: locations.map(loc => ({ name: `${loc} Indoor Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-indoor-signs` }))
+  },
+  {
+    title: "Outdoor Signs",
+    locations: locations.map(loc => ({ name: `${loc} Outdoor Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-outdoor-signs` }))
+  },
+  {
+    title: "Awning Signs",
+    locations: locations.map(loc => ({ name: `${loc} Awning Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-awning-signs` }))
+  },
+];
+
+const locationServices2 = [
+  {
+    title: "Custom Signs",
+    locations: locations.map(loc => ({ name: `${loc} Custom Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-custom-signs` }))
+  },
+  {
+    title: "Business Signs",
+    locations: locations.map(loc => ({ name: `${loc} Business Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-business-signs` }))
+  },
+  {
+    title: "Metal Signs",
+    locations: locations.map(loc => ({ name: `${loc} Metal Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-metal-signs` }))
+  },
+  {
+    title: "Pole Signs",
+    locations: locations.map(loc => ({ name: `${loc} Pole Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-pole-signs` }))
+  },
+];
+
+const locationServices3 = [
+  {
+    title: "Canopy Tents",
+    locations: locations.map(loc => ({ name: `${loc} Canopy Tents`, path: `/${loc.toLowerCase().replace(' ', '-')}-canopy-tents` }))
+  },
+  {
+    title: "Monument Signs",
+    locations: locations.map(loc => ({ name: `${loc} Monument Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-monument-signs` }))
+  },
+  {
+    title: "Sign Repair",
+    locations: locations.map(loc => ({ name: `${loc} Sign Repair & Maintenance Service`, path: `/${loc.toLowerCase().replace(' ', '-')}-sign-repair` }))
+  },
 ];
 
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
-      {/* Main Footer Content */}
-      <div className="container mx-auto px-4 py-12">
+      {/* Top Footer - Company Info */}
+      <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
+          {/* Logo & Contact */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <svg viewBox="0 0 60 50" className="h-10 w-10">
-                <path 
-                  d="M30 5 L10 20 L10 45 L50 45 L50 20 Z" 
-                  fill="hsl(37, 100%, 50%)" 
-                  stroke="hsl(0, 0%, 100%)" 
-                  strokeWidth="2"
-                />
-                <circle cx="30" cy="15" r="5" fill="hsl(37, 100%, 50%)" />
-                <path d="M25 10 L30 3 L35 10" fill="hsl(37, 100%, 50%)" />
+            <div className="flex items-center gap-3 mb-4">
+              <svg viewBox="0 0 80 70" className="h-16 w-16">
+                <rect x="10" y="30" width="60" height="35" fill="none" stroke="hsl(37, 100%, 50%)" strokeWidth="2"/>
+                <text x="40" y="45" textAnchor="middle" fill="hsl(37, 100%, 50%)" fontSize="10" fontWeight="bold">ROYAL</text>
+                <text x="40" y="58" textAnchor="middle" fill="hsl(37, 100%, 50%)" fontSize="10" fontWeight="bold">SIGNS</text>
+                <path d="M25 30 L40 15 L55 30" fill="none" stroke="hsl(37, 100%, 50%)" strokeWidth="2"/>
+                <circle cx="40" cy="10" r="4" fill="hsl(37, 100%, 50%)"/>
+                <circle cx="30" cy="22" r="2" fill="hsl(37, 100%, 50%)"/>
+                <circle cx="50" cy="22" r="2" fill="hsl(37, 100%, 50%)"/>
               </svg>
               <div>
-                <div className="font-bold text-lg">ROYAL SIGNS</div>
-                <div className="text-xs opacity-80">& Awnings</div>
+                <div className="font-bold text-xl">ROYAL SIGNS & AWNINGS</div>
               </div>
             </div>
-            <p className="text-sm opacity-90 mb-4">
-              Houston's premier custom sign company. Design, production, and installation of high-quality signage for businesses.
-            </p>
             <div className="space-y-2 text-sm">
-              <a href="tel:2816459935" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Phone className="h-4 w-4" />
-                (281) 645-9935
-              </a>
-              <a href="mailto:info@royalsigns.com" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Mail className="h-4 w-4" />
-                info@royalsigns.com
-              </a>
               <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>Houston, TX</span>
+                <span>777 Post Oak Blvd Ste 255<br/>Houston, TX 77056</span>
               </div>
+              <a href="tel:2812048307" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Phone className="h-4 w-4" />
+                (281) 204-8307
+              </a>
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4" />
                 Open 24 Hours
@@ -68,64 +101,147 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Services */}
+          {/* Quick Links */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Our Services</h3>
+            <h3 className="font-bold text-lg mb-4">QUICK LINKS</h3>
             <ul className="space-y-2">
-              {serviceLinks.map((link) => (
-                <li key={link.path}>
-                  <Link 
-                    to={link.path} 
-                    className="text-sm opacity-90 hover:opacity-100 hover:text-accent transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="font-bold text-lg mb-4">Company</h3>
-            <ul className="space-y-2">
-              {companyLinks.map((link) => (
+              {quickLinks.map((link) => (
                 <li key={link.name}>
                   <Link 
                     to={link.path} 
-                    className="text-sm opacity-90 hover:opacity-100 hover:text-accent transition-colors"
+                    className="text-sm hover:text-accent transition-colors"
                   >
                     {link.name}
                   </Link>
                 </li>
               ))}
+              <li>
+                <span className="text-sm cursor-pointer hover:text-accent transition-colors">
+                  Locations Served ▲
+                </span>
+              </li>
             </ul>
           </div>
 
-          {/* Payment Methods */}
+          {/* Ratings */}
           <div>
-            <h3 className="font-bold text-lg mb-4">We Accept</h3>
-            <div className="flex flex-wrap gap-2">
-              {paymentMethods.map((method) => (
-                <div 
-                  key={method}
-                  className="bg-primary-foreground/10 px-3 py-1 rounded text-xs"
-                >
-                  {method}
-                </div>
+            <h3 className="font-bold text-lg mb-4">RATED 5.0 STARS</h3>
+            <div className="flex items-center gap-1 mb-2">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <Star key={star} className="h-6 w-6 text-accent fill-accent" />
               ))}
             </div>
-            <div className="mt-6">
-              <h4 className="font-semibold mb-2">Client Reviews</h4>
-              <div className="flex items-center gap-1">
+            <p className="text-sm mb-4">(Based on 54 Client Reviews)</p>
+            <div className="flex flex-wrap gap-2">
+              <img src="https://cdn.markmywordsmedia.com/wp-content/uploads/2023/01/visa.png" alt="Visa" className="h-6" />
+              <img src="https://cdn.markmywordsmedia.com/wp-content/uploads/2023/01/mastercard.png" alt="Mastercard" className="h-6" />
+              <img src="https://cdn.markmywordsmedia.com/wp-content/uploads/2023/01/discover.png" alt="Discover" className="h-6" />
+              <img src="https://cdn.markmywordsmedia.com/wp-content/uploads/2023/01/amex.png" alt="American Express" className="h-6" />
+            </div>
+          </div>
+
+          {/* Quote Form Placeholder */}
+          <div className="bg-primary-foreground/10 rounded-lg p-4">
+            <h3 className="font-bold text-lg mb-3 text-center">GET A FREE QUOTE</h3>
+            <div className="space-y-2">
+              <input 
+                type="text" 
+                placeholder="Full Name" 
+                className="w-full px-3 py-2 rounded bg-card text-foreground text-sm"
+              />
+              <input 
+                type="tel" 
+                placeholder="Best Phone" 
+                className="w-full px-3 py-2 rounded bg-card text-foreground text-sm"
+              />
+              <input 
+                type="email" 
+                placeholder="Email Address" 
+                className="w-full px-3 py-2 rounded bg-card text-foreground text-sm"
+              />
+              <textarea 
+                placeholder="What type and size of signage do you need?" 
+                rows={2}
+                className="w-full px-3 py-2 rounded bg-card text-foreground text-sm resize-none"
+              />
+              <button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold py-2 rounded transition-colors text-sm">
+                REQUEST MY QUOTE 👆
+              </button>
+            </div>
+            <div className="text-center mt-3">
+              <p className="text-xs font-bold">RATED 5.0 STARS</p>
+              <div className="flex justify-center gap-0.5 my-1">
                 {[1, 2, 3, 4, 5].map((star) => (
-                  <svg key={star} className="h-5 w-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
+                  <Star key={star} className="h-4 w-4 text-accent fill-accent" />
                 ))}
               </div>
-              <p className="text-sm opacity-80 mt-1">Rated 5.0 Stars (54 Reviews)</p>
+              <p className="text-xs">(Based on 54 Client Reviews)</p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Location Links Section */}
+      <div className="border-t border-primary-foreground/20">
+        <div className="container mx-auto px-4 py-8">
+          {/* Row 1 */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+            {locationServices.map((service, index) => (
+              <div key={index}>
+                <ul className="space-y-1">
+                  {service.locations.map((loc) => (
+                    <li key={loc.path}>
+                      <Link 
+                        to={loc.path}
+                        className="text-sm hover:text-accent transition-colors"
+                      >
+                        {loc.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          {/* Row 2 */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+            {locationServices2.map((service, index) => (
+              <div key={index}>
+                <ul className="space-y-1">
+                  {service.locations.map((loc) => (
+                    <li key={loc.path}>
+                      <Link 
+                        to={loc.path}
+                        className="text-sm hover:text-accent transition-colors"
+                      >
+                        {loc.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          {/* Row 3 */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {locationServices3.map((service, index) => (
+              <div key={index}>
+                <ul className="space-y-1">
+                  {service.locations.map((loc) => (
+                    <li key={loc.path}>
+                      <Link 
+                        to={loc.path}
+                        className="text-sm hover:text-accent transition-colors"
+                      >
+                        {loc.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </div>
