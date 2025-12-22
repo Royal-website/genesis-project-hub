@@ -12,9 +12,14 @@ import CustomSigns from "./pages/CustomSigns";
 import BusinessSigns from "./pages/BusinessSigns";
 import Reviews from "./pages/Reviews";
 import ContactUs from "./pages/ContactUs";
+import { LocationPage } from "./pages/LocationPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
+
+// Generate location routes
+const locations = ["alief", "houston", "missouri-city", "richmond", "rosenberg", "sugar-land", "thompsons"];
+const services = ["sign-company", "indoor-signs", "outdoor-signs", "awning-signs", "custom-signs", "business-signs", "metal-signs", "pole-signs", "canopy-tents", "monument-signs", "sign-repair"];
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -32,6 +37,18 @@ const App = () => (
           <Route path="/business-signs" element={<BusinessSigns />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          
+          {/* Location-based routes */}
+          {locations.map(location => 
+            services.map(service => (
+              <Route 
+                key={`${location}-${service}`}
+                path={`/${location}-${service}`} 
+                element={<LocationPage />} 
+              />
+            ))
+          )}
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

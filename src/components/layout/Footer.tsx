@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Clock, Star } from "lucide-react";
 
-const locations = ["Alief", "Houston", "Missouri City", "Richmond", "Rosenberg", "Sugar Land", "Thompsons"];
+const locations = ["alief", "houston", "missouri-city", "richmond", "rosenberg", "sugar-land", "thompsons"];
+const locationNames: Record<string, string> = {
+  "alief": "Alief",
+  "houston": "Houston", 
+  "missouri-city": "Missouri City",
+  "richmond": "Richmond",
+  "rosenberg": "Rosenberg",
+  "sugar-land": "Sugar Land",
+  "thompsons": "Thompsons"
+};
 
 const quickLinks = [
   { name: "Houston Sign Company", path: "/" },
@@ -13,53 +22,53 @@ const quickLinks = [
 const locationServices = [
   {
     title: "Sign Company",
-    locations: locations.map(loc => ({ name: `${loc} Sign Company`, path: `/${loc.toLowerCase().replace(' ', '-')}-sign-company` }))
+    service: "sign-company",
   },
   {
     title: "Indoor Signs",
-    locations: locations.map(loc => ({ name: `${loc} Indoor Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-indoor-signs` }))
+    service: "indoor-signs",
   },
   {
     title: "Outdoor Signs",
-    locations: locations.map(loc => ({ name: `${loc} Outdoor Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-outdoor-signs` }))
+    service: "outdoor-signs",
   },
   {
     title: "Awning Signs",
-    locations: locations.map(loc => ({ name: `${loc} Awning Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-awning-signs` }))
+    service: "awning-signs",
   },
 ];
 
 const locationServices2 = [
   {
     title: "Custom Signs",
-    locations: locations.map(loc => ({ name: `${loc} Custom Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-custom-signs` }))
+    service: "custom-signs",
   },
   {
     title: "Business Signs",
-    locations: locations.map(loc => ({ name: `${loc} Business Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-business-signs` }))
+    service: "business-signs",
   },
   {
     title: "Metal Signs",
-    locations: locations.map(loc => ({ name: `${loc} Metal Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-metal-signs` }))
+    service: "metal-signs",
   },
   {
     title: "Pole Signs",
-    locations: locations.map(loc => ({ name: `${loc} Pole Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-pole-signs` }))
+    service: "pole-signs",
   },
 ];
 
 const locationServices3 = [
   {
     title: "Canopy Tents",
-    locations: locations.map(loc => ({ name: `${loc} Canopy Tents`, path: `/${loc.toLowerCase().replace(' ', '-')}-canopy-tents` }))
+    service: "canopy-tents",
   },
   {
     title: "Monument Signs",
-    locations: locations.map(loc => ({ name: `${loc} Monument Signs`, path: `/${loc.toLowerCase().replace(' ', '-')}-monument-signs` }))
+    service: "monument-signs",
   },
   {
     title: "Sign Repair",
-    locations: locations.map(loc => ({ name: `${loc} Sign Repair & Maintenance Service`, path: `/${loc.toLowerCase().replace(' ', '-')}-sign-repair` }))
+    service: "sign-repair",
   },
 ];
 
@@ -186,16 +195,16 @@ export function Footer() {
         <div className="container mx-auto px-4 py-8">
           {/* Row 1 */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
-            {locationServices.map((service, index) => (
+            {locationServices.map((svc, index) => (
               <div key={index}>
                 <ul className="space-y-1">
-                  {service.locations.map((loc) => (
-                    <li key={loc.path}>
+                  {locations.map((loc) => (
+                    <li key={`${loc}-${svc.service}`}>
                       <Link 
-                        to={loc.path}
+                        to={`/${loc}-${svc.service}`}
                         className="text-sm hover:text-accent transition-colors"
                       >
-                        {loc.name}
+                        {locationNames[loc]} {svc.title}
                       </Link>
                     </li>
                   ))}
@@ -206,16 +215,16 @@ export function Footer() {
 
           {/* Row 2 */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
-            {locationServices2.map((service, index) => (
+            {locationServices2.map((svc, index) => (
               <div key={index}>
                 <ul className="space-y-1">
-                  {service.locations.map((loc) => (
-                    <li key={loc.path}>
+                  {locations.map((loc) => (
+                    <li key={`${loc}-${svc.service}`}>
                       <Link 
-                        to={loc.path}
+                        to={`/${loc}-${svc.service}`}
                         className="text-sm hover:text-accent transition-colors"
                       >
-                        {loc.name}
+                        {locationNames[loc]} {svc.title}
                       </Link>
                     </li>
                   ))}
@@ -226,16 +235,16 @@ export function Footer() {
 
           {/* Row 3 */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {locationServices3.map((service, index) => (
+            {locationServices3.map((svc, index) => (
               <div key={index}>
                 <ul className="space-y-1">
-                  {service.locations.map((loc) => (
-                    <li key={loc.path}>
+                  {locations.map((loc) => (
+                    <li key={`${loc}-${svc.service}`}>
                       <Link 
-                        to={loc.path}
+                        to={`/${loc}-${svc.service}`}
                         className="text-sm hover:text-accent transition-colors"
                       >
-                        {loc.name}
+                        {locationNames[loc]} {svc.title}
                       </Link>
                     </li>
                   ))}
