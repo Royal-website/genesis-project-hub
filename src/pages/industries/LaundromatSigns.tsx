@@ -11,12 +11,12 @@ export default function LaundromatSigns() {
   return (
     <UniversalPageTemplate
       title="Laundromat Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Laundromat-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Laundromat Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-storefront-outdoor-building-e1590775795316-300x235.jpg"
         imageAlt="Laundromat Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function LaundromatSigns() {
 
       <ContentSection
         title="Illuminated Signs for your Laundromat"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-channel-letters-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-install-fab-300x225.jpg"
         imageAlt="Laundromat Channel Letters"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function LaundromatSigns() {
 
       <ContentSection
         title="Vinyl Informational Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-vinyl-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
         imageAlt="Laundromat Vinyl Signs"
         imagePosition="left"
       >

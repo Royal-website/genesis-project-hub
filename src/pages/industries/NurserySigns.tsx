@@ -11,12 +11,12 @@ export default function NurserySigns() {
   return (
     <UniversalPageTemplate
       title="Nursery Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Nursery-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Outdoor-Signs.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Nursery Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/nursery-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/monument-signs-1.webp"
         imageAlt="Nursery Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function NurserySigns() {
 
       <ContentSection
         title="Highly Customizable Outdoor Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/nursery-outdoor-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
         imageAlt="Nursery Outdoor Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function NurserySigns() {
 
       <ContentSection
         title="Informational Signs, Directory Signs, and Wayfinding Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/nursery-wayfinding-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
         imageAlt="Nursery Wayfinding Signs"
         imagePosition="left"
       >

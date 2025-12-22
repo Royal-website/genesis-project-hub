@@ -11,12 +11,12 @@ export default function PoliticalSigns() {
   return (
     <UniversalPageTemplate
       title="Political Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Political-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Political Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/political-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
         imageAlt="Political Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function PoliticalSigns() {
 
       <ContentSection
         title="Affordable Campaign Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/campaign-yard-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
         imageAlt="Campaign Yard Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function PoliticalSigns() {
 
       <ContentSection
         title="Smart and Strategic Sign Design"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/political-sign-design-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/custom-home-300x176.jpg"
         imageAlt="Political Sign Design"
         imagePosition="left"
       >

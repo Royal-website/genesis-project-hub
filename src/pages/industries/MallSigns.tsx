@@ -11,12 +11,12 @@ export default function MallSigns() {
   return (
     <UniversalPageTemplate
       title="Mall Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Mall-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Store.png"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Mall Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/mall-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-storefront-outdoor-building-e1590775795316-300x235.jpg"
         imageAlt="Mall Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function MallSigns() {
 
       <ContentSection
         title="Wide Selection of Mall Sign Options"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/mall-storefront-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-install-fab-300x225.jpg"
         imageAlt="Mall Storefront Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function MallSigns() {
 
       <ContentSection
         title="Quick and Clean Installation by Sign Specialists"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/mall-channel-letters-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
         imageAlt="Mall Channel Letters"
         imagePosition="left"
       >

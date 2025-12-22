@@ -11,12 +11,12 @@ export default function PropertyManagementSigns() {
   return (
     <UniversalPageTemplate
       title="Property Management Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Property-Management-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/building-signs.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Property Management Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/property-management-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/monument-signs-1.webp"
         imageAlt="Property Management Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function PropertyManagementSigns() {
 
       <ContentSection
         title="Property Signs and Real Estate Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/property-real-estate-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
         imageAlt="Property Real Estate Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function PropertyManagementSigns() {
 
       <ContentSection
         title="Maintaining Your Property's Organized Appeal"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/property-directional-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
         imageAlt="Property Directional Signs"
         imagePosition="left"
       >

@@ -11,12 +11,12 @@ export default function ManufacturingSigns() {
   return (
     <UniversalPageTemplate
       title="Manufacturing Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Manufacturing-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/building-signs.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Manufacturing Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/manufacturing-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/pole-pylon-signs.jpg"
         imageAlt="Manufacturing Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function ManufacturingSigns() {
 
       <ContentSection
         title="Make Your Manufacturing Signage Visible"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/safety-manufacturing-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
         imageAlt="Safety Manufacturing Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function ManufacturingSigns() {
 
       <ContentSection
         title="Signs That Comply With Legal Guidelines"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/osha-compliant-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
         imageAlt="OSHA Compliant Signs"
         imagePosition="left"
       >
