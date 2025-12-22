@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { Hand, Star } from "lucide-react";
+import { Hand } from "lucide-react";
 
 const formSchema = z.object({
   fullName: z.string().min(2, "Full name is required"),
@@ -53,22 +53,15 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
     setIsSubmitting(false);
   };
 
-  const isHero = variant === "hero";
 
   return (
-    <div className={`${isHero ? "bg-primary p-6 rounded-lg" : ""} ${className}`}>
-      {isHero && (
-        <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground text-center mb-4">
-          GET A FREE QUOTE
-        </h2>
-      )}
-      
+    <div className={className}>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-3">
         <div>
           <Input
             placeholder="Full Name"
             {...register("fullName")}
-            className={isHero ? "bg-card text-foreground" : ""}
+            className="bg-white text-foreground border-border"
           />
           {errors.fullName && (
             <p className="text-destructive text-xs mt-1">{errors.fullName.message}</p>
@@ -80,7 +73,7 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
             type="tel"
             placeholder="Best Phone"
             {...register("phone")}
-            className={isHero ? "bg-card text-foreground" : ""}
+            className="bg-white text-foreground border-border"
           />
           {errors.phone && (
             <p className="text-destructive text-xs mt-1">{errors.phone.message}</p>
@@ -92,7 +85,7 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
             type="email"
             placeholder="Email Address"
             {...register("email")}
-            className={isHero ? "bg-card text-foreground" : ""}
+            className="bg-white text-foreground border-border"
           />
           {errors.email && (
             <p className="text-destructive text-xs mt-1">{errors.email.message}</p>
@@ -104,7 +97,7 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
             placeholder="What type and size of signage do you need?"
             rows={4}
             {...register("message")}
-            className={isHero ? "bg-card text-foreground resize-none" : "resize-none"}
+            className="bg-white text-foreground border-border resize-none"
           />
           {errors.message && (
             <p className="text-destructive text-xs mt-1">{errors.message.message}</p>
@@ -120,18 +113,6 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
           <Hand className="ml-2 h-5 w-5" />
         </Button>
       </form>
-      
-      {isHero && (
-        <div className="mt-4 text-center">
-          <p className="text-primary-foreground font-semibold">RATED 5.0 STARS</p>
-          <div className="flex justify-center gap-1 my-1">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <Star key={star} className="h-5 w-5 text-accent fill-accent" />
-            ))}
-          </div>
-          <p className="text-primary-foreground/80 text-sm">(Based on 54 Client Reviews)</p>
-        </div>
-      )}
     </div>
   );
 }
