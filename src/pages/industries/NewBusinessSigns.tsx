@@ -11,12 +11,12 @@ export default function NewBusinessSigns() {
   return (
     <UniversalPageTemplate
       title="New Business Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/New-Business-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="New Business Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/new-business-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-storefront-outdoor-building-e1590775795316-300x235.jpg"
         imageAlt="New Business Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function NewBusinessSigns() {
 
       <ContentSection
         title="Vinyl Promotional Signs for Special Announcements"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/new-business-promotional-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
         imageAlt="New Business Promotional Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function NewBusinessSigns() {
 
       <ContentSection
         title="Durable Outdoor Signage for New Businesses"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/new-business-outdoor-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/pole-pylon-signs.jpg"
         imageAlt="New Business Outdoor Signs"
         imagePosition="left"
       >

@@ -11,12 +11,12 @@ export default function RestaurantSigns() {
   return (
     <UniversalPageTemplate
       title="Restaurant Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Restaurant-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-storefront-outdoor-building-e1590775795316-300x235.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Houston Restaurant Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-install-fab-300x225.jpg"
         imageAlt="Restaurant Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function RestaurantSigns() {
 
       <ContentSection
         title="High-Visibility Outdoor Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-outdoor-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
         imageAlt="Restaurant Outdoor Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function RestaurantSigns() {
 
       <ContentSection
         title="Indoor Signs that Impress and Inform"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-menu-boards-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/custom-sign-indoors.webp"
         imageAlt="Restaurant Menu Boards"
         imagePosition="left"
       >

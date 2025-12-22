@@ -11,12 +11,12 @@ export default function RealEstateSigns() {
   return (
     <UniversalPageTemplate
       title="Real Estate Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Real-Estate-Signs.png"
+      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/custom-home-300x176.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Houston Real Estate Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/real-estate-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
         imageAlt="Real Estate Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function RealEstateSigns() {
 
       <ContentSection
         title="Custom Real Estate Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/custom-real-estate-signs-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
         imageAlt="Custom Real Estate Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function RealEstateSigns() {
 
       <ContentSection
         title="Real Estate Brochure Holders"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/real-estate-brochure-holders-300x212.jpg"
+        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/monument-signs-1.webp"
         imageAlt="Real Estate Brochure Holders"
         imagePosition="left"
       >
