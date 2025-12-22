@@ -11,12 +11,12 @@ export default function LawyerSigns() {
   return (
     <UniversalPageTemplate
       title="Lawyer Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/building-signs.jpg"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-custom-metal-attorney-at-law-building-sign-300x162.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Lawyer Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Lobby-sign-2024.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-custom-metal-attorney-at-law-building-sign-300x162.jpg"
         imageAlt="Lawyer Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function LawyerSigns() {
 
       <ContentSection
         title="Attractive and Informative Outdoor Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/monument-signs-1.webp"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-monument-attorney-at-law-signage-1.jpg"
         imageAlt="Law Firm Outdoor Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function LawyerSigns() {
 
       <ContentSection
         title="Privacy Film for Your Windows and Glass Walls"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/custom-sign-indoors.webp"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
         imageAlt="Law Office Privacy Film"
         imagePosition="left"
       >

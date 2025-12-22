@@ -11,12 +11,12 @@ export default function ManufacturingSigns() {
   return (
     <UniversalPageTemplate
       title="Manufacturing Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/building-signs.jpg"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-monument-attorney-at-law-signage-1.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Manufacturing Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/pole-pylon-signs.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
         imageAlt="Manufacturing Signs"
       >
         <p className="mb-4">
@@ -32,8 +32,8 @@ export default function ManufacturingSigns() {
 
       <ContentSection
         title="Make Your Manufacturing Signage Visible"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
-        imageAlt="Safety Manufacturing Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/hanging-3-300x200.jpg"
+        imageAlt="High-visibility Manufacturing Signs"
       >
         <p className="mb-4">
           Your manufacturing sign's professional design and material quality wouldn't be of much use if your workers and visitors can't see the sign itself. When it comes to manufacturing and safety signs, visibility may just be the most important factor to consider. As an established signs provider for many years now, Royal Signs & Awnings understands this and we make sure sign visibility is something that we do right—from the design phase, all the way to installation.
@@ -45,7 +45,7 @@ export default function ManufacturingSigns() {
 
       <ContentSection
         title="Signs That Comply With Legal Guidelines"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/product-displays-300x176.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-custom-aframe-storefront-dental-signage-300x188.jpg"
         imageAlt="OSHA Compliant Signs"
         imagePosition="left"
       >

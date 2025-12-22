@@ -11,12 +11,12 @@ export default function NewBusinessSigns() {
   return (
     <UniversalPageTemplate
       title="New Business Signs"
-      heroImage="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
+      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-custom-aframe-storefront-dental-signage-300x188.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="New Business Signs"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/channel-letter-storefront-outdoor-building-e1590775795316-300x235.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-custom-aframe-storefront-dental-signage-300x188.jpg"
         imageAlt="New Business Signs"
       >
         <p className="mb-4">
@@ -32,8 +32,8 @@ export default function NewBusinessSigns() {
 
       <ContentSection
         title="Vinyl Promotional Signs for Special Announcements"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/banner-sign-large-format-outdoor-300x169.jpg"
-        imageAlt="New Business Promotional Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/03/window-vinyl-300x262.jpg"
+        imageAlt="Vinyl Window Signs"
       >
         <p className="mb-4">
           Your new business is open and people need to know it! Make that awesome announcement with stunning promotional signs by Royal Signs & Awnings. Promotional signs come in so many forms such as vinyl banners, yard signs, flag signs, window stickers, marquis signs, pull-up signs, and even LED message boards, and Royal Signs & Awnings delivers them all.
@@ -45,8 +45,8 @@ export default function NewBusinessSigns() {
 
       <ContentSection
         title="Durable Outdoor Signage for New Businesses"
-        image="https://raw.githubusercontent.com/Royal-Signs/royal/main/www.houstonsignsandawnings.com/wp-content/uploads/2013/09/pole-pylon-signs.jpg"
-        imageAlt="New Business Outdoor Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
+        imageAlt="Outdoor Business Signs"
         imagePosition="left"
       >
         <p className="mb-4">
