@@ -24,6 +24,16 @@ import {
   ChurchSigns,
   CitySigns,
   CollegeSigns,
+  ConstructionSigns,
+  ConvenienceStoreSigns,
+  CorporateSigns,
+  DealershipSigns,
+  DentistSigns,
+  DoctorSigns,
+  GasStationSigns,
+  HospitalSigns,
+  HospitalitySigns,
+  HotelSigns,
 } from "./pages/industries";
 
 const queryClient = new QueryClient();
@@ -71,6 +81,16 @@ const App = () => (
           <Route path="/church-signs" element={<ChurchSigns />} />
           <Route path="/city-signs" element={<CitySigns />} />
           <Route path="/college-signs" element={<CollegeSigns />} />
+          <Route path="/construction-signs" element={<ConstructionSigns />} />
+          <Route path="/convenience-store-signs" element={<ConvenienceStoreSigns />} />
+          <Route path="/corporate-signs" element={<CorporateSigns />} />
+          <Route path="/dealership-signs" element={<DealershipSigns />} />
+          <Route path="/dentist-signs" element={<DentistSigns />} />
+          <Route path="/doctor-signs" element={<DoctorSigns />} />
+          <Route path="/gas-station-signs" element={<GasStationSigns />} />
+          <Route path="/hospital-signs" element={<HospitalSigns />} />
+          <Route path="/hospitality-signs" element={<HospitalitySigns />} />
+          <Route path="/hotel-signs" element={<HotelSigns />} />
           
           {/* General location pages: /location-tx format (e.g., /thompsons-tx) */}
           {locations.map(location => (
