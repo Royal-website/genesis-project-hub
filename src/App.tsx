@@ -15,6 +15,17 @@ import ContactUs from "./pages/ContactUs";
 import { LocationPage } from "./pages/LocationPage";
 import NotFound from "./pages/NotFound";
 
+// Industry pages
+import {
+  AutomotiveSigns,
+  BankSigns,
+  BarSigns,
+  BarberSigns,
+  ChurchSigns,
+  CitySigns,
+  CollegeSigns,
+} from "./pages/industries";
+
 const queryClient = new QueryClient();
 
 // Location slugs matching the original site (with -tx suffix)
@@ -51,6 +62,15 @@ const App = () => (
           <Route path="/business-signs" element={<BusinessSigns />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          
+          {/* Industry pages */}
+          <Route path="/automotive-signs" element={<AutomotiveSigns />} />
+          <Route path="/bank-signs" element={<BankSigns />} />
+          <Route path="/bar-signs" element={<BarSigns />} />
+          <Route path="/barber-signs" element={<BarberSigns />} />
+          <Route path="/church-signs" element={<ChurchSigns />} />
+          <Route path="/city-signs" element={<CitySigns />} />
+          <Route path="/college-signs" element={<CollegeSigns />} />
           
           {/* General location pages: /location-tx format (e.g., /thompsons-tx) */}
           {locations.map(location => (
