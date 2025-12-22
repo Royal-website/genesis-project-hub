@@ -1,54 +1,157 @@
-import { CategoryPageTemplate } from "@/components/templates/CategoryPageTemplate";
+import { Layout } from "@/components/layout/Layout";
+import { QuoteForm } from "@/components/forms/QuoteForm";
+import { Sidebar } from "@/components/layout/Sidebar";
+import { Link } from "react-router-dom";
+import { Star } from "lucide-react";
 
 const businessSignTypes = [
-  {
-    name: "Restaurant Signs",
-    path: "/business-signs/restaurant-signs",
-    image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg",
-    description: "Appetizing signage for restaurants and cafes",
-  },
-  {
-    name: "Retail Signs",
-    path: "/business-signs/retail-signs",
-    image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg",
-    description: "Eye-catching signs for retail stores",
-  },
-  {
-    name: "Medical Signs",
-    path: "/business-signs/medical-signs",
-    image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg",
-    description: "Professional healthcare facility signage",
-  },
-  {
-    name: "Real Estate Signs",
-    path: "/business-signs/real-estate-signs",
-    image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg",
-    description: "Property and real estate signage solutions",
-  },
-  {
-    name: "Church Signs",
-    path: "/business-signs/church-signs",
-    image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg",
-    description: "Welcoming signs for houses of worship",
-  },
-  {
-    name: "School Signs",
-    path: "/business-signs/school-signs",
-    image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg",
-    description: "Educational facility signage",
-  },
+  { name: "ADA Signs", path: "/ada-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Building Signs", path: "/building-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Door Signs", path: "/door-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Informational Signs", path: "/informational-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Menu Boards", path: "/menu-boards", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Portable Signs", path: "/portable-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Promotional Signs", path: "/promotional-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Safety Signs", path: "/safety-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Temporary Signs", path: "/temporary-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Tenant Signs", path: "/tenant-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Window Graphics", path: "/window-graphics", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
+  { name: "Window Signs", path: "/window-signs", image: "https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg" },
 ];
 
 const BusinessSigns = () => {
   return (
-    <CategoryPageTemplate
-      title="Business Signs"
-      description="Professional signage solutions for every industry"
-      heroImage="https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg"
-      intro="Royal Signs & Awnings provides specialized business signage for all types of Houston businesses. We understand the unique needs of different industries and create signs that effectively communicate your message to customers."
-      categories={businessSignTypes}
-      breadcrumbs={[{ name: "Business Signs", path: "/business-signs" }]}
-    />
+    <Layout>
+      {/* Hero Section */}
+      <section 
+        className="relative bg-cover bg-center py-16 md:py-24"
+        style={{ backgroundImage: "url('https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="text-center lg:text-left">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Business Signs
+              </h2>
+              <p className="text-xl text-white/90">Design | Production | Installation</p>
+            </div>
+            <div className="bg-primary rounded-lg p-6">
+              <h3 className="text-xl font-bold text-primary-foreground mb-4 text-center">GET A FREE QUOTE</h3>
+              <QuoteForm variant="hero" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Main Content Area */}
+            <div className="lg:col-span-2">
+              <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                Houston Business Signs
+              </h1>
+
+              <div className="prose prose-lg max-w-none">
+                <p className="text-muted-foreground mb-4">
+                  Expand your brand and services and strengthen your bottom line with engaging, attractive business signs and graphics!
+                </p>
+
+                <p className="text-muted-foreground mb-4">
+                  An expert Houston business sign company, Royal Signs & Awnings is a local partner for generating enticing sign and graphic elements that gets your business noticed. No matter what your specific marketing goals or company size, we will conceptualize, construct, and place your branded commercial signage.
+                </p>
+
+                <p className="text-muted-foreground mb-4">
+                  For any sign from pop-up tradeshow banners and displays to impressive tenant, pylon, and pole signs, wayfinding signs, our specialists are ready to provide solitary signs or graphics for business marketing or an entire cohesive sign and graphics collection that features your brand and gets you seen.
+                </p>
+
+                <p className="text-muted-foreground mb-4">
+                  Our specialized team of knowledgeable sign and graphic providers perceive your distinct and specific business preferences, and we are completely ready to expertly manufacture your signage project, supplying impactful signs and graphics that meet your schedule, expectations, and marketing budget.
+                </p>
+
+                <p className="text-lg font-semibold text-foreground mb-8">
+                  Call Royal Signs & Awnings at <a href="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</a> for your Free Consultation with a Business Signs Expert!
+                </p>
+
+                <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Cohesive Commercial Signs</h2>
+                <p className="text-muted-foreground mb-4">
+                  If you want to be noticeable in your local market, you need well-crafted commercial signs and graphics. In addition to displaying your business name and logo, custom business signage provides information about your business that prospective customers need, such as operating hours, ADA and accessibility information, and current special promotions.
+                </p>
+
+                <p className="text-muted-foreground mb-6">
+                  Differentiate your company from the other businesses around you, your competitors, and the many disruptions in your customer's busy lives with professional, durable custom commercial signage products! Royal Signs & Awnings is your manufacturer of high-impact business signs and graphics that support your corporate development by delivering an exciting and appealing environment to do business in.
+                </p>
+
+                <p className="text-muted-foreground mb-6">
+                  Royal Signs & Awnings uses on your vision to create useful signs and graphics that promote your brand and services. Our creative designers are skilled at interpreting your unique plans and crafting a physical sign design. We create everything from custom facade signs to branded car graphics, lobby and office signs, and personalized promotional signs and graphics for your desired placement and utilization.
+                </p>
+
+                <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Complete Business Signage</h2>
+                <p className="text-muted-foreground mb-4">
+                  Branded business signage elements assist with setting your brand apart from similar local businesses while establishing your organization as professionals for your market. Personalized, branded specialty signs also help manage potential customer's professional opinion of your shop. When using professional business signs and graphics that complement the rest of your brand identification and promotion endeavors, you reinforce both your local brand awareness as well as the expertise that your customers can expect from you.
+                </p>
+
+                <p className="text-muted-foreground mb-6">
+                  Whether you are a recently opened or newly acquired business venture or a well-known local favorite, Royal Signs & Awnings delivers expert solutions that support your branded business signage desires. We will provide almost limitless choices for how signs and graphics can be used to support your business growth and development.
+                </p>
+
+                <h3 className="text-xl font-bold text-foreground mt-6 mb-4">Our business sign services include:</h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
+                  {businessSignTypes.map((type) => (
+                    <Link 
+                      key={type.path}
+                      to={type.path}
+                      className="group bg-card rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow"
+                    >
+                      <img src={type.image} alt={type.name} className="w-full h-24 object-cover" />
+                      <div className="p-3 text-center">
+                        <span className="font-semibold text-sm text-foreground group-hover:text-accent transition-colors">{type.name}</span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+
+                <p className="text-muted-foreground mb-6">
+                  Our talented team of Houston commercial signage experts has the knowledge, skills, and tools and equipment to create professional custom signs and graphics that deliver for you. Professional, branded signage is an outstanding way to truly showcase the personality of your brand.
+                </p>
+
+                <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Free Business Signs Consultation</h2>
+                <p className="text-muted-foreground mb-4">
+                  At Royal Signs & Awnings, we provide the experienced support and expertise required to deliver specialty signs and graphics that effectively highlight the very best aspects of your brand, business, and products. Regardless of whether you already have a working design, or if you need design and planning assistance, our team will support you completely.
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  Royal Signs & Awnings is dedicated to becoming your local manufacturer of impactful, brand-cohesive custom signs that deliver increases in both new business visitors and exposure for your brand.
+                </p>
+                <p className="text-lg font-semibold text-foreground">
+                  Call Royal Signs & Awnings at <a href="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</a> for your Free Consultation with a Business Signage Specialist!
+                </p>
+              </div>
+            </div>
+
+            {/* Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-24 space-y-6">
+                <div className="bg-card rounded-lg p-6 shadow-md">
+                  <h3 className="font-bold text-lg mb-4">RATED 5.0 STARS</h3>
+                  <div className="flex items-center gap-1 mb-2">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                    ))}
+                  </div>
+                  <p className="font-semibold">Royal Signs & Awnings</p>
+                  <Link to="/reviews" className="text-accent hover:underline text-sm">
+                    (Based on 54 Client Reviews)
+                  </Link>
+                </div>
+                <Sidebar />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Layout>
   );
 };
 
