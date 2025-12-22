@@ -15,45 +15,45 @@ export default function RealEstateSigns() {
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
-        title="Real Estate Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/real-estate-yard-signs-300x212.jpg"
-        imageAlt="Real Estate Yard Signs"
+        title="Houston Real Estate Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/real-estate-signs-300x212.jpg"
+        imageAlt="Real Estate Signs"
       >
         <p className="mb-4">
-          In the competitive Houston real estate market, professional signage helps you stand out and sell properties faster. Royal Signs & Awnings creates high-quality real estate signs for agents, brokers, and developers that build your brand and attract buyers and sellers.
+          Are you looking for an attractive, impactful way to advertise a home, business, or land for sale? Royal Signs & Awnings will craft the perfect real estate signs to help you attract more buyers and sellers.
         </p>
         <p className="mb-4">
-          From yard signs to commercial property displays, we provide durable, attractive signage that withstands the Texas elements while making your listings impossible to miss.
+          Very few businesses deal with the fierce competition that the real estate business does. With the constant changes to the real estate landscape, staying competitive is more difficult than ever. It is even more important to appeal to prospective customers, whether they are in the market for a house, business, or land.
         </p>
         <p className="font-bold">
-          Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Quote!
+          Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
         </p>
       </ContentSection>
 
       <ContentSection
-        title="For Sale & Open House Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/for-sale-signs-300x212.jpg"
-        imageAlt="For Sale Signs"
+        title="Custom Real Estate Signage"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/custom-real-estate-signs-300x212.jpg"
+        imageAlt="Custom Real Estate Signs"
       >
         <p className="mb-4">
-          Professional For Sale signs and Open House directionals are essential tools for real estate professionals. We offer a variety of styles including post-and-panel signs, A-frames, and directional arrows to help buyers find your listings.
+          The most common signage solution utilized by real estate agents is a yard sign. These signs provide prospective clients with the information they need regarding the listing agent, their contact information and often a desirable feature. Like any business, the signage you choose has a significant impact on a customer's first impression.
         </p>
         <p>
-          Our signs are printed on durable materials with weather-resistant inks, ensuring they look professional listing after listing.
+          A custom made sign by Royal Signs & Awnings creates the impact you want to make the sales you need. We custom fabricate all of our signage solutions to match your needs and goals. A custom, professionally made sign tells your customers about who you are as a person and about the property you are selling.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Commercial & Development Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/commercial-property-signs-300x212.jpg"
-        imageAlt="Commercial Property Signs"
+        title="Real Estate Brochure Holders"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/real-estate-brochure-holders-300x212.jpg"
+        imageAlt="Real Estate Brochure Holders"
         imagePosition="left"
       >
         <p className="mb-4">
-          Commercial properties and new developments require larger, more impactful signage. We create property marketing signs, development announcements, and leasing displays that attract attention from street traffic.
+          Have you driven through a neighborhood looking for homes for sale, and wanted to know more about a home, but didn't look forward to calling the listing agent for fear of an over-aggressive sales pitch? This is a typical experience among many prospective clients.
         </p>
         <p>
-          From temporary construction banners to permanent monument signs, we support commercial real estate professionals at every stage of the project.
+          That's where brochure holders come into play. Having a brochure available to browsing homebuyers not only offers them the opportunity to gather information about the home in question but also the chance that when they're ready, they can reach out to you to inquire further.
         </p>
       </ContentSection>
     </UniversalPageTemplate>

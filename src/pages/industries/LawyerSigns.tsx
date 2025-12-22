@@ -16,14 +16,14 @@ export default function LawyerSigns() {
     >
       <ContentSection
         title="Lawyer Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/law-office-lobby-signs-300x212.jpg"
-        imageAlt="Law Office Lobby Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/lawyer-signs-300x212.jpg"
+        imageAlt="Lawyer Signs"
       >
         <p className="mb-4">
-          First impressions matter in the legal profession. Royal Signs & Awnings creates sophisticated, professional signs for law offices that convey trust, credibility, and expertise. From elegant lobby signs to prominent exterior displays, we help law firms establish their presence and attract clients.
+          Contrary to what people may believe, lawyer signs work very differently from many business or commercial signs. While most business signs aim to catch the attention of passing pedestrians/drivers and convince them to purchase or use a particular brand, product, or service, lawyer signs reach out to a more specialized market. That market typically already needs legal services, they just need to know that your legal services is what they're looking for.
         </p>
         <p className="mb-4">
-          Our lawyer signage solutions are designed to reflect the professionalism and authority that clients expect from their legal representation. We work with solo practitioners, small firms, and large legal practices to create signage that matches their brand identity.
+          Royal Signs & Awnings is a full-service signs provider that specializes in lawyer signs. By letting us take care of your firm's signage needs, you'll have more time and energy to spend on handling client cases and running your office. We are equipped with the knowledge, expertise, and technology to deliver the signs that meet your needs, suit your brand, and fit your budget.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function LawyerSigns() {
       </ContentSection>
 
       <ContentSection
-        title="Professional Lobby Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/dimensional-lobby-signs-300x212.jpg"
-        imageAlt="Dimensional Lobby Signs"
+        title="Attractive and Informative Outdoor Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/law-firm-outdoor-signs-300x212.jpg"
+        imageAlt="Law Firm Outdoor Signs"
       >
         <p className="mb-4">
-          Your lobby sign is often the first thing clients see when they enter your office. Make a strong impression with dimensional letters, metal logos, or illuminated displays that showcase your firm's name and credentials in the most professional light.
+          Your law office's goal isn't to convince people to step inside and take a look at what they can buy. Your target market is primarily the people who are looking for legal services and would contact your law firm if they knew that it exists, it's open, and it can cater to their legal needs. And sometimes, a small door sign just won't do the job.
         </p>
         <p>
-          We offer a variety of materials including brushed aluminum, brass, acrylic, and wood to match your office décor and brand aesthetic. Our expert installation ensures a flawless finish that reflects the quality of your legal services.
+          Royal Signs & Awnings designs, fabricates, customizes, and installs all sorts of exterior signs for your law firm. If you're looking to have a more permanent appeal, we have pole signs, monument signs, and pylon signs for you. We also do hanging signs, fascia signs, dimensional signs, and channel letters that are customized to your branding.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="ADA Compliant Office Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/ada-office-signs-300x212.jpg"
-        imageAlt="ADA Compliant Office Signs"
+        title="Privacy Film for Your Windows and Glass Walls"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/law-office-privacy-film-300x212.jpg"
+        imageAlt="Law Office Privacy Film"
         imagePosition="left"
       >
         <p className="mb-4">
-          Ensure your law office meets all accessibility requirements with ADA-compliant signage. We create professional room identification signs, directory signs, and wayfinding signs that meet federal requirements while maintaining your firm's sophisticated image.
+          Royal Signs & Awnings has successfully worked with many law firms to provide privacy solutions for their offices. Privacy film is an excellent way to maintain confidentiality while still allowing natural light into your space.
         </p>
         <p>
-          Our team is knowledgeable about ADA signage requirements and can help you select signs that are both compliant and aesthetically consistent with your office design.
+          We offer a variety of privacy film options including frosted, etched glass, and decorative patterns that can incorporate your firm's branding while providing the privacy your clients expect.
         </p>
       </ContentSection>
     </UniversalPageTemplate>

@@ -16,14 +16,14 @@ export default function MallSigns() {
     >
       <ContentSection
         title="Mall Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/mall-directory-signs-300x212.jpg"
-        imageAlt="Mall Directory Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/mall-signs-300x212.jpg"
+        imageAlt="Mall Signs"
       >
         <p className="mb-4">
-          Shopping malls and retail centers require comprehensive signage systems that guide customers, promote retailers, and create an engaging shopping experience. Royal Signs & Awnings provides complete mall signage solutions from exterior pylons to interior directories and individual store signs.
+          The retail landscape here in the US has gone through quite significant changes in the past years, with retail stores closing and opening every now and then. Despite these challenges and the fact that they rely a lot on retail businesses, many malls continue to grow and thrive. How is this possible? Well, they've adapted to the changes by using their space to increase foot traffic. And mall signs play a key role in making all that happen.
         </p>
         <p className="mb-4">
-          Whether you're a mall property manager, retail tenant, or shopping center developer, we have the expertise and capabilities to deliver signage that meets your needs and exceeds expectations.
+          Mall signs are highly effective tools in attracting customers, informing them, and encouraging them to make purchases. However, they do need to be designed, produced, and installed properly for you to maximize their impact…and that's exactly what trusted signage providers such as Royal Signs & Awnings do.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function MallSigns() {
       </ContentSection>
 
       <ContentSection
-        title="Tenant & Storefront Signs"
+        title="Wide Selection of Mall Sign Options"
         image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/mall-storefront-signs-300x212.jpg"
         imageAlt="Mall Storefront Signs"
       >
         <p className="mb-4">
-          Individual retailers within a mall need signage that attracts shoppers while meeting landlord specifications. We work with tenants and property managers to create storefront signs that stand out while maintaining consistency with the mall's design standards.
+          One tricky part with mall signs is knowing exactly which type, which design, which placement gives your business the most impact and the best results. Here at Royal Signs & Awnings, we do our very best to make this part as easy and hassle-free as possible by having an extensive selection of sign options, talented artists who can customize any sign according to your brand, and top-of-the-line equipment for the creation of your personalized sign.
         </p>
         <p>
-          From channel letters to illuminated cabinet signs, we help retail tenants make a strong impression on the shoppers walking by their storefronts.
+          Whether you need subtle but impactful acrylic signs, modern and chic dimensional letters, or bold and attractive electronic signs, Royal Signs & Awnings has the right one for your business.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Wayfinding & Directory Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/wayfinding-signs-300x212.jpg"
-        imageAlt="Wayfinding Signs"
+        title="Quick and Clean Installation by Sign Specialists"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/mall-channel-letters-300x212.jpg"
+        imageAlt="Mall Channel Letters"
         imagePosition="left"
       >
         <p className="mb-4">
-          Help shoppers navigate your mall with professional wayfinding and directory signage. Clear, attractive directories and directional signs improve the customer experience and help shoppers find the stores and services they're looking for.
+          Mall signs are confined to certain standards, requirements, and building regulations, among which are the times that you can work on your signage. Because you're likely going to be allowed to work on your mall sign only when the mall is closed, you'll need to set it up real quick.
         </p>
         <p>
-          We create comprehensive wayfinding systems including mall directories, department markers, restroom signs, and parking garage signage that work together to guide visitors throughout your property.
+          As an established company, Royal Signs & Awnings takes pride in the fact that we do sign installations in professional time and with a professional finish. With our efficient sign-production process and our team of skilled specialists, we have successfully installed mall signs for numerous clients with no time wasted and no quality compromised.
         </p>
       </ContentSection>
     </UniversalPageTemplate>

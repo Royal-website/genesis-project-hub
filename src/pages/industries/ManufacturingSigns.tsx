@@ -16,14 +16,14 @@ export default function ManufacturingSigns() {
     >
       <ContentSection
         title="Manufacturing Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/manufacturing-building-signs-300x212.jpg"
-        imageAlt="Manufacturing Building Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/manufacturing-signs-300x212.jpg"
+        imageAlt="Manufacturing Signs"
       >
         <p className="mb-4">
-          Manufacturing facilities have unique signage requirements that go beyond simple branding. Royal Signs & Awnings provides comprehensive signage solutions for manufacturing plants, warehouses, and industrial facilities that address safety, wayfinding, and corporate identity needs.
+          Workplace safety is a vital part of running a business, and especially so if you're in the manufacturing industry. With all the process, machinery, and chemicals that go around in your building, safety is not something you can compromise. One way of keeping your establishment safe and secure is by having clearly marked manufacturing signage in place all throughout your facility.
         </p>
         <p className="mb-4">
-          From exterior building identification to interior safety signage, we create durable, code-compliant signs that withstand the demanding conditions of industrial environments while effectively communicating your message.
+          Royal Signs & Awnings is a trusted local signage provider and we specialize in affordable and effective industrial signs. We are a full-service sign company so we do more than just print out your signs—we have the expertise and equipment to design, fabricate, customize, and install them for you! Our staff is also knowledgeable in ANSI and OSHA guidelines for safety signages.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function ManufacturingSigns() {
       </ContentSection>
 
       <ContentSection
-        title="Safety & Compliance Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/osha-safety-signs-300x212.jpg"
-        imageAlt="OSHA Safety Signs"
+        title="Make Your Manufacturing Signage Visible"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/safety-manufacturing-signs-300x212.jpg"
+        imageAlt="Safety Manufacturing Signs"
       >
         <p className="mb-4">
-          Workplace safety is paramount in manufacturing environments. We provide OSHA-compliant safety signs, hazard warnings, PPE requirement signs, and emergency exit signage that keep your workers safe and your facility compliant with federal regulations.
+          Your manufacturing sign's professional design and material quality wouldn't be of much use if your workers and visitors can't see the sign itself. When it comes to manufacturing and safety signs, visibility may just be the most important factor to consider. As an established signs provider for many years now, Royal Signs & Awnings understands this and we make sure sign visibility is something that we do right—from the design phase, all the way to installation.
         </p>
         <p>
-          Our safety signs are made from durable materials that withstand industrial conditions and remain clearly visible throughout their service life.
+          One of the ways we ensure sign visibility is through professional and smart designs. By carefully choosing the right size, color, font style, font size, luminance, and contrast for your industrial sign, we can make it more eye-catching and its message more easily conveyed.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Warehouse Organization Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/warehouse-aisle-signs-300x212.jpg"
-        imageAlt="Warehouse Aisle Signs"
+        title="Signs That Comply With Legal Guidelines"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/osha-compliant-signs-300x212.jpg"
+        imageAlt="OSHA Compliant Signs"
         imagePosition="left"
       >
         <p className="mb-4">
-          Improve efficiency in your warehouse with clear organizational signage. Aisle markers, zone identifiers, rack labels, and loading dock signs help workers navigate your facility quickly and accurately.
+          The American National Standards Institute (ANSI) and Occupational Safety and Health Administration (OSHA) have made producing safety signs so much easier for business owners everywhere. They have highly specific standards and guidelines set to help guarantee that they are most effective and most practical in communicating warnings, instructions, and safety reminders.
         </p>
         <p>
-          We create comprehensive warehouse signage systems that improve productivity and reduce errors in your logistics operations.
+          Royal Signs & Awnings is well-versed in these requirements and can produce compliant safety signage for your manufacturing facility that meets all regulatory standards.
         </p>
       </ContentSection>
     </UniversalPageTemplate>
