@@ -16,44 +16,44 @@ export default function PoliticalSigns() {
     >
       <ContentSection
         title="Political Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/political-yard-signs-300x212.jpg"
-        imageAlt="Political Yard Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/political-signs-300x212.jpg"
+        imageAlt="Political Signs"
       >
         <p className="mb-4">
-          Political campaigns require fast, affordable, and impactful signage to build name recognition and communicate your message to voters. Royal Signs & Awnings produces high-quality political signs with quick turnaround times to support your campaign at every level—from local elections to statewide races.
+          Political signs are the subject of debates during campaign season. Some say political signage like yard signs simply don't work and don't contribute much to a campaign. However, many argue that political signs positively affect the behavior of individual voters and can actually win the candidates new supporters.
         </p>
         <p className="mb-4">
-          We understand that timing is critical in political campaigns. Our efficient production process ensures you get the signs you need when you need them, without sacrificing quality or breaking your campaign budget.
+          Despite the debates, political signs have almost always been used in campaigns. If you want your signs to be impactful and effective, the best idea would be to trust with an established sign provider like Royal Signs & Awnings with all your political signage needs.
         </p>
         <p className="font-bold">
-          Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Quote!
+          Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Yard Signs & Banners"
+        title="Affordable Campaign Signage"
         image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/campaign-yard-signs-300x212.jpg"
         imageAlt="Campaign Yard Signs"
       >
         <p className="mb-4">
-          Yard signs are the backbone of political campaigns. Our corrugated plastic yard signs are affordable, durable, and available in a variety of sizes. We also provide wire stakes and can print single or double-sided for maximum visibility.
+          While campaigns and elections are often fought on the digital battleground, there is no doubt that the traditional forms of media continue to play a significant role in winning an election. Yard signs, also known as coroplast or bandit signs, are one of the most common forms of signage used to garner or display support for a political candidate.
         </p>
         <p>
-          Large banners are perfect for campaign headquarters, rallies, and events. We offer quick production and competitive bulk pricing to meet your campaign's needs.
+          Affordable and incredibly versatile, these signs are not only used to show support for your favorite candidate, but also bring awareness to key issues that a candidate is running on. Whether you need signage for your front yard or vehicle, campaign headquarters or for your entire district, Royal Signs & Awnings can help.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Vehicle & Event Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/campaign-vehicle-wraps-300x212.jpg"
-        imageAlt="Campaign Vehicle Wraps"
+        title="Smart and Strategic Sign Design"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/political-sign-design-300x212.jpg"
+        imageAlt="Political Sign Design"
         imagePosition="left"
       >
         <p className="mb-4">
-          Turn your campaign vehicles into mobile billboards with vehicle magnets, wraps, and decals. Perfect for canvassing neighborhoods and attending community events, vehicle signage extends your reach wherever you go.
+          Attractive political signs are not always effective political signs, but you wouldn't really notice the difference unless you specialize in designing and custom-crafting them. Royal Signs & Awnings has a very keen eye for details such as this.
         </p>
         <p>
-          We also create event signage including rally signs, podium signs, and step-and-repeat backdrops for press events and photo opportunities.
+          Having been in the business for a long time, we know just how important it is for your sign design to be in line with your campaign's brand…and we can deliver that to you.
         </p>
       </ContentSection>
     </UniversalPageTemplate>

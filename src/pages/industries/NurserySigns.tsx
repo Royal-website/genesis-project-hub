@@ -16,14 +16,14 @@ export default function NurserySigns() {
     >
       <ContentSection
         title="Nursery Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/garden-center-signs-300x212.jpg"
-        imageAlt="Garden Center Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/nursery-signs-300x212.jpg"
+        imageAlt="Nursery Signs"
       >
         <p className="mb-4">
-          Garden centers and plant nurseries need signage that's as vibrant and welcoming as the plants they sell. Royal Signs & Awnings creates beautiful, weather-resistant signs for nurseries that attract customers and guide them through your outdoor shopping experience.
+          Represent your beautiful flowers and plants well with colorful and vibrant nursery signs by Royal Signs & Awnings. Nursery owners and managers like you shouldn't have to settle for generic, store-bought signs for your businesses. A strong and cohesive brand identity is essential in marketing your business to your target market.
         </p>
         <p className="mb-4">
-          From eye-catching roadside signs to department markers and plant identification tags, we provide complete signage solutions for garden centers of all sizes. Our signs are built to withstand outdoor conditions while maintaining their visual appeal.
+          Royal Signs & Awnings is an established expert when it comes to nursery signage. We specialize in studying our client's brand, needs, desired marketing approach, etc. and coming up with high-quality signage for their flower and plant nursery business…signs that not only look attractive, but are also a perfect fit for their brand and budget.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function NurserySigns() {
       </ContentSection>
 
       <ContentSection
-        title="Outdoor Nursery Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-nursery-signs-300x212.jpg"
-        imageAlt="Outdoor Nursery Signs"
+        title="Highly Customizable Outdoor Signage"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/nursery-outdoor-signs-300x212.jpg"
+        imageAlt="Nursery Outdoor Signs"
       >
         <p className="mb-4">
-          Attract drive-by traffic with prominent outdoor signage that's visible from the road. Monument signs, post-and-panel signs, and large format banners help customers find your nursery and draw them in to shop.
+          Outdoor signs can come in all shapes, sizes, colors, and substrates, which is great! But sometimes business owners can get a bit confused as to which one would be best for their nursery. Well this is exactly why Royal Signs & Awnings exists.
         </p>
         <p>
-          Our outdoor signs are made with UV-resistant materials that won't fade in the Texas sun, ensuring your nursery looks great year-round.
+          As a trusted sign company, our services include giving you the guidance and the insight that you need in order to make the best choices for your nursery's outdoor signs. And once you've done that, we can custom-craft your sign for you. We'll make sure that every detail contributes to your brand identity, particularly the sign type, substrate, shape, colors, text, and overall design.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Department & Wayfinding Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/nursery-department-signs-300x212.jpg"
-        imageAlt="Nursery Department Signs"
+        title="Informational Signs, Directory Signs, and Wayfinding Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/nursery-wayfinding-signs-300x212.jpg"
+        imageAlt="Nursery Wayfinding Signs"
         imagePosition="left"
       >
         <p className="mb-4">
-          Help customers navigate your nursery with clear department markers and wayfinding signs. Identify different plant sections, gardening supplies, and checkout areas to improve the shopping experience.
+          On certain occasions, nurseries can get quite crowded with many different people looking for many different things. And because nobody wants to ever feel lost or confused inside a business, it's important for you to keep your customers informed of where they are, where they can go next, and how they can get there.
         </p>
         <p>
-          We create durable outdoor-rated signs that withstand sun, rain, and daily use while maintaining their professional appearance.
+          This is a huge boost to customer satisfaction and positive experience. Informational signs, directories, and wayfinders are excellent tools for this!
         </p>
       </ContentSection>
     </UniversalPageTemplate>

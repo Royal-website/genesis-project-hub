@@ -15,15 +15,15 @@ export default function RestaurantSigns() {
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
-        title="Restaurant Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-storefront-signs-300x212.jpg"
-        imageAlt="Restaurant Storefront Signs"
+        title="Houston Restaurant Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-signs-300x212.jpg"
+        imageAlt="Restaurant Signs"
       >
         <p className="mb-4">
-          Great food deserves great signage! Royal Signs & Awnings creates eye-catching restaurant signs that attract hungry customers and build your brand. From fast-casual to fine dining, we provide signage solutions that reflect your restaurant's unique personality and cuisine.
+          A good sign catches people's attention; a great sign actually gets these people to step into your restaurant and try your food. Here at Royal Signs & Awnings, we don't settle for just good restaurant signs…we design and deliver GREAT ones.
         </p>
         <p className="mb-4">
-          We understand that restaurant signage needs to work hard day and night, attracting drive-by traffic and guiding customers once they arrive. Our illuminated signs, menu boards, and interior displays help you create a complete dining experience.
+          Effective signage for restaurants starts outside your building and carries through your facilities, providing an attractive, cohesive, and professional feel. We want potential customers to experience the quality of service that you offer from the moment they set their eyes on your sign.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function RestaurantSigns() {
       </ContentSection>
 
       <ContentSection
-        title="Illuminated Restaurant Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-channel-letters-300x212.jpg"
-        imageAlt="Restaurant Channel Letters"
+        title="High-Visibility Outdoor Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-outdoor-signs-300x212.jpg"
+        imageAlt="Restaurant Outdoor Signs"
       >
         <p className="mb-4">
-          Make your restaurant visible day and night with illuminated signage. LED channel letters, backlit cabinet signs, and neon-style displays attract attention and create an inviting atmosphere for diners.
+          When a potential customer passes by your restaurant, those precious few seconds they spend looking at your signage will make all the difference. We believe in the power of outdoor signs that are stylishly made and strategically placed…and that's exactly what we intend to create for you.
         </p>
         <p>
-          Our energy-efficient LED options provide brilliant illumination while reducing your energy costs—a win for your bottom line and the environment.
+          It's important for each business to have storefront signs that are easy to see and lovely to look at, especially if your restaurant is located in a place where there's a lot of traffic and tourists. Our local signage experts can help you choose the sign type that best suits your brand and budget, whether it's a backlit sign, illuminated sign, pylon sign, channel letters, 3D letters, etc.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Menu Boards & Interior Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/menu-board-signs-300x212.jpg"
-        imageAlt="Menu Board Signs"
+        title="Indoor Signs that Impress and Inform"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/restaurant-menu-boards-300x212.jpg"
+        imageAlt="Restaurant Menu Boards"
         imagePosition="left"
       >
         <p className="mb-4">
-          Clear, attractive menu boards are essential for quick-service restaurants and cafes. We create custom menu boards, digital displays, and promotional signage that help customers make decisions and enhance the ordering experience.
+          We don't stop at making your restaurant look good on the outside. Our years of experience have taught us that customers pay for the overall dining experience. And this means your establishment has to look good on the inside, too.
         </p>
         <p>
-          Interior signage including wall graphics, table tents, and promotional displays complete your restaurant's branding and encourage upselling and repeat visits.
+          With artfully designed and carefully crafted indoor signs, Royal Signs & Awnings helps your business achieve that polished, stylish look. We create custom wall murals, standard or digital menu boards, wayfinding signs, and ADA signs that speak volumes about your service.
         </p>
       </ContentSection>
     </UniversalPageTemplate>

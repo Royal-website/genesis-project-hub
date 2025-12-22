@@ -16,14 +16,14 @@ export default function NewBusinessSigns() {
     >
       <ContentSection
         title="New Business Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/new-business-storefront-signs-300x212.jpg"
-        imageAlt="New Business Storefront Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/new-business-signs-300x212.jpg"
+        imageAlt="New Business Signs"
       >
         <p className="mb-4">
-          Congratulations on your new business! Your signage is one of the most important investments you'll make in building your brand and attracting customers. Royal Signs & Awnings helps new businesses make a strong first impression with professional, eye-catching signs that set you apart from the competition.
+          According to the Small Business Association (SBA), more than 627,000 new businesses spring up all over the US every year. However, the SBA estimates that only around 51% of small businesses will last past five years. In order for your new business to stay in the game for a long time, you'll need to have a strong start.
         </p>
         <p className="mb-4">
-          We understand the unique challenges of starting a new business, including budget constraints and tight timelines. Our team works with you to create effective signage solutions that maximize your visibility without breaking the bank.
+          Some advice that successful entrepreneurs offer us is to find a way to get good leads, convert these leads into sales, and ensure repeat sales from customers. This is where high-quality new business signage comes in. Royal Signs & Awnings is an established local signs provider and we specialize in new business signs.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function NewBusinessSigns() {
       </ContentSection>
 
       <ContentSection
-        title="Essential Storefront Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/storefront-channel-letters-300x212.jpg"
-        imageAlt="Storefront Channel Letters"
+        title="Vinyl Promotional Signs for Special Announcements"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/new-business-promotional-signs-300x212.jpg"
+        imageAlt="New Business Promotional Signs"
       >
         <p className="mb-4">
-          Your storefront sign is your most important marketing tool—it works for you 24/7, attracting customers and building brand recognition. Whether you choose channel letters, cabinet signs, or dimensional letters, we'll create a storefront sign that makes your new business impossible to miss.
+          Your new business is open and people need to know it! Make that awesome announcement with stunning promotional signs by Royal Signs & Awnings. Promotional signs come in so many forms such as vinyl banners, yard signs, flag signs, window stickers, marquis signs, pull-up signs, and even LED message boards, and Royal Signs & Awnings delivers them all.
         </p>
         <p>
-          We also help navigate sign permits and landlord requirements, taking the stress out of getting your business opened and ready for customers.
+          Vinyl is an excellent choice of material and among the most popular in the sign industry. Because of its reasonable cost, fast-and-easy production, durability, and high versatility, vinyl is one of business owners' go-to substrates for temporary and even permanent signages.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Grand Opening Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/grand-opening-banners-300x212.jpg"
-        imageAlt="Grand Opening Banners"
+        title="Durable Outdoor Signage for New Businesses"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/new-business-outdoor-signs-300x212.jpg"
+        imageAlt="New Business Outdoor Signs"
         imagePosition="left"
       >
         <p className="mb-4">
-          Make your grand opening a success with attention-grabbing promotional signage. Banners, flags, A-frame signs, and window graphics create excitement and draw customers to your new location.
+          For signs that serve a more permanent function and are expected to last at least a few years, Royal Signs & Awnings offers durable, long-lasting substrates. Exterior signage like pole signs, fascia signs, monument signs, backlit sign boxes, channel letters, electronic signs, pylon signs, and more are great for establishing a sense of permanence and stability for your new business.
         </p>
         <p>
-          Our quick turnaround times ensure you have the promotional materials you need when opening day arrives. Let us help you make a splash with your grand opening!
+          If you want to utilize the glass windows on your building, window and glass decals are also very useful. They are affordable, highly customizable, easy to apply, easy to remove, and easy to replace, making them perfect for temporary announcements such as being finally open for business or a grand opening sale.
         </p>
       </ContentSection>
     </UniversalPageTemplate>

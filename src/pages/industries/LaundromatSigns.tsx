@@ -16,14 +16,14 @@ export default function LaundromatSigns() {
     >
       <ContentSection
         title="Laundromat Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-lighted-signs-300x212.jpg"
-        imageAlt="Laundromat Lighted Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-signs-300x212.jpg"
+        imageAlt="Laundromat Signs"
       >
         <p className="mb-4">
-          Your laundromat serves an essential need in the community—make sure your signs reflect that. At Royal Signs & Awnings, we create eye-catching, durable laundromat signs that attract customers and build your brand. Whether you need outdoor storefront signs, interior wayfinding, or promotional displays, we deliver high-quality signage solutions.
+          The coin laundry industry has been around for about 70 years here in the US. It has gone through the country's highs and lows and has survived them so far with over 29,000 laundromats situated all over the country. With the population growth and rental housing expansion, the customer base for laundromats has increased and competition has become stiffer.
         </p>
         <p className="mb-4">
-          From bright, visible channel letters to illuminated cabinet signs that work 24/7, our laundromat signage options help your business stand out on busy streets. We understand that laundromats often operate extended hours, so visibility at night is crucial for attracting customers.
+          Stiff competition means your laundromat must do more to stand out from the crowd, and this is where laundromat signs by Royal Signs & Awnings comes in to help. When you partner with a trusted local laundromat sign provider, you get business signage that attracts more customers, converts them into purchasing clients, and ultimately boost your bottom line.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function LaundromatSigns() {
       </ContentSection>
 
       <ContentSection
-        title="Illuminated Laundromat Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/channel-letter-laundromat-signs-300x212.jpg"
-        imageAlt="Channel Letter Laundromat Signs"
+        title="Illuminated Signs for your Laundromat"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-channel-letters-300x212.jpg"
+        imageAlt="Laundromat Channel Letters"
       >
         <p className="mb-4">
-          Laundromats often operate during early morning and late evening hours. Having illuminated signs ensures your business is visible to customers at all times. LED channel letters, backlit cabinet signs, and illuminated window graphics are all excellent options for 24/7 visibility.
+          Laundromats usually have customers coming in throughout the day, which is why many of them are open 24/7. Evenings makes it harder for people to scout for laundromats in the area, so the most practical way to get your coin laundry business noticed is by getting yourself some lighted or illuminated signage. When used as outdoor signage, you're also getting yourself 24/7 advertising tools!
         </p>
         <p>
-          Royal Signs & Awnings specializes in energy-efficient LED signage that reduces your operating costs while maximizing visibility. Our illuminated signs are designed to withstand the elements and provide years of reliable service.
+          Illuminated signs by Royal Signs & Awnings come in so many shapes and sizes that you're sure to be able to choose one that's perfect for your laundromat. We have channel letters that help make your brand and business visible, as well as giving it a clean and modern look. We have LED signs that are customizable, require practically no maintenance, and are cost-effective.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Interior Laundromat Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-interior-signs-300x212.jpg"
-        imageAlt="Interior Laundromat Signage"
+        title="Vinyl Informational Signage"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/laundromat-vinyl-signs-300x212.jpg"
+        imageAlt="Laundromat Vinyl Signs"
         imagePosition="left"
       >
         <p className="mb-4">
-          Create a positive customer experience with professional interior signage. From machine instructions and pricing displays to safety signs and promotional materials, well-designed interior signs improve customer satisfaction and reduce questions.
+          Your coin laundry business's indoor signs are just as important as your outdoor ones. Indoor signs help avoid customer confusion, frustration, and dissatisfaction by addressing concerns and conveying the necessary information.
         </p>
         <p>
-          We create ADA-compliant restroom signs, clear wayfinding signage, and attractive promotional displays that help your laundromat run smoothly and look professional.
+          With vinyl signs in your establishment, you have an affordable means of posting prices of your services and products, instructions on how to go about doing coin laundry, directions to various areas of your facility, and reminders on what they should or should not do.
         </p>
       </ContentSection>
     </UniversalPageTemplate>

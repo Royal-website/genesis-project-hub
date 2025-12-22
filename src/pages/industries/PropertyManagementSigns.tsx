@@ -16,14 +16,14 @@ export default function PropertyManagementSigns() {
     >
       <ContentSection
         title="Property Management Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/apartment-complex-signs-300x212.jpg"
-        imageAlt="Apartment Complex Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/property-management-signs-300x212.jpg"
+        imageAlt="Property Management Signs"
       >
         <p className="mb-4">
-          Property management companies need signage that works hard—attracting tenants, directing visitors, and maintaining property value. Royal Signs & Awnings provides comprehensive signage solutions for apartment complexes, commercial properties, and HOA communities that enhance your properties and simplify management.
+          Property management, with its broad scope and numerous activities, is a lot of work. From seeking clients, maintaining the property's appeal, and keeping your clients happy, you're going to need all the help you can get. The good news is that property management signs can help you with a whole lot of things and can even boost your bottom line…especially if they are designed and produced by a signage provider as accomplished as Royal Signs & Awnings.
         </p>
         <p className="mb-4">
-          We work with property managers across the Houston area to create consistent, professional signage that reflects well on your properties and makes a positive impression on current and prospective tenants.
+          Looking for tenants or clients? We've got promotional signs, exterior signage, building signs, fascia signs, flag signs, and so many more tools that can help you promote your brand and attract your market. Want to maintain your property's sophisticated and organized appeal? Our informational, indoor, and directional signs come in a vast selection of sign materials.
         </p>
         <p className="font-bold">
           Call Royal Signs & Awnings today at <Link to="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</Link> for a Free Consultation!
@@ -31,29 +31,29 @@ export default function PropertyManagementSigns() {
       </ContentSection>
 
       <ContentSection
-        title="Property Entrance Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/property-monument-signs-300x212.jpg"
-        imageAlt="Property Monument Signs"
+        title="Property Signs and Real Estate Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/property-real-estate-signs-300x212.jpg"
+        imageAlt="Property Real Estate Signs"
       >
         <p className="mb-4">
-          Create a strong first impression with professional entrance and monument signs. Our property entrance signs are designed to attract quality tenants and convey the value of your property from the moment visitors arrive.
+          Here at Royal Signs & Awnings, our business is all about helping your business grow…we do that by providing you with effective signage to help you get more clients and more tenants. Whether you're displaying your real estate, advertising available spaces in your building, or announcing renovations, we are here to give you the tools you need.
         </p>
         <p>
-          We offer a range of styles from traditional monument signs to modern architectural displays, and we can match your property's aesthetic and branding.
+          Royal Signs & Awnings has been in the sign industry for a long time and over the years, we've gathered the knowledge, experience, and technology to come up with property signs and real estate signs that are highly visible and highly effective to your target market.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Leasing & Wayfinding Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/leasing-office-signs-300x212.jpg"
-        imageAlt="Leasing Office Signs"
+        title="Maintaining Your Property's Organized Appeal"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/property-directional-signs-300x212.jpg"
+        imageAlt="Property Directional Signs"
         imagePosition="left"
       >
         <p className="mb-4">
-          Help prospective tenants find your leasing office and navigate your property with professional wayfinding signage. Clear directional signs, building identification, and amenity signage improve the tenant experience and reduce calls to your office.
+          One of the facets of property management is to maintain the overall appeal of the real estate and property. This includes keeping the entire area organized and at the same time consistent to branding.
         </p>
         <p>
-          We also create "Now Leasing" banners, promotional displays, and window graphics to support your leasing efforts.
+          Royal Signs & Awnings can help you with this aspect of your business as well. We offer comprehensive wayfinding systems, ADA-compliant signage, and informational displays that keep your property looking professional and well-maintained.
         </p>
       </ContentSection>
     </UniversalPageTemplate>
