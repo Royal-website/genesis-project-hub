@@ -62,6 +62,18 @@ import {
   CanopyTents,
   CarWraps,
   ChannelLetters,
+  CoronavirusSignage,
+  CorrugatedSigns,
+  CustomTablecovers,
+  DibondSigns,
+  DigitalSigns,
+  DimensionalLetters,
+  DoorSigns,
+  ElectronicSigns,
+  FleetWraps,
+  FloorSigns,
+  FoamcoreSigns,
+  HangingSigns,
 } from "./pages/signtypes";
 
 const queryClient = new QueryClient();
@@ -144,6 +156,18 @@ const App = () => (
           <Route path="/canopy-tents" element={<CanopyTents />} />
           <Route path="/car-wraps" element={<CarWraps />} />
           <Route path="/channel-letters" element={<ChannelLetters />} />
+          <Route path="/coronavirus-signage" element={<CoronavirusSignage />} />
+          <Route path="/corrugated-signs" element={<CorrugatedSigns />} />
+          <Route path="/custom-tablecovers" element={<CustomTablecovers />} />
+          <Route path="/dibond-signs" element={<DibondSigns />} />
+          <Route path="/digital-signs" element={<DigitalSigns />} />
+          <Route path="/dimensional-letters" element={<DimensionalLetters />} />
+          <Route path="/door-signs" element={<DoorSigns />} />
+          <Route path="/electronic-signs" element={<ElectronicSigns />} />
+          <Route path="/fleet-wraps" element={<FleetWraps />} />
+          <Route path="/floor-signs" element={<FloorSigns />} />
+          <Route path="/foamcore-signs" element={<FoamcoreSigns />} />
+          <Route path="/hanging-signs" element={<HangingSigns />} />
           
           {/* General location pages: /location-tx format (e.g., /thompsons-tx) */}
           {locations.map(location => (
