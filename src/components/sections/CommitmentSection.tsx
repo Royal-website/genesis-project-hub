@@ -9,7 +9,7 @@ export function CommitmentSection({
   title = "Our Commitment To You",
   content,
   ctaText = "Contact Royal Signs & Awnings today at (281) 204-8120 for your Free Consultation with a Signs & Graphics expert!",
-  logoSrc = "https://www.houstonsignsandawnings.com/wp-content/uploads/2021/02/royal-signs-logo-gold.png",
+  logoSrc = "/royal-signs-logo.png",
 }: CommitmentSectionProps) {
   return (
     <div className="mb-10">
