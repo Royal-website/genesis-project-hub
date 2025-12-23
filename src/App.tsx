@@ -51,6 +51,19 @@ import {
   WarehouseSigns,
 } from "./pages/industries";
 
+// Sign type pages
+import {
+  ADASigns,
+  AcrylicSigns,
+  AwningSignsPage,
+  BladeSigns,
+  BuildingSigns,
+  CabinetSigns,
+  CanopyTents,
+  CarWraps,
+  ChannelLetters,
+} from "./pages/signtypes";
+
 const queryClient = new QueryClient();
 
 // Location slugs matching the original site (with -tx suffix)
@@ -121,6 +134,16 @@ const App = () => (
           <Route path="/school-signs" element={<SchoolSigns />} />
           <Route path="/small-business-signs" element={<SmallBusinessSigns />} />
           <Route path="/warehouse-signs" element={<WarehouseSigns />} />
+          
+          {/* Sign type pages */}
+          <Route path="/ada-signs" element={<ADASigns />} />
+          <Route path="/acrylic-signs" element={<AcrylicSigns />} />
+          <Route path="/blade-signs" element={<BladeSigns />} />
+          <Route path="/building-signs" element={<BuildingSigns />} />
+          <Route path="/cabinet-signs" element={<CabinetSigns />} />
+          <Route path="/canopy-tents" element={<CanopyTents />} />
+          <Route path="/car-wraps" element={<CarWraps />} />
+          <Route path="/channel-letters" element={<ChannelLetters />} />
           
           {/* General location pages: /location-tx format (e.g., /thompsons-tx) */}
           {locations.map(location => (
