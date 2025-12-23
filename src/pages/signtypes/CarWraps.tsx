@@ -35,7 +35,11 @@ export default function CarWraps() {
         <p>Many people going about their daily errands, often remember the guy spinning the sign about a limited time sale, your car can provide that same recognition. This attracts attention and reinforces your brand message each time your car is seen with eye-catching car wraps!</p>
       </ContentSection>
 
-      <ContentSection title="Completely Customized to Your Needs">
+      <ContentSection 
+        title="Completely Customized to Your Needs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/full-car-wrap-vehicle-graphics-vinyl-300x225.jpg"
+        imageAlt="Custom full car wrap"
+      >
         <p className="mb-4">We understand that every company is unique with its own unique marketing message. A car wrap needs to reflect that. Professional and impactful elements that are easily visible from a distance make your brand stand out.</p>
         <p className="mb-4">Royal Signs & Awnings's car wrap specialists design magnets, wraps, and graphics that perfectly complement the shape of your vehicle. Working with your needs, our designers will help you find the right product that works for you.</p>
         <p className="mb-4">We design, manufacture, and install wraps for all vehicle types and coverage levels, including:</p>
@@ -45,15 +49,24 @@ export default function CarWraps() {
           <li><a href="/van-wraps" className="text-accent hover:underline">Van Wraps</a></li>
           <li><a href="/fleet-wraps" className="text-accent hover:underline">Fleet Wraps</a></li>
         </ul>
-        <p>Do you need to utilize a different type of vehicle for work? Royal Signs & Awnings creates wraps for just about anything, from ATVs to RVs, we create the designs that increase your market awareness. As your business evolves, we can modify your car wraps giving you the freedom to continue growing your business no matter what direction it goes!</p>
+        <p>Do you need to utilize a different type of vehicle for work? Royal Signs & Awnings creates wraps for just about anything, from ATVs to RVs, we create the designs that increase your market awareness.</p>
       </ContentSection>
 
-      <ContentSection title="Protect Your Vehicle Investment">
+      <ContentSection 
+        title="Protect Your Vehicle Investment"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/car-wrap-vinyl-graphics-vehicle-300x172.jpg"
+        imageAlt="Custom full car wrap"
+        imagePosition="left"
+      >
         <p className="mb-4">Royal Signs & Awnings uses durable vinyl film to manufacture wraps designed to not only look beautiful but also to protect your vehicle's factory paint job, shielding it from road wear and weathering. Since a car is a substantial, long-term investment, we want to make sure you get the most out of your vehicle by creating not only an impactful branding tool, but also one that protects the lifespan, longevity, and value of your car.</p>
         <p>Our professional team of installers handle the entire process from prep to finish, ensuring that the finished product is one that meets your standards and ours as well. Royal Signs & Awnings knows that only a properly installed car wrap is worthy of your name and ours!</p>
       </ContentSection>
 
-      <ContentSection title="Complete Wrap Manufacturer">
+      <ContentSection 
+        title="Complete Wrap Manufacturer"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/vehicle-wrap-install-vinyl-graphics-300x221.jpg"
+        imageAlt="Custom vehicle graphic installation"
+      >
         <p className="mb-4">Car wraps are a passion of ours. Our dedicated staff will assist you through every step of the car wrap process, from consultation through installation, maintenance, and wrap removal. We listen to your ideas and consider them through every aspect of design, manufacture and installation of your attractive, professional, long-lasting car wrap. Our custom vehicle graphics increase the life of your vehicle while adding a whole new layer of visibility to your business and brand.</p>
         <p>If you need assistance with wrap repair, removal, or replacement of elements, our experienced staff is dedicated to getting your message back on the road.</p>
       </ContentSection>

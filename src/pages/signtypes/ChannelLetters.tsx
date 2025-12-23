@@ -34,14 +34,23 @@ export default function ChannelLetters() {
         <p className="font-semibold">Channel Letter Signs are most popular for retail stores, office buildings, grocery stores, malls, shopping centers, manufacturing facilities, schools, churches, and other organizations.</p>
       </ContentSection>
 
-      <ContentSection title="Dimensional Letters">
+      <ContentSection 
+        title="Dimensional Letters"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/09/dimensional-letters-storefront-sign-300x197.jpg"
+        imageAlt="Storefront Sign"
+      >
         <p className="mb-4">Dimensional letter signs are similar to channel letter signs in that they both consist of individually created elements. Where channel letters have an empty channel inside allowing for illumination, dimensional letters are cut from solid sheets of acrylic, metal, or other material.</p>
         <p className="mb-4">There are many different options for sizes, styles, and fonts, as well as variances in material thickness, so you can control how dimensional your sign looks, from almost flat to several inches deep.</p>
         <p className="mb-4">Royal Signs & Awnings creates attractive dimensional letter signs that match your brand and promote your brand in a high-quality, durable way.</p>
         <p className="font-semibold">These signs are ideal for restaurants, retail stores, offices, malls, manufacturing, and are even a great option for indoor signs or lobby signs.</p>
       </ContentSection>
 
-      <ContentSection title="Backlit & Illuminated Channel Signs">
+      <ContentSection 
+        title="Backlit & Illuminated Channel Signs"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/lighted-sign-cabinet-illuminated-outdoor-storefront-300x174.jpg"
+        imageAlt="Lighted Sign"
+        imagePosition="left"
+      >
         <p className="mb-4">Channel letter signs can really make you stand out with the addition of LED backlighting. This allows the sign to easily be seen at night and in poor weather, attracting new customers regardless of the time or conditions. We handle all aspects of this process, including securing the sign, safe installation of electrical elements, and even clean up.</p>
         <p className="mb-4">If you have a business that is open during the evening or night hours, a backlit channel letter sign can make a big difference in your ability to attract new customers.</p>
         <p className="font-semibold">Lighted signs are ideal for nightclubs, theaters, restaurants, bars, coffee shops, comedy clubs, convenience stores, and gas stations, but can work well for any business that wants to set themselves apart.</p>
