@@ -37,6 +37,8 @@ export default function CoronavirusSignage() {
 
       <ContentSection
         title="Assisted Living & Nursing Home Signage"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/04/floor-graphics-safety-social-distancing-300x220.jpg"
+        imageAlt="Custom safety floor graphics"
       >
         <p className="mb-4">During a medical crisis such as Covid-19, it is essential that both new residents and healthcare providers all completely understand how to best navigate your space. Precise navigational directions, instructions, and warnings ideally should start before your patient ever steps into the medical center.</p>
         <p className="mb-4">This is why nursing home signage and wayfinders are essential. Productive signage can assist with streamlined patient service, work as an important reminder to conform to healthier hygiene practices, and lower the individual risk of spreading the virus by decreasing physical interactions.</p>
@@ -45,14 +47,20 @@ export default function CoronavirusSignage() {
 
       <ContentSection
         title="Business Update Signage"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/hours-of-operation-sign-custom-300x187.jpg"
+        imageAlt="Hours of Operation Sign"
         imagePosition="left"
       >
         <p className="mb-4">Are you dealing with changes to your business hours or your business practices or processes as a way to help decrease the spread of Covid-19? Well-crafted, practical signs, graphics, and displays help your potential customers understand how to still take advantage of your service and product blend for the duration of the personal interaction limitations we are all experiencing.</p>
         <p className="mb-4">In order to redirect your new and returning customers and clients to the drive-thru, provide important information with regards to restricted hours of operation, or supply an alternative or temporary contact method, Royal Signs & Awnings provides impactful commercial signs and graphics to assist your organization.</p>
-        <p>Our experts produce reduced exposure to new signage products. This gives us the ability to create your targeted new signage products, even including high-quality installation on-site, without face-to-face interaction with you. As recommendations can change fairly quickly as a response to coronavirus, we are still able to offer prompt production on simple assistive sign elements, and when we have you set up with us as an existing customer, our team will be able to produce up-to-date signage products with nothing except a simple phone conversation or email to submit your update requests.</p>
+        <p>Our experts produce reduced exposure to new signage products. This gives us the ability to create your targeted new signage products, even including high-quality installation on-site, without face-to-face interaction with you. As recommendations can change fairly quickly as a response to coronavirus, we are still able to offer prompt production on simple assistive sign elements.</p>
       </ContentSection>
 
-      <ContentSection title="Every Sign Your Business Needs!">
+      <ContentSection 
+        title="Every Sign Your Business Needs!"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/wall-mural-vinyl-graphics-install-225x300.jpg"
+        imageAlt="Custom vinyl wall mural install"
+      >
         <p className="mb-4">Royal Signs & Awnings produces cohesive, eye-catching wayfinding, safety, and hospital signage. Whether you need temporary or adjusted signage to keep customers aware of changes to your hours, contact details, or other vital business information that may require changes as a result of Covid-19, or are making use of this downtime to plan for engaging new indoor, ADA, or wayfinding sign and graphics to be in position once you reopen your doors, Royal Signs & Awnings manufactures effective business signs and graphics designed to assist you during these uncertain days.</p>
         <p>From floor signs to product displays, our professionals fully understand the unique and specific needs of assorted business verticals. Our specialists contemplate your brand guidelines, facilities, and organizational goals to manufacture the most effective signs and graphics for your business. If you want just one particular wall sign or an entire collection of promotional and branded signage, Royal Signs & Awnings will produce it.</p>
       </ContentSection>
