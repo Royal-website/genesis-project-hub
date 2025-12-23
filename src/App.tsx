@@ -44,6 +44,11 @@ import {
   PropertyManagementSigns,
   RealEstateSigns,
   RestaurantSigns,
+  RetailSigns,
+  SalonSigns,
+  SchoolSigns,
+  SmallBusinessSigns,
+  WarehouseSigns,
 } from "./pages/industries";
 
 const queryClient = new QueryClient();
@@ -111,6 +116,11 @@ const App = () => (
           <Route path="/property-management-signs" element={<PropertyManagementSigns />} />
           <Route path="/real-estate-signs" element={<RealEstateSigns />} />
           <Route path="/restaurant-signs" element={<RestaurantSigns />} />
+          <Route path="/retail-signs" element={<RetailSigns />} />
+          <Route path="/salon-signs" element={<SalonSigns />} />
+          <Route path="/school-signs" element={<SchoolSigns />} />
+          <Route path="/small-business-signs" element={<SmallBusinessSigns />} />
+          <Route path="/warehouse-signs" element={<WarehouseSigns />} />
           
           {/* General location pages: /location-tx format (e.g., /thompsons-tx) */}
           {locations.map(location => (
