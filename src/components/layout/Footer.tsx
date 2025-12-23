@@ -50,18 +50,11 @@ export function Footer() {
           {/* Logo & Contact */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <svg viewBox="0 0 80 70" className="h-16 w-16">
-                <rect x="10" y="30" width="60" height="35" fill="none" stroke="hsl(37, 100%, 50%)" strokeWidth="2"/>
-                <text x="40" y="45" textAnchor="middle" fill="hsl(37, 100%, 50%)" fontSize="10" fontWeight="bold">ROYAL</text>
-                <text x="40" y="58" textAnchor="middle" fill="hsl(37, 100%, 50%)" fontSize="10" fontWeight="bold">SIGNS</text>
-                <path d="M25 30 L40 15 L55 30" fill="none" stroke="hsl(37, 100%, 50%)" strokeWidth="2"/>
-                <circle cx="40" cy="10" r="4" fill="hsl(37, 100%, 50%)"/>
-                <circle cx="30" cy="22" r="2" fill="hsl(37, 100%, 50%)"/>
-                <circle cx="50" cy="22" r="2" fill="hsl(37, 100%, 50%)"/>
-              </svg>
-              <div>
-                <div className="font-bold text-xl">ROYAL SIGNS & AWNINGS</div>
-              </div>
+              <img 
+                src="/royal-signs-logo.png" 
+                alt="Royal Signs & Awnings" 
+                className="h-16 w-auto"
+              />
             </div>
             <div className="space-y-2 text-sm">
               <div className="flex items-start gap-2">

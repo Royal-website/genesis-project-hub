@@ -41,29 +41,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="flex items-center">
-              <svg viewBox="0 0 60 50" className="h-12 w-12 md:h-14 md:w-14">
-                <path 
-                  d="M30 5 L10 20 L10 45 L50 45 L50 20 Z" 
-                  fill="hsl(37, 100%, 50%)" 
-                  stroke="hsl(181, 100%, 10%)" 
-                  strokeWidth="2"
-                />
-                <circle cx="30" cy="15" r="5" fill="hsl(37, 100%, 50%)" />
-                <path d="M25 10 L30 3 L35 10" fill="hsl(37, 100%, 50%)" />
-              </svg>
-              <div className="ml-2">
-                <div className="text-lg md:text-xl font-bold text-primary leading-tight">
-                  ROYAL
-                </div>
-                <div className="text-lg md:text-xl font-bold text-primary leading-tight">
-                  SIGNS
-                </div>
-                <div className="text-[8px] md:text-[10px] text-muted-foreground tracking-wider">
-                  & Awnings
-                </div>
-              </div>
-            </div>
+            <img 
+              src="/royal-signs-logo.png" 
+              alt="Royal Signs & Awnings" 
+              className="h-12 md:h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
