@@ -14,7 +14,7 @@ export default function BuildingSigns() {
     >
       <ContentSection
         title="Houston Building Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/storefront-5-300x169.jpg"
+        image="/images/building-signs/storefront-applebees.jpg"
         imageAlt="Storefront building sign"
       >
         <p className="mb-4">Your building facade or storefront is the first impression many potential customers and clients have of your business.</p>
@@ -25,7 +25,7 @@ export default function BuildingSigns() {
 
       <ContentSection 
         title="The Right Sign For Your Building" 
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2015/03/building-sign-300x200.jpg"
+        image="/images/building-signs/chop-suey-building.jpg"
         imageAlt="Building Sign"
         imagePosition="left"
       >
@@ -35,7 +35,7 @@ export default function BuildingSigns() {
 
       <ContentSection 
         title="Types of Building Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/outdoor-storefront-channel-letters-dimensional-lettering-wall-sign-300x169.jpg"
+        image="/images/building-signs/wall-sign.jpg"
         imageAlt="Wall Sign"
       >
         <p className="mb-4">There are a few common sign types that our consultants are most likely to recommend. Depending on your location and business type, we may recommend signage that is complementary with the surrounding signage, or that is contrasting to help you stand out from the crowd. Either way, we ensure your sign will be the right sign for you, your business, and your location.</p>
@@ -44,7 +44,7 @@ export default function BuildingSigns() {
 
       <ContentSection 
         title="Channel Letters & Dimensional Letters"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/10/channel-letter-building-storefront-outdoor-300x205.jpg"
+        image="/images/building-signs/channel-letters.jpg"
         imageAlt="Custom Channel Letter Building Sign"
         imagePosition="left"
       >
@@ -54,7 +54,7 @@ export default function BuildingSigns() {
 
       <ContentSection 
         title="Lighted Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/lighted-sign-cabinet-illuminated-outdoor-storefront-300x174.jpg"
+        image="/images/building-signs/lighted-sign.jpg"
         imageAlt="Lighted Sign"
       >
         <p className="mb-4">Lighted building signs allow your business to be easily spotted day or night. Many different sign types lend themselves to lighting or backlighting. Channel letter signs are commonly backlit, and cabinet signs almost always include a lighted element inside.</p>
@@ -63,7 +63,7 @@ export default function BuildingSigns() {
 
       <ContentSection 
         title="Projecting Signs, Hanging Signs & Blade Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/blade-sign-hanging-exterior-outdoor-300x203.jpg"
+        image="/images/building-signs/blade-sign.jpg"
         imageAlt="Projecting Sign, Hanging Sign"
         imagePosition="left"
       >
@@ -73,7 +73,7 @@ export default function BuildingSigns() {
 
       <ContentSection 
         title="Canopy & Awning Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/awning-sign-building-outdoor-storefront-custom-300x179.jpg"
+        image="/images/building-signs/awning-sign.jpg"
         imageAlt="Custom Building Sign & Awning Sign"
       >
         <p className="mb-4">Awning signs serve double duty, as both a business identifier and a storefront protector. Awning signs are most commonly constructed of a stretched canvas material, however they can be constructed of any type of fabric or metal, depending on your desires and specifications.</p>

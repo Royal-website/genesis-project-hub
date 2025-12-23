@@ -6,7 +6,7 @@ export default function CanopyTents() {
     <UniversalPageTemplate
       title="Canopy Tents"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/09/canopy-tent-header.jpg"
+      heroImage="/images/canopy-tents/tradeshow-tent.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Canopy Tents", path: "/canopy-tents" },
@@ -14,7 +14,7 @@ export default function CanopyTents() {
     >
       <ContentSection
         title="Houston Canopy Tents"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/09/tradeshow-display-booth-exhibit-banner-tent-canopy-300x234.jpg"
+        image="/images/canopy-tents/tradeshow-tent.jpg"
         imageAlt="Custom event tent"
       >
         <p className="mb-4">If you've ever tried going to a science exhibit, a circus show, or an outdoor concert, you've probably seen a lot of portable tents spread around the whole area. Canopy tents are such a common sight in these situations for a good reason–they do the job of promoting a business and providing temporary shelter extremely well.</p>
@@ -26,7 +26,7 @@ export default function CanopyTents() {
 
       <ContentSection 
         title="Functional & Attractive" 
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/storefront-awning-canopy-custom-outdoor-sign-300x221.jpg"
+        image="/images/canopy-tents/storefront-canopy.jpg"
         imageAlt="Custom storefront canopy signs"
         imagePosition="left"
       >
@@ -38,7 +38,7 @@ export default function CanopyTents() {
 
       <ContentSection 
         title="Pop-Up Canopy Tents"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/09/custom-tent-pop-up-canopy-tradeshow-300x300.jpg"
+        image="/images/canopy-tents/popup-tent.jpg"
         imageAlt="Custom tradeshow canopy"
       >
         <p className="mb-4">Do you only need a small, temporary tent for a short exhibit or a one-day fair? You will appreciate our pop-up canopy tents. This is the smaller and more temporary version of canopy tents that would be highly recommended for those who run a stall in a market or those who only need a small area for a public event.</p>
@@ -49,7 +49,7 @@ export default function CanopyTents() {
 
       <ContentSection 
         title="Full-Service Sign Company"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/09/trade-show-booth-table-cover-display-300x194.jpg"
+        image="/images/canopy-tents/table-cover.jpg"
         imageAlt="Trade show table cover display"
         imagePosition="left"
       >
