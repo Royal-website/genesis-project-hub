@@ -6,7 +6,7 @@ export default function ChannelLetters() {
     <UniversalPageTemplate
       title="Channel Letters"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/08/channel-letters-sign.jpg"
+      heroImage="/images/channel-letters/channel-letters.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Channel Letters", path: "/channel-letters" },
@@ -14,7 +14,7 @@ export default function ChannelLetters() {
     >
       <ContentSection
         title="Houston Channel Letters"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/10/channel-letter-building-storefront-outdoor-300x205.jpg"
+        image="/images/channel-letters/channel-letters.jpg"
         imageAlt="Custom Channel Letter Building Sign"
       >
         <p className="mb-4">Channel letters and dimensional letters are an extremely popular choice for building signage across all industries and business types.</p>
@@ -25,7 +25,7 @@ export default function ChannelLetters() {
 
       <ContentSection 
         title="Storefront Channel Letters" 
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/09/channel1-300x200.jpg"
+        image="/images/channel-letters/channel-letter-sign.jpg"
         imageAlt="Custom Channel Letter Sign"
         imagePosition="left"
       >
@@ -36,7 +36,7 @@ export default function ChannelLetters() {
 
       <ContentSection 
         title="Dimensional Letters"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/09/dimensional-letters-storefront-sign-300x197.jpg"
+        image="/images/channel-letters/dimensional-letters.jpg"
         imageAlt="Storefront Sign"
       >
         <p className="mb-4">Dimensional letter signs are similar to channel letter signs in that they both consist of individually created elements. Where channel letters have an empty channel inside allowing for illumination, dimensional letters are cut from solid sheets of acrylic, metal, or other material.</p>
@@ -47,7 +47,7 @@ export default function ChannelLetters() {
 
       <ContentSection 
         title="Backlit & Illuminated Channel Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/lighted-sign-cabinet-illuminated-outdoor-storefront-300x174.jpg"
+        image="/images/channel-letters/backlit-sign.jpg"
         imageAlt="Lighted Sign"
         imagePosition="left"
       >

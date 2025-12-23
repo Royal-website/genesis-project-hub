@@ -6,7 +6,7 @@ export default function CarWraps() {
     <UniversalPageTemplate
       title="Car Wraps"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/car-wrap-header.jpg"
+      heroImage="/images/car-wraps/mango-car-wrap.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Car Wraps", path: "/car-wraps" },
@@ -14,7 +14,7 @@ export default function CarWraps() {
     >
       <ContentSection
         title="Houston Car Wraps"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/03/Mango-vehicle-car-Wrap-300x200.jpg"
+        image="/images/car-wraps/mango-car-wrap.jpg"
         imageAlt="Custom car wrap"
       >
         <p className="mb-4">Maximize your marketing opportunity with custom car wraps and graphics by Royal Signs & Awnings!</p>
@@ -25,7 +25,7 @@ export default function CarWraps() {
 
       <ContentSection
         title="High-Visibility Brand Marketing Tool"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/partial-car-wrap-vehicle-graphics-lettering-vinyl-300x225.jpg"
+        image="/images/car-wraps/partial-wrap.jpg"
         imageAlt="Impactful car graphics"
         imagePosition="left"
       >
@@ -37,7 +37,7 @@ export default function CarWraps() {
 
       <ContentSection 
         title="Completely Customized to Your Needs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/full-car-wrap-vehicle-graphics-vinyl-300x225.jpg"
+        image="/images/car-wraps/full-wrap.jpg"
         imageAlt="Custom full car wrap"
       >
         <p className="mb-4">We understand that every company is unique with its own unique marketing message. A car wrap needs to reflect that. Professional and impactful elements that are easily visible from a distance make your brand stand out.</p>
@@ -54,7 +54,7 @@ export default function CarWraps() {
 
       <ContentSection 
         title="Protect Your Vehicle Investment"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/car-wrap-vinyl-graphics-vehicle-300x172.jpg"
+        image="/images/car-wraps/wrap-protection.jpg"
         imageAlt="Custom full car wrap"
         imagePosition="left"
       >
@@ -64,7 +64,7 @@ export default function CarWraps() {
 
       <ContentSection 
         title="Complete Wrap Manufacturer"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/vehicle-wrap-install-vinyl-graphics-300x221.jpg"
+        image="/images/car-wraps/wrap-install.jpg"
         imageAlt="Custom vehicle graphic installation"
       >
         <p className="mb-4">Car wraps are a passion of ours. Our dedicated staff will assist you through every step of the car wrap process, from consultation through installation, maintenance, and wrap removal. We listen to your ideas and consider them through every aspect of design, manufacture and installation of your attractive, professional, long-lasting car wrap. Our custom vehicle graphics increase the life of your vehicle while adding a whole new layer of visibility to your business and brand.</p>
