@@ -25,3 +25,8 @@ export { default as PoliticalSigns } from "./PoliticalSigns";
 export { default as PropertyManagementSigns } from "./PropertyManagementSigns";
 export { default as RealEstateSigns } from "./RealEstateSigns";
 export { default as RestaurantSigns } from "./RestaurantSigns";
+export { default as RetailSigns } from "./RetailSigns";
+export { default as SalonSigns } from "./SalonSigns";
+export { default as SchoolSigns } from "./SchoolSigns";
+export { default as SmallBusinessSigns } from "./SmallBusinessSigns";
+export { default as WarehouseSigns } from "./WarehouseSigns";
