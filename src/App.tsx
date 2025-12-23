@@ -74,6 +74,40 @@ import {
   FloorSigns,
   FoamcoreSigns,
   HangingSigns,
+  HighRiseSigns,
+  InformationalSigns,
+  LEDSigns,
+  LargeBanners,
+  LightedSigns,
+  LobbySigns,
+  MenuBoards,
+  MetalSigns,
+  MonumentSigns,
+  OfficeSigns,
+  POPSigns,
+  PoleSigns,
+  PortableSigns,
+  PostPanelSigns,
+  PrintedBackdrops,
+  PromotionalSigns,
+  PylonSigns,
+  RoomIDSigns,
+  SafetySigns,
+  SandblastedSigns,
+  SignRepairs,
+  StorefrontSigns,
+  TableTopDisplays,
+  TemporarySigns,
+  TenantSigns,
+  TradeShowDisplays,
+  TradeshowBooths,
+  TradeshowExhibits,
+  TruckWraps,
+  VanWraps,
+  WallSigns,
+  WayfindingSigns,
+  WindowGraphics,
+  WindowSigns,
 } from "./pages/signtypes";
 
 const queryClient = new QueryClient();
@@ -168,6 +202,40 @@ const App = () => (
           <Route path="/floor-signs" element={<FloorSigns />} />
           <Route path="/foamcore-signs" element={<FoamcoreSigns />} />
           <Route path="/hanging-signs" element={<HangingSigns />} />
+          <Route path="/high-rise-signs" element={<HighRiseSigns />} />
+          <Route path="/informational-signs" element={<InformationalSigns />} />
+          <Route path="/led-signs" element={<LEDSigns />} />
+          <Route path="/large-banners" element={<LargeBanners />} />
+          <Route path="/lighted-signs" element={<LightedSigns />} />
+          <Route path="/lobby-signs" element={<LobbySigns />} />
+          <Route path="/menu-boards" element={<MenuBoards />} />
+          <Route path="/metal-signs" element={<MetalSigns />} />
+          <Route path="/monument-signs" element={<MonumentSigns />} />
+          <Route path="/office-signs" element={<OfficeSigns />} />
+          <Route path="/pop-signs" element={<POPSigns />} />
+          <Route path="/pole-signs" element={<PoleSigns />} />
+          <Route path="/portable-signs" element={<PortableSigns />} />
+          <Route path="/post-panel-signs" element={<PostPanelSigns />} />
+          <Route path="/printed-backdrops" element={<PrintedBackdrops />} />
+          <Route path="/promotional-signs" element={<PromotionalSigns />} />
+          <Route path="/pylon-signs" element={<PylonSigns />} />
+          <Route path="/room-id-signs" element={<RoomIDSigns />} />
+          <Route path="/safety-signs" element={<SafetySigns />} />
+          <Route path="/sandblasted-signs" element={<SandblastedSigns />} />
+          <Route path="/sign-repairs" element={<SignRepairs />} />
+          <Route path="/storefront-signs" element={<StorefrontSigns />} />
+          <Route path="/table-top-displays" element={<TableTopDisplays />} />
+          <Route path="/temporary-signs" element={<TemporarySigns />} />
+          <Route path="/tenant-signs" element={<TenantSigns />} />
+          <Route path="/trade-show-displays" element={<TradeShowDisplays />} />
+          <Route path="/tradeshow-booths" element={<TradeshowBooths />} />
+          <Route path="/tradeshow-exhibits" element={<TradeshowExhibits />} />
+          <Route path="/truck-wraps" element={<TruckWraps />} />
+          <Route path="/van-wraps" element={<VanWraps />} />
+          <Route path="/wall-signs" element={<WallSigns />} />
+          <Route path="/wayfinding-signs" element={<WayfindingSigns />} />
+          <Route path="/window-graphics" element={<WindowGraphics />} />
+          <Route path="/window-signs" element={<WindowSigns />} />
           
           {/* General location pages: /location-tx format (e.g., /thompsons-tx) */}
           {locations.map(location => (
