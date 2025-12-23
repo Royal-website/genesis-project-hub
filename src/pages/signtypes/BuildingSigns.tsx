@@ -14,15 +14,21 @@ export default function BuildingSigns() {
     >
       <ContentSection
         title="Houston Building Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/08/building-sign-channel-letters.jpg"
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/storefront-5-300x169.jpg"
         imageAlt="Storefront building sign"
       >
         <p className="mb-4">Your building facade or storefront is the first impression many potential customers and clients have of your business.</p>
         <p className="mb-4">At Royal Signs & Awnings, we make sure that impression is an outstanding one!</p>
-        <p>High-quality, attractive building signs set you apart from the businesses around you, allowing you to capture more eyeballs, interest, and ultimately dollars. Whether you are looking to attract more visitors with promotional signs, or build your brand with a logo sign, we can design, manufacture, and install the perfect building signs for you!</p>
+        <p className="mb-4">High-quality, attractive building signs set you apart from the businesses around you, allowing you to capture more eyeballs, interest, and ultimately dollars. Whether you are looking to attract more visitors with promotional signs, or build your brand with a logo sign, we can design, manufacture, and install the perfect building signs for you!</p>
+        <p className="font-semibold">Call Royal Signs & Awnings at <a href="tel:2816459935" className="text-accent hover:underline">(281) 645-9935</a> for your Free Consultation with a Building Signs Expert!</p>
       </ContentSection>
 
-      <ContentSection title="The Right Sign For Your Building" imagePosition="left">
+      <ContentSection 
+        title="The Right Sign For Your Building" 
+        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2015/03/building-sign-300x200.jpg"
+        imageAlt="Building Sign"
+        imagePosition="left"
+      >
         <p className="mb-4">Different businesses have different requirements for their building sign. Your brand personality, location, competition, budget, and target audience will all impact the decisions you make regarding your building signage.</p>
         <p>Our expert building sign consultants will perform an on-site evaluation to assess your building, measure your space, and recommend the products, processes, and signage elements will be best for you. We handle every aspect of custom sign making, from your initial consultation through installation, including design, manufacturing, repairs, maintenance, and can even assist with permitting for your new signage, if needed.</p>
       </ContentSection>
@@ -44,7 +50,7 @@ export default function BuildingSigns() {
 
       <ContentSection title="Projecting Signs, Hanging Signs & Blade Signs">
         <p className="mb-4">Whatever you call it, a projecting, hanging, or blade sign is one that is perpendicular to your building, rather than attaching flat against your facade. These signs can be backlit cabinet signs, or may be made of custom materials such as High Density Urethane Foam, wood, or metal.</p>
-        <p>These are great for stopping foot traffic, and are often used in conjunction with storefront signage, or as a directional sign for a business that may be located within the building but without a storefront.</p>
+        <p>These are great for stopping foot traffic, and are often used in conjunction with storefront signage, or as a directional sign for a business that may be located within the building but without a storefront, such as a private investigators office located above a bookstore.</p>
       </ContentSection>
 
       <ContentSection title="Canopy & Awning Signs">
