@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Royal Signs & Awnings Design System */
+
+@layer base {
+  :root {
+    /* Brand Colors - Dark Teal & Orange */
+    --background: 0 0% 100%;
+    --foreground: 180 100% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 180 100% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 100% 10%;
+
+    /* Primary: Dark Teal #003435 */
+    --primary: 181 100% 10%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary: Lighter teal for hover states */
+    --secondary: 180 50% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 180 30% 30%;
+
+    /* Accent: Orange #ff9c00 */
+    --accent: 37 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 181 100% 10%;
+
+    --radius: 0.25rem;
+
+    /* Custom Brand Variables */
+    --brand-teal: 181 100% 10%;
+    --brand-teal-light: 180 80% 20%;
+    --brand-orange: 37 100% 50%;
+    --brand-gold: 45 100% 50%;
+    --brand-gray: 210 10% 40%;
+    --brand-light-gray: 210 20% 96%;
+
+    --sidebar-background: 181 100% 10%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 37 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 180 80% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 180 50% 20%;
+    --sidebar-ring: 37 100% 50%;
+  }
+
+  .dark {
+    --background: 180 100% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 180 80% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 180 80% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 37 100% 50%;
+    --primary-foreground: 180 100% 10%;
+
+    --secondary: 180 50% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 180 30% 15%;
+    --muted-foreground: 180 20% 70%;
+
+    --accent: 37 100% 50%;
+    --accent-foreground: 180 100% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 180 30% 20%;
+    --input: 180 30% 20%;
+    --ring: 37 100% 50%;
+
+    --sidebar-background: 180 100% 5%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 37 100% 50%;
+    --sidebar-primary-foreground: 180 100% 10%;
+    --sidebar-accent: 180 50% 12%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 180 30% 15%;
+    --sidebar-ring: 37 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  }
+}
