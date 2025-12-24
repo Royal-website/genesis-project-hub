@@ -6,7 +6,7 @@ export default function CustomTablecovers() {
     <UniversalPageTemplate
       title="Custom Tablecovers"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-tablecovers-header.jpg"
+      heroImage="/images/signtypes/tablecovers/tradeshow-display.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Custom Tablecovers", path: "/custom-tablecovers" },
@@ -14,7 +14,7 @@ export default function CustomTablecovers() {
     >
       <ContentSection
         title="Houston Custom Tablecovers"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-printed-tablecloth-300x225.jpg"
+        image="/images/signtypes/tablecovers/tradeshow-display.jpg"
         imageAlt="custom printed tablecloth"
       >
         <p className="mb-4">
@@ -30,7 +30,7 @@ export default function CustomTablecovers() {
 
       <ContentSection
         title="Professional Trade Show Displays"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/trade-show-table-display-300x225.jpg"
+        image="/images/signtypes/tablecovers/trade-show-table.jpg"
         imageAlt="trade show table display"
         imagePosition="left"
       >
@@ -44,7 +44,7 @@ export default function CustomTablecovers() {
 
       <ContentSection
         title="Versatile Design Options"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-table-throw-300x225.jpg"
+        image="/images/signtypes/tablecovers/holtkamp-graphics.jpg"
         imageAlt="custom table throw"
       >
         <p className="mb-4">
@@ -52,6 +52,20 @@ export default function CustomTablecovers() {
         </p>
         <p>
           Our design team works closely with you to create a tablecover that perfectly represents your brand and meets your specifications. From simple logo prints to full graphic designs, we can bring your vision to life.
+        </p>
+      </ContentSection>
+
+      <ContentSection
+        title="Complete Trade Show Solutions"
+        image="/images/signtypes/tablecovers/tradeshow-banner.jpg"
+        imageAlt="tradeshow banner and display"
+        imagePosition="left"
+      >
+        <p className="mb-4">
+          Royal Signs & Awnings provides complete trade show solutions beyond tablecovers. We can create matching banners, backdrops, and displays to ensure your booth has a cohesive and professional appearance.
+        </p>
+        <p>
+          Our team understands the importance of making a strong impression at trade shows and events. We work with you to create a complete signage package that effectively communicates your brand message.
         </p>
       </ContentSection>
 

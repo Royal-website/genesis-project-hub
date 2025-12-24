@@ -6,7 +6,7 @@ export default function DigitalSigns() {
     <UniversalPageTemplate
       title="Digital Signs"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/digital-signs-header.jpg"
+      heroImage="/images/signtypes/digital-signs/led-pylon-sign.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Digital Signs", path: "/digital-signs" },
@@ -14,7 +14,7 @@ export default function DigitalSigns() {
     >
       <ContentSection
         title="Houston Digital Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-digital-signage-300x225.jpg"
+        image="/images/signtypes/digital-signs/message-center.jpg"
         imageAlt="custom digital signage"
       >
         <p className="mb-4">
@@ -30,7 +30,7 @@ export default function DigitalSigns() {
 
       <ContentSection
         title="Dynamic Content Display"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/digital-menu-board-300x225.jpg"
+        image="/images/signtypes/digital-signs/digital-menu.jpg"
         imageAlt="digital menu board"
         imagePosition="left"
       >
@@ -44,7 +44,7 @@ export default function DigitalSigns() {
 
       <ContentSection
         title="Indoor & Outdoor Solutions"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/outdoor-digital-display-300x225.jpg"
+        image="/images/signtypes/digital-signs/lighted-message-board.jpg"
         imageAlt="outdoor digital display"
       >
         <p className="mb-4">
@@ -52,6 +52,20 @@ export default function DigitalSigns() {
         </p>
         <p>
           Whether you need a single screen or a network of displays, we can design and install a digital signage system that meets your specific requirements.
+        </p>
+      </ContentSection>
+
+      <ContentSection
+        title="Church & Monument Digital Signs"
+        image="/images/signtypes/digital-signs/church-monument.jpg"
+        imageAlt="church monument digital sign"
+        imagePosition="left"
+      >
+        <p className="mb-4">
+          Churches, schools, and community organizations benefit greatly from digital monument signs. These signs allow you to share service times, event announcements, and inspirational messages with your community.
+        </p>
+        <p>
+          Royal Signs & Awnings specializes in creating custom digital monument signs that enhance your organization's visibility and communication capabilities.
         </p>
       </ContentSection>
 

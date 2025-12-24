@@ -6,7 +6,7 @@ export default function DibondSigns() {
     <UniversalPageTemplate
       title="Dibond Signs"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/dibond-signs-header.jpg"
+      heroImage="/images/signtypes/dibond-signs/storefront-panel.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Dibond Signs", path: "/dibond-signs" },
@@ -14,7 +14,7 @@ export default function DibondSigns() {
     >
       <ContentSection
         title="Houston Dibond Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-dibond-sign-300x225.jpg"
+        image="/images/signtypes/dibond-signs/storefront-panel.jpg"
         imageAlt="custom dibond sign"
       >
         <p className="mb-4">
@@ -30,7 +30,7 @@ export default function DibondSigns() {
 
       <ContentSection
         title="Durable & Weather-Resistant"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/outdoor-dibond-signage-300x225.jpg"
+        image="/images/signtypes/dibond-signs/monument-panel.jpg"
         imageAlt="outdoor dibond signage"
         imagePosition="left"
       >
@@ -44,7 +44,7 @@ export default function DibondSigns() {
 
       <ContentSection
         title="Versatile Applications"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/dibond-interior-sign-300x225.jpg"
+        image="/images/signtypes/dibond-signs/indoor-panel.jpg"
         imageAlt="dibond interior sign"
       >
         <p className="mb-4">

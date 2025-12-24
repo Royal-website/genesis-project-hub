@@ -7,7 +7,7 @@ export default function DoorSigns() {
     <UniversalPageTemplate
       title="Door Signs"
       subtitle="Design | Production | Installation"
-      heroImage="/images/door-signs/vinyl-door-film.jpg"
+      heroImage="/images/signtypes/door-signs/vinyl-door-film.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Door Signs", path: "/door-signs" },
@@ -15,7 +15,7 @@ export default function DoorSigns() {
     >
       <ContentSection
         title="Houston Door Signs"
-        image="/images/door-signs/vinyl-door-film.jpg"
+        image="/images/signtypes/door-signs/vinyl-door-film.jpg"
         imageAlt="vinyl door film"
       >
         <p className="mb-4">
@@ -40,7 +40,7 @@ export default function DoorSigns() {
 
       <ContentSection
         title="Attract Potential Customers"
-        image="/images/door-signs/vinyl-door-graphics.jpg"
+        image="/images/signtypes/door-signs/vinyl-door-graphics.jpg"
         imageAlt="custom vinyl door graphics"
         imagePosition="left"
       >
@@ -57,7 +57,7 @@ export default function DoorSigns() {
 
       <ContentSection
         title="Hours of Operation Signs"
-        image="/images/door-signs/hours-sign.jpg"
+        image="/images/signtypes/door-signs/hours-sign.jpg"
         imageAlt="custom hours of operation signs"
       >
         <p className="mb-4">
@@ -73,7 +73,7 @@ export default function DoorSigns() {
 
       <ContentSection
         title="ADA-Compliant Signage"
-        image="/images/door-signs/ada-sign.jpg"
+        image="/images/signtypes/door-signs/ada-sign.jpg"
         imageAlt="ADA Compliant Signage"
         imagePosition="left"
       >
@@ -87,7 +87,7 @@ export default function DoorSigns() {
 
       <ContentSection
         title="Licensing/Business Information Signs"
-        image="/images/door-signs/business-door-signs.jpg"
+        image="/images/signtypes/door-signs/business-door-signs.jpg"
         imageAlt="custom business door signs and graphics"
       >
         <p className="mb-4">
@@ -100,7 +100,7 @@ export default function DoorSigns() {
 
       <ContentSection
         title="Room Identification Signage"
-        image="/images/door-signs/room-id-signs.jpg"
+        image="/images/signtypes/door-signs/room-id-signs.jpg"
         imageAlt="room identification signs"
         imagePosition="left"
       >

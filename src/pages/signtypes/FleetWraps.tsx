@@ -7,7 +7,7 @@ export default function FleetWraps() {
     <UniversalPageTemplate
       title="Commercial Fleet Wraps & Graphics"
       subtitle="Design | Production | Installation"
-      heroImage="/images/fleet-wraps/fleet-wrap.png"
+      heroImage="/images/signtypes/fleet-wraps/fleet-wrap.png"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Fleet Wraps", path: "/fleet-wraps" },
@@ -15,7 +15,7 @@ export default function FleetWraps() {
     >
       <ContentSection
         title="Houston Commercial Fleet Wraps & Graphics"
-        image="/images/fleet-wraps/fleet-wrap.png"
+        image="/images/signtypes/fleet-wraps/fleet-wrap.png"
         imageAlt="Custom Fleet Vehicle Wraps"
       >
         <p className="mb-4">
@@ -37,7 +37,7 @@ export default function FleetWraps() {
 
       <ContentSection
         title="Commercial Wraps For All Vehicle Types"
-        image="/images/fleet-wraps/fleet-vehicles.jpg"
+        image="/images/signtypes/fleet-wraps/fleet-vehicles.jpg"
         imageAlt="custom commercial fleet vehicle graphics"
         imagePosition="left"
       >
@@ -54,7 +54,7 @@ export default function FleetWraps() {
 
       <ContentSection
         title="Custom Crafted For Your Business"
-        image="/images/fleet-wraps/custom-design.jpg"
+        image="/images/signtypes/fleet-wraps/custom-design.jpg"
         imageAlt="custom design and manufacturing"
       >
         <p className="mb-4">

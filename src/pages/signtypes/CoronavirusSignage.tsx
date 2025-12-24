@@ -6,7 +6,7 @@ export default function CoronavirusSignage() {
     <UniversalPageTemplate
       title="Coronavirus Signage"
       subtitle="Design | Production | Installation"
-      heroImage="/images/coronavirus/storefront-signage.jpg"
+      heroImage="/images/signtypes/coronavirus/storefront-signage.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Coronavirus Signage", path: "/coronavirus-signage" },
@@ -14,7 +14,7 @@ export default function CoronavirusSignage() {
     >
       <ContentSection
         title="Houston Coronavirus Signage"
-        image="/images/coronavirus/storefront-signage.jpg"
+        image="/images/signtypes/coronavirus/storefront-signage.jpg"
         imageAlt="Cohesive storefront signage collection"
       >
         <p className="mb-4">For every company type, your signage combination will drastically impact your brand recognition, profitability, and client satisfaction, especially during these challenging times. From helping patrons and guests with instinctive wayfinding to encouraging team safety, your sign and graphic blend support smooth business operations. Royal Signs & Awnings provides Houston coronavirus signage to support you.</p>
@@ -25,7 +25,7 @@ export default function CoronavirusSignage() {
 
       <ContentSection
         title="Wayfinding & Safety Hospital Signs"
-        image="/images/coronavirus/hospital-wayfinding.jpg"
+        image="/images/signtypes/coronavirus/hospital-wayfinding.jpg"
         imageAlt="Attractive Hospital Wayfinding Signage"
         imagePosition="left"
       >
@@ -37,7 +37,7 @@ export default function CoronavirusSignage() {
 
       <ContentSection
         title="Assisted Living & Nursing Home Signage"
-        image="/images/coronavirus/floor-graphics.jpg"
+        image="/images/signtypes/coronavirus/floor-graphics.jpg"
         imageAlt="Custom safety floor graphics"
       >
         <p className="mb-4">During a medical crisis such as Covid-19, it is essential that both new residents and healthcare providers all completely understand how to best navigate your space. Precise navigational directions, instructions, and warnings ideally should start before your patient ever steps into the medical center.</p>
@@ -47,7 +47,7 @@ export default function CoronavirusSignage() {
 
       <ContentSection
         title="Business Update Signage"
-        image="/images/coronavirus/hours-sign.jpg"
+        image="/images/signtypes/coronavirus/hours-sign.jpg"
         imageAlt="Hours of Operation Sign"
         imagePosition="left"
       >
@@ -58,7 +58,7 @@ export default function CoronavirusSignage() {
 
       <ContentSection 
         title="Every Sign Your Business Needs!"
-        image="/images/coronavirus/wall-mural.jpg"
+        image="/images/signtypes/coronavirus/wall-mural.jpg"
         imageAlt="Custom vinyl wall mural install"
       >
         <p className="mb-4">Royal Signs & Awnings produces cohesive, eye-catching wayfinding, safety, and hospital signage. Whether you need temporary or adjusted signage to keep customers aware of changes to your hours, contact details, or other vital business information that may require changes as a result of Covid-19, or are making use of this downtime to plan for engaging new indoor, ADA, or wayfinding sign and graphics to be in position once you reopen your doors, Royal Signs & Awnings manufactures effective business signs and graphics designed to assist you during these uncertain days.</p>
