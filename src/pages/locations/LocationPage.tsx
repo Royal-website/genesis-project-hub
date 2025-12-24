@@ -15,12 +15,23 @@ const locations: Record<string, { name: string; fullName: string; slug: string }
   "thompsons-tx": { name: "Thompsons", fullName: "Thompsons, TX", slug: "thompsons-tx" },
 };
 
+// Helper function to get location image path
+function getLocationImagePath(locationSlug: string, imageNum: number, imageName: string): string {
+  return `/images/locations/${locationSlug}/${String(imageNum).padStart(2, '0')}-${imageName}.jpg`;
+}
+
+// Helper function to get service-location image path
+function getServiceLocationImagePath(serviceSlug: string, locationSlug: string, imageNum: number): string {
+  const folderPath = `/images/locations/${serviceSlug}-${locationSlug}`;
+  return `${folderPath}/${String(imageNum).padStart(2, '0')}-${serviceSlug.replace(/-/g, '-')}-${String(imageNum).padStart(2, '0')}.jpg`;
+}
+
 // General location page content (Sign Company pages like /thompsons-tx)
-function getLocationPageContent(locationName: string) {
+function getLocationPageContent(locationName: string, locationSlug: string) {
   return {
     heroTitle: `${locationName} Sign Company`,
     heroSubtitle: "Design | Production | Installation",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/storefront-building-channel-letters.jpg",
+    heroImage: getLocationImagePath(locationSlug, 4, "channel-letters"),
     sections: [
       {
         title: `${locationName} Sign Company`,
@@ -29,7 +40,7 @@ function getLocationPageContent(locationName: string) {
           `Your leading local custom signage manufacturers, we handle each and every aspect of your signage project here in our local full-service signage facility. We focus on giving you remarkable service, eco-friendly sign and graphic products, and durable materials, which makes us the clear and obvious choice for all of your custom sign needs.`,
           `An outstanding way to tell promising consumers about what your business has to offer, your professional signs and graphics are a good asset for brand building purposes and shopper support. With irresistible outdoor signage, complementary indoor signs, and beneficial promotional signs, our experts see to it that your company won't be overlooked. Our experienced local sign company produces sound solutions for your specific brand and business promotion needs.`
         ],
-        image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/storefront-building-channel-letters-300x225.jpg"
+        image: getLocationImagePath(locationSlug, 1, "awning-signs")
       },
       {
         title: "Signs That Work For You",
@@ -38,7 +49,7 @@ function getLocationPageContent(locationName: string) {
           `Our specialists make an effort to comprehend your unique promotional goals, which allows us to deliver practical sign and graphic alternatives that will perform for your organization. Branded signs, graphics, and images get your brand found, allow you to clearly display what you have to offer, and provide passive assistance to your guests.`,
           `From attention-getting vinyl signs to promotional office signs, banners, menu boards, a-frames, and even more, our talented specialists will deliver the brand-building sign and graphic elements to improve awareness and revenue.`
         ],
-        image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/promotional-window-vinyl-300x240.jpg"
+        image: getLocationImagePath(locationSlug, 2, "blade-signs")
       },
       {
         title: "Outdoor & Exterior Signs",
@@ -47,7 +58,7 @@ function getLocationPageContent(locationName: string) {
           `Enticing, converting, and retaining clients is the main function of a strong business facade. This is generally the primary introduction a new buyer has to your business, so the data it gives must be effective, insightful, and attractive. A good number of businesses need a custom branded storefront sign, such as dimensional letters, hanging signs, or blade signs to announce the existence of their business.`,
           `It only takes the correct high-quality exterior sign and graphic elements to entice more customers and clients, and Royal Signs & Awnings delivers the right blend of custom signage products for you.`
         ],
-        image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-7-300x225.jpg",
+        image: getLocationImagePath(locationSlug, 3, "cabinet-signs"),
         signTypes: [
           { name: "Awning Signs", link: "/awning-signs" },
           { name: "Blade Signs", link: "/outdoor-signs" },
@@ -72,7 +83,7 @@ function getLocationPageContent(locationName: string) {
           `The most appropriate indoor signage is driven by your facility design and style, specific brand needs, and local sign requirements. From temporary promotional signs to useful wayfinding signage, and staff motivating large format wall graphics, we help you choose the best possible elements for your business.`,
           `Royal Signs & Awnings gives you on-location signage evaluations to decide what sign and graphic products will perfectly satisfy your facilities and business goals. We are excited to help you create an effective and productive place to work, shop, and do business!`
         ],
-        image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/promotional-window-vinyl-300x240.jpg",
+        image: getLocationImagePath(locationSlug, 6, "floor-signs"),
         signTypes: [
           { name: "Floor Signs", link: "/indoor-signs" },
           { name: "Lobby Signs", link: "/indoor-signs" },
@@ -90,7 +101,7 @@ function getLocationPageContent(locationName: string) {
           `We are your all-inclusive custom signs and graphics provider, and our pros offer high-quality signs and graphics products and services, including graphic design, environmentally-friendly fabrication, and skilled installation. This means we are able to easily custom craft any of the high-visibility and brand promoting signs and graphics you need.`,
           `Whether it's exciting window graphics, wraps, banners, floor graphics, lettering, vinyl clings, decals, or any other signage element you are considering, our vinyl signage specialists deliver your custom signage quickly, skillfully, and with great attention to detail.`
         ],
-        image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-8-300x225.jpg"
+        image: getLocationImagePath(locationSlug, 5, "dimensional-letters")
       },
       {
         title: "Custom Signs",
@@ -99,7 +110,7 @@ function getLocationPageContent(locationName: string) {
           `Our custom signage specialists consider your specifications when advising you on the most impactful custom signs for your needs. Whether you need a branded, custom lobby sign, or have a completely unique sign or graphic need, Royal Signs & Awnings will create the ideal signs and graphics for you.`,
           `Specialty signs, wraps, and graphics mean that you get something brand cohesive and unique. From adding lighting signage elements to engraving, sandblasting, etching, or embossing nearly all sign materials, we make certain that your commercial signage is impactful and enticing.`
         ],
-        image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/verizon-custom-sign.jpg"
+        image: getLocationImagePath(locationSlug, 7, "hanging-signs")
       },
       {
         title: "Complete Commercial Signage Company",
@@ -108,7 +119,7 @@ function getLocationPageContent(locationName: string) {
           `Our first goal is to make sure that we understand your custom signage needs and goals. Getting this insight early enables our experts to make smart recommendations to effectively satisfy your preferences, including the best sign types, sign elements, and component placement to best match your schedule, business facilities, and budget.`,
           `Our signage consultants discuss the information they learn with our creative sign design team to ensure your ideas, desires, and vision are represented in the final layout and design. You will retain editing control and final approval over your design, and we work to incorporate your vision before presenting the initial design to you.`
         ],
-        image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/storefront-building-channel-letters-300x225.jpg"
+        image: getLocationImagePath(locationSlug, 8, "lobby-signs")
       },
       {
         title: "Our Commitment To You",
@@ -122,19 +133,30 @@ function getLocationPageContent(locationName: string) {
   };
 }
 
+// Helper to get service-specific image path
+function getServiceImage(serviceSlug: string, locationSlug: string, imageNum: number): string {
+  // Try service-location specific folder first (e.g., outdoor-signs-sugar-land-tx)
+  return `/images/locations/${serviceSlug}-${locationSlug}/${String(imageNum).padStart(2, '0')}-${serviceSlug.replace(/-/g, '-')}-${String(imageNum).padStart(2, '0')}.jpg`;
+}
+
+// Fallback image paths for services that may not have location-specific folders
+function getServiceFallbackImage(serviceSlug: string, imageNum: number): string {
+  return `/images/locations/${serviceSlug}/${String(imageNum).padStart(2, '0')}-${serviceSlug.replace(/-/g, '-')}-${String(imageNum).padStart(2, '0')}.jpg`;
+}
+
 // Service data with full content matching original site
 const services: Record<string, { 
   name: string; 
-  heroImage: string;
-  content: (locationName: string) => {
+  getHeroImage: (locationSlug: string) => string;
+  content: (locationName: string, locationSlug: string) => {
     intro: string;
     sections: Array<{ title: string; paragraphs: string[]; image?: string }>;
   };
 }> = {
   "sign-company": {
     name: "Sign Company",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/verizon-custom-sign.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getLocationImagePath(locSlug, 4, "channel-letters"),
+    content: (loc, locSlug) => ({
       intro: `Looking for a reliable sign company in ${loc}? Royal Signs & Awnings is your trusted local partner for all signage needs. We design, manufacture, and install high-quality signs that help businesses stand out and attract customers.`,
       sections: [
         {
@@ -143,7 +165,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} signage professionals at Royal Signs & Awnings, you are able to get complete sign solutions from design to installation. We create striking and captivating commercial signs that can catch the attention of new consumers, increase the traffic flow of customers, and enhance the professionalism of your business!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in the field and honed various skills. Royal Signs & Awnings provides cost-efficient signage solutions. With the client increment, you will easily re-earn the money you invested in your signage from all the incoming profits.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/verizon-custom-sign.jpg"
+          image: getLocationImagePath(locSlug, 1, "awning-signs")
         },
         {
           title: "Complete Signage Solutions",
@@ -164,8 +186,8 @@ const services: Record<string, {
   },
   "indoor-signs": {
     name: "Indoor Signs",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/promotional-window-vinyl-300x240.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("indoor-signs", locSlug, 4),
+    content: (loc, locSlug) => ({
       intro: `Indoor signs play a crucial role in guiding visitors, reinforcing your brand, and creating a professional atmosphere. From lobby signs to wayfinding signage, we create interior signs that make an impact for ${loc} businesses.`,
       sections: [
         {
@@ -174,7 +196,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} indoor signage professionals at Royal Signs & Awnings, you are able to create a cohesive interior environment that impresses visitors and reinforces your brand identity.`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in creating indoor signs for offices, retail stores, restaurants, and corporate facilities.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/promotional-window-vinyl-300x240.jpg"
+          image: getServiceImage("indoor-signs", locSlug, 5)
         },
         {
           title: "Types of Indoor Signs",
@@ -195,8 +217,8 @@ const services: Record<string, {
   },
   "outdoor-signs": {
     name: "Outdoor Signs",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/storefront-building-channel-letters.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("outdoor-signs", locSlug, 4),
+    content: (loc, locSlug) => ({
       intro: `Outdoor signs are often the first thing customers see. We create eye-catching exterior signage that draws attention, builds brand recognition, and drives foot traffic to your ${loc} business.`,
       sections: [
         {
@@ -205,7 +227,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} outdoor signage professionals at Royal Signs & Awnings, you are able to maximize your visibility and attract more customers. We create striking and captivating outdoor signs that can catch the attention of passersby and enhance the professionalism of your storefront!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in creating durable, weather-resistant outdoor signs that stand the test of time.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/storefront-building-channel-letters.jpg"
+          image: getServiceImage("outdoor-signs", locSlug, 5)
         },
         {
           title: "Channel Letters & Illuminated Signs",
@@ -226,8 +248,8 @@ const services: Record<string, {
   },
   "awning-signs": {
     name: "Awning Signs",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-canopy-sign.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceFallbackImage("awning-signs", 4),
+    content: (loc, locSlug) => ({
       intro: `Awning signs and canopy signs are common in businesses. These commercial signs are designed to adorn any storefront, but they offer other benefits as well. Effective signage helps promote your business or beautify your shop.`,
       sections: [
         {
@@ -236,7 +258,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} awning signage professionals at Royal Signs & Awnings, you are able to save the money allotted for advertising or renovation. We create striking and captivating awning and canopy signs that can catch the attention of new consumers, increase the traffic flow of customers, and enhance the professionalism of your shop!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in the field and honed various skills. We recommend awning signs because we believe that they are a significant investment for any type of business. Royal Signs & Awnings provides cost-efficient awning and canopy signs. With the client increment, you will easily re-earn the money you invested in your signage from all the incoming profits.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-7-300x225.jpg"
+          image: getServiceFallbackImage("awning-signs", 5)
         },
         {
           title: "Increase Brand Visibility",
@@ -244,7 +266,7 @@ const services: Record<string, {
             `Being known by consumers might be one of the biggest challenges in managing a business. One strategy that's proven to work is to increase your brand visibility. Prepare publicity materials and post them all as much as you can. Online, in newspapers, flyers, etc. But of course, all of this won't make sense without commercial signage at your storefront.`,
             `An awning sign or canopy sign can give a lot of exposure to your business all day, every day. Everyone who passes by your store gets an idea about your existence. Should their interest be piqued, they will surely enter your shop and make a purchase. You see, it's all about having attractive and compelling signage. Royal Signs & Awnings designs, crafts, and installs all types of commercial signages, even awning and canopy signs.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-8-300x225.jpg"
+          image: getServiceFallbackImage("awning-signs", 6)
         },
         {
           title: "Save Money on Utilities",
@@ -265,8 +287,8 @@ const services: Record<string, {
   },
   "custom-signs": {
     name: "Custom Signs",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/verizon-custom-sign.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("custom-signs", locSlug, 4),
+    content: (loc, locSlug) => ({
       intro: `Every business is unique, and your signage should reflect that. We create custom signs tailored to your specific requirements, brand identity, and budget for ${loc} businesses.`,
       sections: [
         {
@@ -275,7 +297,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} custom signage professionals at Royal Signs & Awnings, you are able to get signage that is truly one-of-a-kind. We create striking and captivating custom signs that can catch the attention of new consumers and enhance the professionalism of your business!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in creating custom signs for a wide variety of industries and applications.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/verizon-custom-sign.jpg"
+          image: getServiceImage("custom-signs", locSlug, 5)
         },
         {
           title: "Design to Installation",
@@ -296,8 +318,8 @@ const services: Record<string, {
   },
   "business-signs": {
     name: "Business Signs",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/storefront-building-channel-letters.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("business-signs", locSlug, 4),
+    content: (loc, locSlug) => ({
       intro: `Professional business signs are essential for attracting customers and establishing your brand. We help ${loc} businesses of all sizes create impactful signage that communicates their message and builds credibility.`,
       sections: [
         {
@@ -306,7 +328,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} business signage professionals at Royal Signs & Awnings, you are able to establish a strong brand presence in your community. We create striking and captivating business signs that can catch the attention of new consumers and enhance the professionalism of your establishment!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in creating effective business signs for retail stores, restaurants, offices, and commercial facilities.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/storefront-building-channel-letters.jpg"
+          image: getServiceImage("business-signs", locSlug, 5)
         },
         {
           title: "Complete Business Signage Solutions",
@@ -327,8 +349,8 @@ const services: Record<string, {
   },
   "metal-signs": {
     name: "Metal Signs",
-    heroImage: "https://cdn.markmywordsmedia.com/sign-images/services/dimensional-letters.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("metal-signs", locSlug, 6),
+    content: (loc, locSlug) => ({
       intro: `Metal signs offer durability, sophistication, and timeless appeal. Whether you need aluminum, stainless steel, or bronze signage, we create metal signs that stand the test of time for ${loc} businesses.`,
       sections: [
         {
@@ -337,7 +359,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} metal signage professionals at Royal Signs & Awnings, you are able to get signage that will last for years while maintaining its appearance. We create striking and captivating metal signs that can catch the attention of new consumers and enhance the professionalism of your business!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in working with various metals to create high-quality signage.`
           ],
-          image: "https://cdn.markmywordsmedia.com/sign-images/services/dimensional-letters.jpg"
+          image: getServiceImage("metal-signs", locSlug, 7)
         },
         {
           title: "Metal Options",
@@ -358,8 +380,8 @@ const services: Record<string, {
   },
   "pole-signs": {
     name: "Pole Signs",
-    heroImage: "https://cdn.markmywordsmedia.com/sign-images/services/pole-signs.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("pole-signs", locSlug, 7),
+    content: (loc, locSlug) => ({
       intro: `Pole signs provide maximum visibility from the road, making them ideal for businesses along highways and busy streets in ${loc}. We design and install pole signs that grab attention and guide customers to your location.`,
       sections: [
         {
@@ -368,7 +390,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} pole sign professionals at Royal Signs & Awnings, you are able to maximize your visibility from the road. We create striking and captivating pole signs that can catch the attention of passing motorists and help them find your business!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in designing and installing pole signs for various businesses.`
           ],
-          image: "https://cdn.markmywordsmedia.com/sign-images/services/pole-signs.jpg"
+          image: getServiceImage("pole-signs", locSlug, 4)
         },
         {
           title: "Pole Sign Options",
@@ -389,8 +411,8 @@ const services: Record<string, {
   },
   "canopy-tents": {
     name: "Canopy Tents",
-    heroImage: "https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-canopy-sign.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("canopy-tents", locSlug, 6),
+    content: (loc, locSlug) => ({
       intro: `Custom canopy tents are perfect for outdoor events, trade shows, farmers markets, and promotional activities in ${loc}. We create branded canopies that protect from the elements while showcasing your business.`,
       sections: [
         {
@@ -399,7 +421,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} canopy tent professionals at Royal Signs & Awnings, you are able to make a strong impression at any outdoor event. We create striking and captivating canopy tents that can catch the attention of event attendees and enhance the professionalism of your brand!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in creating custom canopy tents for businesses of all sizes.`
           ],
-          image: "https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-canopy-sign.jpg"
+          image: getServiceImage("canopy-tents", locSlug, 7)
         },
         {
           title: "Features & Options",
@@ -420,8 +442,8 @@ const services: Record<string, {
   },
   "monument-signs": {
     name: "Monument Signs",
-    heroImage: "https://cdn.markmywordsmedia.com/sign-images/services/monument-signs.png",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("monument-signs", locSlug, 6),
+    content: (loc, locSlug) => ({
       intro: `Monument signs create a professional, permanent presence for your ${loc} business. These ground-level signs are ideal for office buildings, retail centers, churches, schools, and corporate campuses.`,
       sections: [
         {
@@ -430,7 +452,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} monument sign professionals at Royal Signs & Awnings, you are able to create a distinguished entrance that impresses visitors. We create striking and captivating monument signs that can enhance the professionalism of your property!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in designing and installing monument signs for various properties.`
           ],
-          image: "https://cdn.markmywordsmedia.com/sign-images/services/monument-signs.png"
+          image: getServiceImage("monument-signs", locSlug, 7)
         },
         {
           title: "Design Options",
@@ -451,8 +473,8 @@ const services: Record<string, {
   },
   "sign-repair": {
     name: "Sign Repair & Maintenance",
-    heroImage: "https://cdn.markmywordsmedia.com/sign-images/services/storefront-signs.jpg",
-    content: (loc) => ({
+    getHeroImage: (locSlug) => getServiceImage("sign-repairs", locSlug, 4),
+    content: (loc, locSlug) => ({
       intro: `Keep your signs looking their best with our professional repair and maintenance services in ${loc}. From burned-out lights to storm damage, we fix all types of signage quickly and efficiently.`,
       sections: [
         {
@@ -461,7 +483,7 @@ const services: Record<string, {
             `The best thing is that, with the ${loc} sign repair professionals at Royal Signs & Awnings, you are able to keep your signage in top condition. We provide fast and reliable repair services to ensure your signs continue to effectively promote your business!`,
             `Our sign-making business has been in the industry for many years now; we have earned significant experiences in repairing all types of commercial signs.`
           ],
-          image: "https://cdn.markmywordsmedia.com/sign-images/services/storefront-signs.jpg"
+          image: getServiceImage("sign-repairs", locSlug, 5)
         },
         {
           title: "Common Repairs",
@@ -506,7 +528,7 @@ function parsePathname(pathname: string): { location: string | null; service: st
 
 // General Location Page Component (for pages like /thompsons-tx)
 function GeneralLocationPage({ locationData }: { locationData: { name: string; fullName: string; slug: string } }) {
-  const content = getLocationPageContent(locationData.name);
+  const content = getLocationPageContent(locationData.name, locationData.slug);
   
   return (
     <Layout>
@@ -672,7 +694,7 @@ function ServiceLocationPage({
   service: string;
 }) {
   const pageTitle = `${locationData.name} ${serviceData.name}`;
-  const content = serviceData.content(locationData.name);
+  const content = serviceData.content(locationData.name, locationData.slug);
   
   return (
     <Layout>
@@ -680,7 +702,7 @@ function ServiceLocationPage({
       <section 
         className="relative py-12 md:py-20"
         style={{
-          backgroundImage: `url('${serviceData.heroImage}')`,
+          backgroundImage: `url('${serviceData.getHeroImage(locationData.slug)}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
