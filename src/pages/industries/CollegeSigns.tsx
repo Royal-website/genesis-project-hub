@@ -11,10 +11,14 @@ export default function CollegeSigns() {
   return (
     <UniversalPageTemplate
       title="College Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/College-Signs.png"
+      heroImage="/images/industries/college-signs/08-outdoor-collage-campus-wayfinding-signage-1024x361.jpg"
       breadcrumbs={breadcrumbs}
     >
-      <ContentSection title="College Signs">
+      <ContentSection
+        title="College Signs"
+        image="/images/industries/college-signs/04-sign-installation-300x208.jpg"
+        imageAlt="College Signs"
+      >
         <p className="mb-4">
           Colleges and universities have unique signage needs that go beyond those of most other organizations. From welcoming prospective students and their families during campus tours to helping current students navigate large campuses, effective signage is essential to the educational experience.
         </p>
@@ -29,7 +33,11 @@ export default function CollegeSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Campus Wayfinding Systems">
+      <ContentSection
+        title="Campus Wayfinding Systems"
+        image="/images/industries/college-signs/06-indoor-ada-signage-300x165.jpg"
+        imageAlt="Campus Wayfinding Signs"
+      >
         <p className="mb-4">
           Large college campuses can be confusing to navigate, especially for new students and visitors. A comprehensive wayfinding system helps people find buildings, parking, and facilities while reinforcing your institution's brand identity.
         </p>
@@ -41,7 +49,12 @@ export default function CollegeSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Building Identification and Entrance Signs">
+      <ContentSection
+        title="Building Identification and Entrance Signs"
+        image="/images/industries/college-signs/05-sign-installation.jpg"
+        imageAlt="College Building Signs"
+        imagePosition="left"
+      >
         <p className="mb-4">
           Every building on campus needs clear identification that helps students, faculty, and visitors find their destination. From academic buildings to residence halls, from athletic facilities to administrative offices, Royal Signs & Awnings creates building identification signs that are both functional and attractive.
         </p>
@@ -53,7 +66,11 @@ export default function CollegeSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Athletic Facility Signage">
+      <ContentSection
+        title="Athletic Facility Signage"
+        image="/images/industries/college-signs/07-indoor-ada-signage.jpg"
+        imageAlt="College Athletic Signs"
+      >
         <p className="mb-4">
           College athletics play an important role in campus life and community engagement. Stadium signs, scoreboard displays, and facility identification help create an exciting atmosphere for games and events while reinforcing school spirit.
         </p>

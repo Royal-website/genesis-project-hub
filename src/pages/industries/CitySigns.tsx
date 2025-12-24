@@ -11,10 +11,14 @@ export default function CitySigns() {
   return (
     <UniversalPageTemplate
       title="City Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/City-Signs.png"
+      heroImage="/images/industries/city-signs/08-outdoor-city-brick-monument-sign-1024x768.jpg"
       breadcrumbs={breadcrumbs}
     >
-      <ContentSection title="City Signs">
+      <ContentSection
+        title="City Signs"
+        image="/images/industries/city-signs/06-full-service-sign-company-graphic-designer-300x214.jpg"
+        imageAlt="City Signs"
+      >
         <p className="mb-4">
           Municipal signage plays a crucial role in helping cities function effectively and serve their residents. From wayfinding signs that help people navigate city streets to informational displays at public facilities, city signs are essential components of modern urban infrastructure.
         </p>
@@ -29,7 +33,11 @@ export default function CitySigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Wayfinding and Directional Signs">
+      <ContentSection
+        title="Wayfinding and Directional Signs"
+        image="/images/industries/city-signs/04-vinyl-wall-mural-indoor-install-225x300.jpg"
+        imageAlt="City Wayfinding Signs"
+      >
         <p className="mb-4">
           Effective wayfinding signage helps residents and visitors navigate your city with ease. Directional signs for downtown areas, parks, public facilities, and tourist attractions contribute to a positive experience for everyone who visits your community.
         </p>
@@ -41,7 +49,12 @@ export default function CitySigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Park and Recreation Signs">
+      <ContentSection
+        title="Park and Recreation Signs"
+        image="/images/industries/city-signs/05-vinyl-wall-mural-indoor-install.jpg"
+        imageAlt="Park Signs"
+        imagePosition="left"
+      >
         <p className="mb-4">
           City parks and recreational facilities require a variety of signage, from entrance signs that welcome visitors to informational signs that explain rules and regulations. Trail markers, interpretive signs, and facility identifiers all contribute to the park experience.
         </p>

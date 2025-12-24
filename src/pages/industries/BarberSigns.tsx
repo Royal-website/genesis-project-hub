@@ -11,10 +11,14 @@ export default function BarberSigns() {
   return (
     <UniversalPageTemplate
       title="Barber Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Barber-Signs.png"
+      heroImage="/images/industries/barber-signs/08-indoor-lighted-barbershop-custom-signage.jpg"
       breadcrumbs={breadcrumbs}
     >
-      <ContentSection title="Barber Signs">
+      <ContentSection
+        title="Barber Signs"
+        image="/images/industries/barber-signs/04-full-service-sign-company-graphic-designer-300x214.jpg"
+        imageAlt="Barber Signs"
+      >
         <p className="mb-4">
           A great barber shop is more than just a place to get a haircut—it's a community gathering spot, a place to relax, and for many, a weekly tradition. The right signage helps establish your barber shop's identity and attracts the right clientele to your business.
         </p>
@@ -29,7 +33,11 @@ export default function BarberSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Classic Barber Shop Signage">
+      <ContentSection
+        title="Classic Barber Shop Signage"
+        image="/images/industries/barber-signs/07-indoor-lighted-barbershop-custom-signage-300x300.jpg"
+        imageAlt="Classic Barber Shop Signs"
+      >
         <p className="mb-4">
           The iconic barber pole has been a symbol of the barbering profession for centuries, and it remains one of the most recognizable business signs in the world. Royal Signs & Awnings offers both traditional and modern interpretations of this classic symbol.
         </p>
@@ -41,7 +49,12 @@ export default function BarberSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Modern Barber Shop Signs">
+      <ContentSection
+        title="Modern Barber Shop Signs"
+        image="/images/industries/barber-signs/05-full-service-sign-company-graphic-designer.jpg"
+        imageAlt="Modern Barber Shop Signs"
+        imagePosition="left"
+      >
         <p className="mb-4">
           For barber shops targeting a younger, more fashion-conscious clientele, modern signage with clean lines, bold typography, and contemporary materials can help establish your brand as cutting-edge and trendy.
         </p>

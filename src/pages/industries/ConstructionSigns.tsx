@@ -11,12 +11,12 @@ export default function ConstructionSigns() {
   return (
     <UniversalPageTemplate
       title="Houston Construction Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/AdobeStock_398951011-scaled-1.webp"
+      heroImage="/images/industries/construction-signs/08-panel-wall-indoor-elevator-safety-1024x650.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Houston Construction Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/08/safety-outdoor-aluminum-e1533669881919-300x190.jpg"
+        image="/images/industries/construction-signs/06-safety-outdoor-aluminum-e1533669881919-300x190.jpg"
         imageAlt="custom aluminum safety sign"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function ConstructionSigns() {
 
       <ContentSection
         title="High-Visibility Safety Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/safety-floor-vinyl-graphics-300x220.jpg"
+        image="/images/industries/construction-signs/04-safety-floor-vinyl-graphics-300x220.jpg"
         imageAlt="Custom safety floor graphics"
       >
         <p className="mb-4">
@@ -48,7 +48,7 @@ export default function ConstructionSigns() {
 
       <ContentSection
         title="Full-Service Signage Shop"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/panel-wall-indoor-elevator-safety-300x190.jpg"
+        image="/images/industries/construction-signs/05-safety-floor-vinyl-graphics.jpg"
         imageAlt="custom safety sign for elevator"
         imagePosition="left"
       >

@@ -11,12 +11,12 @@ export default function GasStationSigns() {
   return (
     <UniversalPageTemplate
       title="Gas Station Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/AdobeStock_505195610_Editorial_Use_Only-scaled-e1679348630772.webp"
+      heroImage="/images/industries/gas-station-signs/01-sign-company-01.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Gas Station Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-channel-cabinet-illuminated-circle-k-storefront-signage-300x200.jpg"
+        image="/images/industries/gas-station-signs/04-sign-company-04.jpg"
         imageAlt="Illuminated Gas Station Signage"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function GasStationSigns() {
 
       <ContentSection
         title="High-Visibility Price Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/custom-lighted-led-pole-pylon-sign-300x225-300x225.jpg"
+        image="/images/industries/gas-station-signs/05-sign-company-05.jpg"
         imageAlt="LED Price Sign"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function GasStationSigns() {
 
       <ContentSection
         title="Brand Identity Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-convenience-awning-projecting-cabinet-storefront-signage-300x225.jpg"
+        image="/images/industries/gas-station-signs/06-sign-company-06.jpg"
         imageAlt="Brand Canopy Signage"
         imagePosition="left"
       >

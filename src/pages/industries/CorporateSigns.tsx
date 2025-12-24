@@ -11,12 +11,12 @@ export default function CorporateSigns() {
   return (
     <UniversalPageTemplate
       title="Corporate Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/corporate-signs.webp"
+      heroImage="/images/industries/corporate-signs/05-sign-installation.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Corporate Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/Roderick-Projecting-storefront-outdoor-Sign-300x169.jpeg"
+        image="/images/industries/corporate-signs/06-Roderick-Projecting-storefront-outdoor-Sign-300x169.jpeg"
         imageAlt="custom blade sign"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function CorporateSigns() {
 
       <ContentSection
         title="Cohesive Corporate Signs for the Indoors"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/01/lobby-lighted-office-wall-indoor-backlit-300x286.jpg"
+        image="/images/industries/corporate-signs/04-sign-installation-300x208.jpg"
         imageAlt="Indoor Lighted Lobby Sign"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function CorporateSigns() {
 
       <ContentSection
         title="Outdoor Signages that Get Customers In"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/custom-lighted-led-pole-pylon-sign-300x225-300x225.jpg"
+        image="/images/industries/corporate-signs/07-Roderick-Projecting-storefront-outdoor-Sign.jpeg"
         imageAlt="Custom Lighted LED Pole Sign"
         imagePosition="left"
       >
@@ -68,7 +68,7 @@ export default function CorporateSigns() {
 
       <ContentSection
         title="Take Your Brand With You Wherever You Go"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/08/vehicle-vinyl-graphics-wrap-300x300.jpg"
+        image="/images/industries/corporate-signs/08-vehicle-vinyl-graphics-wrap-150x150.jpg"
         imageAlt="Custom Vinyl Lettering For Your Car"
       >
         <p className="mb-4">

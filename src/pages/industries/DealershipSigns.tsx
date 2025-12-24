@@ -11,12 +11,12 @@ export default function DealershipSigns() {
   return (
     <UniversalPageTemplate
       title="Dealership Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/royal-signs-fallback.png"
+      heroImage="/images/industries/dealership-signs/06-custom-design-manufacturing-installation.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Dealership Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-dimensional-letter-banner-flag-dealership-signs-300x212.jpg"
+        image="/images/industries/dealership-signs/04-custom-design-manufacturing-installation-300x225.jpg"
         imageAlt="Attractive Outdoor Dealership Signs"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function DealershipSigns() {
 
       <ContentSection
         title="High-Visibility Outdoor Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/custom-lighted-led-pole-pylon-sign-300x225-300x225.jpg"
+        image="/images/industries/dealership-signs/05-custom-design-manufacturing-installation-768x576.jpg"
         imageAlt="Custom LED Pole Sign"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function DealershipSigns() {
 
       <ContentSection
         title="Showroom and Interior Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/indoor-car-dealership-lighted-custom-signs-300x212.jpg"
+        image="/images/industries/dealership-signs/07-indoor-car-dealership-lighted-custom-signs-300x212.jpg"
         imageAlt="Indoor Dealership Signage"
         imagePosition="left"
       >

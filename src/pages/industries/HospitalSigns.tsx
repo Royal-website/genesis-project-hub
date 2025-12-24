@@ -11,12 +11,12 @@ export default function HospitalSigns() {
   return (
     <UniversalPageTemplate
       title="Hospital Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Hospital-Signs.jpg"
+      heroImage="/images/industries/hospital-signs/06-channel-letters-banner-outdoor-storefront-building-illuminated-backlit-sign.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Hospital Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/channel-letters-banner-outdoor-storefront-building-illuminated-backlit-sign-300x225.jpg"
+        image="/images/industries/hospital-signs/04-channel-letters-banner-outdoor-storefront-building-illuminated-backlit-sign-300x225.jpg"
         imageAlt="cohesive storefront signage collection"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function HospitalSigns() {
 
       <ContentSection
         title="Outdoor Hospital Signs and Wayfinders"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-hopsital-wayfinding-emergency-main-lobby-signage-300x200.jpg"
+        image="/images/industries/hospital-signs/05-channel-letters-banner-outdoor-storefront-building-illuminated-backlit-sign-768x576.jpg"
         imageAlt="Attractive Hospital Wayfinding Signage"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function HospitalSigns() {
 
       <ContentSection
         title="Digital and Electronic Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/indoor-waiting-digital-gochiro-sign-300x196.jpg"
+        image="/images/industries/hospital-signs/07-vinyl-wall-mural-indoor-install-225x300.jpg"
         imageAlt="Indoor Lobby With Digital Monitor"
         imagePosition="left"
       >
@@ -68,7 +68,7 @@ export default function HospitalSigns() {
 
       <ContentSection
         title="ADA and Bilingual Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/indoor-lobby-bilingual-wayfinding-signage-256x300.jpg"
+        image="/images/industries/hospital-signs/08-vinyl-wall-mural-indoor-install.jpg"
         imageAlt="Bilingual Wayfinding Signage"
       >
         <p className="mb-4">
