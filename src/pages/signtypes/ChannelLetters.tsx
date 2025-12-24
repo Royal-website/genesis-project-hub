@@ -6,7 +6,7 @@ export default function ChannelLetters() {
     <UniversalPageTemplate
       title="Channel Letters"
       subtitle="Design | Production | Installation"
-      heroImage="/images/channel-letters/channel-letters.jpg"
+      heroImage="/images/signtypes/channel-letters/channel-letter-sign.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Channel Letters", path: "/channel-letters" },
@@ -14,7 +14,7 @@ export default function ChannelLetters() {
     >
       <ContentSection
         title="Houston Channel Letters"
-        image="/images/channel-letters/channel-letters.jpg"
+        image="/images/signtypes/channel-letters/channel-letter-sign.jpg"
         imageAlt="Custom Channel Letter Building Sign"
       >
         <p className="mb-4">Channel letters and dimensional letters are an extremely popular choice for building signage across all industries and business types.</p>
@@ -25,7 +25,7 @@ export default function ChannelLetters() {
 
       <ContentSection 
         title="Storefront Channel Letters" 
-        image="/images/channel-letters/channel-letter-sign.jpg"
+        image="/images/signtypes/channel-letters/channel-letter-sign.jpg"
         imageAlt="Custom Channel Letter Sign"
         imagePosition="left"
       >
@@ -36,7 +36,7 @@ export default function ChannelLetters() {
 
       <ContentSection 
         title="Dimensional Letters"
-        image="/images/channel-letters/dimensional-letters.jpg"
+        image="/images/signtypes/channel-letters/dimensional-letters.jpg"
         imageAlt="Storefront Sign"
       >
         <p className="mb-4">Dimensional letter signs are similar to channel letter signs in that they both consist of individually created elements. Where channel letters have an empty channel inside allowing for illumination, dimensional letters are cut from solid sheets of acrylic, metal, or other material.</p>
@@ -47,7 +47,7 @@ export default function ChannelLetters() {
 
       <ContentSection 
         title="Backlit & Illuminated Channel Signs"
-        image="/images/channel-letters/backlit-sign.jpg"
+        image="/images/signtypes/channel-letters/backlit-sign.jpg"
         imageAlt="Lighted Sign"
         imagePosition="left"
       >

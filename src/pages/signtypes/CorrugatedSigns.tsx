@@ -6,7 +6,7 @@ export default function CorrugatedSigns() {
     <UniversalPageTemplate
       title="Corrugated Signs"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/corrugated-signs-header.jpg"
+      heroImage="/images/signtypes/corrugated-signs/corrugated-stop-signs.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Corrugated Signs", path: "/corrugated-signs" },
@@ -14,7 +14,7 @@ export default function CorrugatedSigns() {
     >
       <ContentSection
         title="Corrugated Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-corrugated-stop-signs-300x239.jpg"
+        image="/images/signtypes/corrugated-signs/corrugated-stop-signs.jpg"
         imageAlt="custom corrugated stop signs"
       >
         <p className="mb-4">
@@ -33,7 +33,7 @@ export default function CorrugatedSigns() {
 
       <ContentSection
         title="Long-Lasting Indoor Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-indoor-hanging-promotional-banner-300x225.jpg"
+        image="/images/signtypes/corrugated-signs/indoor-hanging-banner.jpg"
         imageAlt="custom indoor hanging promotional banner"
         imagePosition="left"
       >
@@ -47,7 +47,7 @@ export default function CorrugatedSigns() {
 
       <ContentSection
         title="Affordable Outdoor Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-corrugated-yard-sign-300x300.jpg"
+        image="/images/signtypes/corrugated-signs/corrugated-yard-sign.jpg"
         imageAlt="custom corrugated yard sign"
       >
         <p className="mb-4">
@@ -60,7 +60,7 @@ export default function CorrugatedSigns() {
 
       <ContentSection
         title="Customizable Promotional Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/portable-A-frame-Corrugated-Coroplast-insert-225x300.jpg"
+        image="/images/signtypes/corrugated-signs/a-frame-sign.jpg"
         imageAlt="portable A-frame Corrugated Coroplast insert"
         imagePosition="left"
       >

@@ -6,7 +6,7 @@ export default function DimensionalLetters() {
     <UniversalPageTemplate
       title="Dimensional Letters"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/dimensional-letters-header.jpg"
+      heroImage="/images/signtypes/dimensional-letters/backlit-storefront.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Dimensional Letters", path: "/dimensional-letters" },
@@ -14,7 +14,7 @@ export default function DimensionalLetters() {
     >
       <ContentSection
         title="Houston Dimensional Letters"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/backlit-acrylic-dimensional-letters-storefront-building-sign-300x258.jpg"
+        image="/images/signtypes/dimensional-letters/backlit-storefront.jpg"
         imageAlt="custom acrylic backlit storefront sign"
       >
         <p className="mb-4">
@@ -33,7 +33,7 @@ export default function DimensionalLetters() {
 
       <ContentSection
         title="Appealing Storefront Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-outdoor-restaurant-signs-300x225.jpg"
+        image="/images/signtypes/dimensional-letters/restaurant-sign.jpg"
         imageAlt="custom outdoor restaurant signs"
         imagePosition="left"
       >
@@ -50,7 +50,7 @@ export default function DimensionalLetters() {
 
       <ContentSection
         title="Attractive Indoor Lettering"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/Custom-dimensional-letter-lobby-sign-300x300.jpg"
+        image="/images/signtypes/dimensional-letters/lobby-sign.jpg"
         imageAlt="Custom dimensional letter lobby sign"
       >
         <p className="mb-4">
@@ -63,7 +63,7 @@ export default function DimensionalLetters() {
 
       <ContentSection
         title="Durable Dimensional Letters"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/indoor-lobby-dimensional-signage-300x225.jpg"
+        image="/images/signtypes/dimensional-letters/indoor-lobby.jpg"
         imageAlt="indoor lobby dimensional signage"
         imagePosition="left"
       >

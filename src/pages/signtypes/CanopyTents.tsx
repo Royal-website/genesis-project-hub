@@ -6,7 +6,7 @@ export default function CanopyTents() {
     <UniversalPageTemplate
       title="Canopy Tents"
       subtitle="Design | Production | Installation"
-      heroImage="/images/canopy-tents/tradeshow-tent.jpg"
+      heroImage="/images/signtypes/canopy-tents/tradeshow-tent.jpg"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Canopy Tents", path: "/canopy-tents" },
@@ -14,7 +14,7 @@ export default function CanopyTents() {
     >
       <ContentSection
         title="Houston Canopy Tents"
-        image="/images/canopy-tents/tradeshow-tent.jpg"
+        image="/images/signtypes/canopy-tents/tradeshow-tent.jpg"
         imageAlt="Custom event tent"
       >
         <p className="mb-4">If you've ever tried going to a science exhibit, a circus show, or an outdoor concert, you've probably seen a lot of portable tents spread around the whole area. Canopy tents are such a common sight in these situations for a good reason–they do the job of promoting a business and providing temporary shelter extremely well.</p>
@@ -26,7 +26,7 @@ export default function CanopyTents() {
 
       <ContentSection 
         title="Functional & Attractive" 
-        image="/images/canopy-tents/storefront-canopy.jpg"
+        image="/images/signtypes/canopy-tents/storefront-canopy.jpg"
         imageAlt="Custom storefront canopy signs"
         imagePosition="left"
       >
@@ -38,7 +38,7 @@ export default function CanopyTents() {
 
       <ContentSection 
         title="Pop-Up Canopy Tents"
-        image="/images/canopy-tents/popup-tent.jpg"
+        image="/images/signtypes/canopy-tents/popup-tent.jpg"
         imageAlt="Custom tradeshow canopy"
       >
         <p className="mb-4">Do you only need a small, temporary tent for a short exhibit or a one-day fair? You will appreciate our pop-up canopy tents. This is the smaller and more temporary version of canopy tents that would be highly recommended for those who run a stall in a market or those who only need a small area for a public event.</p>
@@ -49,7 +49,7 @@ export default function CanopyTents() {
 
       <ContentSection 
         title="Full-Service Sign Company"
-        image="/images/canopy-tents/table-cover.jpg"
+        image="/images/signtypes/canopy-tents/table-cover.jpg"
         imageAlt="Trade show table cover display"
         imagePosition="left"
       >
