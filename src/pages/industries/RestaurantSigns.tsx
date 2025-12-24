@@ -11,12 +11,12 @@ export default function RestaurantSigns() {
   return (
     <UniversalPageTemplate
       title="Restaurant Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/01/dimensional-letters-mall-storefront-exterior-building-retail-300x169.jpg"
+      heroImage="/images/industries/restaurant-signs/05-backlit-acrylic-dimensional-letters-storefront-building-sign.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Houston Restaurant Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-custom-aframe-storefront-dental-signage-300x188.jpg"
+        image="/images/industries/restaurant-signs/04-backlit-acrylic-dimensional-letters-storefront-building-sign-300x258.jpg"
         imageAlt="Restaurant Signs"
       >
         <p className="mb-4">
@@ -32,7 +32,7 @@ export default function RestaurantSigns() {
 
       <ContentSection
         title="High-Visibility Outdoor Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/hanging-3-300x200.jpg"
+        image="/images/industries/restaurant-signs/06-custom-storefront-outdoor-building-restaurant-window-vinyl-channel-letters-300x225.jpg"
         imageAlt="Restaurant Outdoor Signs"
       >
         <p className="mb-4">
@@ -45,7 +45,7 @@ export default function RestaurantSigns() {
 
       <ContentSection
         title="Indoor Signs that Impress and Inform"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/03/window-vinyl-300x262.jpg"
+        image="/images/industries/restaurant-signs/08-custom-storefront-outdoor-building-restaurant-window-vinyl-channel-letters.jpg"
         imageAlt="Restaurant Menu Boards"
         imagePosition="left"
       >

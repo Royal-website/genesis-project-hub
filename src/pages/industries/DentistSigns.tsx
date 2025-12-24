@@ -11,12 +11,12 @@ export default function DentistSigns() {
   return (
     <UniversalPageTemplate
       title="Dentist Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/AdobeStock_349073821_Editorial_Use_Only-scaled-e1679346143733.webp"
+      heroImage="/images/industries/dentist-signs/08-indoor-custom-dental-digital-dimensional-signage.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Dentist Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-custom-aframe-storefront-dental-signage-300x188.jpg"
+        image="/images/industries/dentist-signs/04-full-service-sign-company-graphic-designer-300x214.jpg"
         imageAlt="Attractive Outdoor Signage"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function DentistSigns() {
 
       <ContentSection
         title="Increase Patient Footfall With Effective Door Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-vinyl-window-dental-graphic-door-signs-300x169.jpg"
+        image="/images/industries/dentist-signs/05-full-service-sign-company-graphic-designer.jpg"
         imageAlt="Attractive Storefront Signage"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function DentistSigns() {
 
       <ContentSection
         title="Impressive and Impactful Indoor Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/indoor-dimensional-letters-dental-signage-300x200.jpg"
+        image="/images/industries/dentist-signs/06-indoor-custom-dental-digital-dimensional-signage-300x228.jpg"
         imageAlt="Attractive Custom Indoor Signage"
         imagePosition="left"
       >
@@ -68,7 +68,7 @@ export default function DentistSigns() {
 
       <ContentSection
         title="Versatile Digital Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/indoor-custom-dental-digital-dimensional-signage-300x228.jpg"
+        image="/images/industries/dentist-signs/07-indoor-custom-dental-digital-dimensional-signage-768x583.jpg"
         imageAlt="Indoor Digital Signage"
       >
         <p className="mb-4">

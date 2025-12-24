@@ -11,12 +11,12 @@ export default function ConvenienceStoreSigns() {
   return (
     <UniversalPageTemplate
       title="Convenience Store Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Convenience-Store-Signs.png"
+      heroImage="/images/industries/convenience-store-signs/05-full-service-sign-company-graphic-design-and-installation-for-your-business.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Convenience Store Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/indoor-convenience-digital-signage-and-displays-300x205.jpg"
+        image="/images/industries/convenience-store-signs/06-indoor-convenience-digital-signage-and-displays-300x205.jpg"
         imageAlt="Digital Convenience Store Signage"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function ConvenienceStoreSigns() {
 
       <ContentSection
         title="Illuminated Outdoor Signage for Convenience Stores"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-channel-cabinet-illuminated-circle-k-storefront-signage-300x200.jpg"
+        image="/images/industries/convenience-store-signs/04-full-service-sign-company-graphic-design-and-installation-for-your-business-300x200.jpg"
         imageAlt="Illuminated Storefront Signage"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function ConvenienceStoreSigns() {
 
       <ContentSection
         title="Get Informed and Organized with Indoor Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/indoor-convenience-dimensional-lettering-signage-300x188.jpeg"
+        image="/images/industries/convenience-store-signs/08-indoor-convenience-dimensional-lettering-signage-300x188.jpeg"
         imageAlt="Attractive Dimensional Indoor Lettering"
         imagePosition="left"
       >
@@ -68,7 +68,7 @@ export default function ConvenienceStoreSigns() {
 
       <ContentSection
         title="Affordable Sign Options"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/outdoor-convenience-awning-projecting-cabinet-storefront-signage-300x225.jpg"
+        image="/images/industries/convenience-store-signs/07-indoor-convenience-digital-signage-and-displays.jpg"
         imageAlt="Storefront Signage For Your Business"
       >
         <p className="mb-4">

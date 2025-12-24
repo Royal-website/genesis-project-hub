@@ -11,12 +11,12 @@ export default function DoctorSigns() {
   return (
     <UniversalPageTemplate
       title="Doctor Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/AdobeStock_490657613_Editorial_Use_Only-scaled-e1679348123381.webp"
+      heroImage="/images/industries/doctor-signs/06-indoor-doctors-office-wayfinding-directory-sign-1024x1024.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Doctor Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-dimensional-letter-storefront-doctors-office-signage-300x229.jpg"
+        image="/images/industries/doctor-signs/04-vinyl-wall-mural-indoor-install-225x300.jpg"
         imageAlt="Attractive Dimensional Letters"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function DoctorSigns() {
 
       <ContentSection
         title="Outdoors Signs That Get Your Practice Noticed"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-monument-family-medicine-pediatrics-sign-300x225.jpg"
+        image="/images/industries/doctor-signs/05-vinyl-wall-mural-indoor-install.jpg"
         imageAlt="Attractive Outdoor Monument Sign for Your Practice"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function DoctorSigns() {
 
       <ContentSection
         title="Patient-centered Sign System"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/indoor-doctors-office-wayfinding-directory-sign-300x300.jpg"
+        image="/images/industries/doctor-signs/08-indoor-doctors-office-wayfinding-directory-sign-300x300.jpg"
         imageAlt="Attractive Directory Signage"
         imagePosition="left"
       >
@@ -66,11 +66,7 @@ export default function DoctorSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection
-        title="Digital Signs That Inform and Entertain"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/indoor-waiting-digital-gochiro-sign-300x196.jpg"
-        imageAlt="Indoor Lobby With Digital Monitor"
-      >
+      <ContentSection title="Digital Signs That Inform and Entertain">
         <p className="mb-4">
           Over the years, electronic signs have proven to be a hugely helpful technology for healthcare providers. Usually placed in waiting rooms and lobbies, digital signs offer an easy and dynamic way of informing and entertaining patients who are waiting for their turn or results.
         </p>

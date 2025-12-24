@@ -11,10 +11,14 @@ export default function BarSigns() {
   return (
     <UniversalPageTemplate
       title="Bar Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Bar-Signs.png"
+      heroImage="/images/industries/bar-signs/06-lighted-1-1024x683.jpg"
       breadcrumbs={breadcrumbs}
     >
-      <ContentSection title="Bar Signs">
+      <ContentSection
+        title="Bar Signs"
+        image="/images/industries/bar-signs/04-custom-indoor-lettering-restaurant-300x204.jpg"
+        imageAlt="Bar Signs"
+      >
         <p className="mb-4">
           In the competitive nightlife and hospitality industry, having the right signage can make all the difference between a packed house and an empty bar. Eye-catching bar signs not only help customers find your establishment but also set the mood and atmosphere before they even walk through the door.
         </p>
@@ -29,7 +33,11 @@ export default function BarSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Illuminated Bar Signs">
+      <ContentSection
+        title="Illuminated Bar Signs"
+        image="/images/industries/bar-signs/07-lighted-1-300x200.jpg"
+        imageAlt="Illuminated Bar Signs"
+      >
         <p className="mb-4">
           Nothing says "open for business" quite like a glowing sign on a dark street. Illuminated signage is essential for bars and nightclubs that primarily operate during evening hours. These signs ensure your establishment remains visible and inviting throughout the night.
         </p>
@@ -41,7 +49,12 @@ export default function BarSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Interior Bar Signage and Displays">
+      <ContentSection
+        title="Interior Bar Signage and Displays"
+        image="/images/industries/bar-signs/05-custom-indoor-lettering-restaurant.jpg"
+        imageAlt="Interior Bar Signage"
+        imagePosition="left"
+      >
         <p className="mb-4">
           The interior of your bar is just as important as the exterior when it comes to creating the right atmosphere. Menu boards, promotional signs, and decorative elements all contribute to the overall customer experience.
         </p>

@@ -11,12 +11,12 @@ export default function AutomotiveSigns() {
   return (
     <UniversalPageTemplate
       title="Automotive Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Automotive-Signs.png"
+      heroImage="/images/industries/automotive-signs/06-car-wrap-full.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Automotive Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-dimensional-letter-banner-flag-dealership-signs-300x212.jpg"
+        image="/images/industries/automotive-signs/04-car-wrap-full-300x225.jpg"
         imageAlt="Attractive Outdoor Signs"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function AutomotiveSigns() {
 
       <ContentSection
         title="Lighted and Illuminated Automotive Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/03/custom-lighted-led-pole-pylon-sign-300x225-300x225.jpg"
+        image="/images/industries/automotive-signs/07-custom-design-manufacturing-installation-300x225.jpg"
         imageAlt="Custom lighted LED pole pylon sign"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function AutomotiveSigns() {
 
       <ContentSection
         title="Versatile Vinyl Signs For All Occasions"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/indoor-car-dealership-lighted-custom-signs-300x212.jpg"
+        image="/images/industries/automotive-signs/05-car-wrap-full-768x576.jpg"
         imageAlt="Attractive Indoor Dealership Signage"
         imagePosition="left"
       >

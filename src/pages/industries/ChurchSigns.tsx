@@ -11,10 +11,14 @@ export default function ChurchSigns() {
   return (
     <UniversalPageTemplate
       title="Church Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Church-Signs.png"
+      heroImage="/images/industries/church-signs/06-custom-monument-outdoor-message-board.jpg"
       breadcrumbs={breadcrumbs}
     >
-      <ContentSection title="Church Signs">
+      <ContentSection
+        title="Church Signs"
+        image="/images/industries/church-signs/05-custom-monument-outdoor-message-board-300x300.jpg"
+        imageAlt="Church Signs"
+      >
         <p className="mb-4">
           Churches and religious organizations play a vital role in their communities, and effective signage helps them connect with current members while reaching out to those seeking a spiritual home. The right church sign communicates your message, reflects your values, and welcomes visitors with warmth and hospitality.
         </p>
@@ -29,7 +33,11 @@ export default function ChurchSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="Monument Signs for Churches">
+      <ContentSection
+        title="Monument Signs for Churches"
+        image="/images/industries/church-signs/04-custom-monument-outdoor-message-board-150x150.jpg"
+        imageAlt="Church Monument Signs"
+      >
         <p className="mb-4">
           Monument signs are a popular choice for churches because they convey permanence, stability, and dignity. These ground-level signs can be designed in a variety of styles to match your church's architecture and aesthetic preferences.
         </p>
@@ -41,7 +49,12 @@ export default function ChurchSigns() {
         </p>
       </ContentSection>
 
-      <ContentSection title="LED Message Boards">
+      <ContentSection
+        title="LED Message Boards"
+        image="/images/industries/church-signs/07-custom-wall-vinyl-step-repeat-mural-300x225.jpg"
+        imageAlt="Church LED Message Boards"
+        imagePosition="left"
+      >
         <p className="mb-4">
           Electronic message boards allow churches to share service times, upcoming events, inspirational messages, and community announcements with passersby. These versatile signs can be updated easily and frequently, making them an excellent communication tool.
         </p>

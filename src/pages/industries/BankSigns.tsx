@@ -11,12 +11,12 @@ export default function BankSigns() {
   return (
     <UniversalPageTemplate
       title="Bank Signs"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Bank-Signs.png"
+      heroImage="/images/industries/bank-signs/05-sign-installation.jpg"
       breadcrumbs={breadcrumbs}
     >
       <ContentSection
         title="Bank Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-chase-bank-monument-sign-300x165.jpg"
+        image="/images/industries/bank-signs/08-outdoor-chase-bank-monument-sign-300x165.jpg"
         imageAlt="Attractive Monument Signs"
       >
         <p className="mb-4">
@@ -35,7 +35,7 @@ export default function BankSigns() {
 
       <ContentSection
         title="Outdoor Signs To Make Your Bank Visible"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-first-financial-wayfinding-signage-300x200.jpg"
+        image="/images/industries/bank-signs/06-outdoor-bank-digital-informational-signage-300x127.png"
         imageAlt="Attractive Wayfinding Bank Signage"
       >
         <p className="mb-4">
@@ -51,7 +51,7 @@ export default function BankSigns() {
 
       <ContentSection
         title="Portable and Affordable Temporary Signage"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2019/02/outdoor-temporary-bank-banner-informational-signs-225x300.jpg"
+        image="/images/industries/bank-signs/04-sign-installation-300x208.jpg"
         imageAlt="Attractive Outdoor Signage"
         imagePosition="left"
       >
