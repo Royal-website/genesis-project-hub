@@ -3,17 +3,22 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import IndoorSigns from "./pages/IndoorSigns";
-import OutdoorSigns from "./pages/OutdoorSigns";
-import AwningSigns from "./pages/AwningSigns";
-import VehicleWraps from "./pages/VehicleWraps";
-import CustomSigns from "./pages/CustomSigns";
-import BusinessSigns from "./pages/BusinessSigns";
-import Reviews from "./pages/Reviews";
-import ContactUs from "./pages/ContactUs";
-import { LocationPage } from "./pages/LocationPage";
-import NotFound from "./pages/NotFound";
+// Main menu pages (navbar)
+import {
+  Index,
+  IndoorSigns,
+  OutdoorSigns,
+  AwningSigns,
+  VehicleWraps,
+  CustomSigns,
+  BusinessSigns,
+  Reviews,
+  ContactUs,
+  NotFound,
+} from "./pages/main-menu";
+
+// Location pages
+import { LocationPage } from "./pages/locations";
 
 // Industry pages
 import {
