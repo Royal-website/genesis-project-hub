@@ -1,57 +1,73 @@
 import { UniversalPageTemplate } from "@/components/templates/UniversalPageTemplate";
 import { ContentSection } from "@/components/sections/ContentSection";
+import { Link } from "react-router-dom";
 
 export default function FleetWraps() {
   return (
     <UniversalPageTemplate
-      title="Fleet Wraps"
+      title="Commercial Fleet Wraps & Graphics"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/fleet-wraps-header.jpg"
+      heroImage="/images/fleet-wraps/fleet-wrap.png"
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Fleet Wraps", path: "/fleet-wraps" },
       ]}
     >
       <ContentSection
-        title="Houston Fleet Wraps"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/custom-fleet-wrap-300x225.jpg"
-        imageAlt="custom fleet wrap"
+        title="Houston Commercial Fleet Wraps & Graphics"
+        image="/images/fleet-wraps/fleet-wrap.png"
+        imageAlt="Custom Fleet Vehicle Wraps"
       >
         <p className="mb-4">
-          Fleet wraps transform your company vehicles into mobile billboards, advertising your business wherever they go. This cost-effective marketing strategy ensures maximum exposure for your brand across the city.
+          Get your brand noticed with commercial vehicle graphics and fleet wraps by Royal Signs & Awnings!
         </p>
         <p className="mb-4">
-          At Royal Signs & Awnings, we specialize in designing and installing high-quality fleet wraps that create a cohesive, professional look across all your vehicles. Whether you have two vehicles or two hundred, we can create consistent branding that makes an impact.
+          Providing attractive, cohesive <Link to="/vehicle-wraps" className="text-primary hover:underline">vehicle wraps</Link> that showcase your brand provide you with increased visibility and improved customer perception of your business. With custom design, production, and installation for all of your vehicle types, we ensure brand consistency.
+        </p>
+        <p className="mb-4">
+          Delivery trucks, work trucks, trailers, vans, buses, semis, corporate cars, boats, and even lawnmowers, ATVs, and golf carts can all be utilized for brand promotion. All you need are the right graphics, the right placement, and the right company to get the job done.
+        </p>
+        <p className="mb-4">
+          Royal Signs & Awnings is your local fleet wrap provider, handling every aspect of your project. We can't wait to work with you!
         </p>
         <p className="font-bold">
-          Call Royal Signs & Awnings today at (281) 645-9935 for a Free Consultation!
+          Call Royal Signs & Awnings today at <a href="tel:2816459935" className="text-primary hover:underline">(281) 645-9935</a> for your Free Consultation!
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Consistent Brand Identity"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/fleet-branding-300x225.jpg"
-        imageAlt="fleet branding"
+        title="Commercial Wraps For All Vehicle Types"
+        image="/images/fleet-wraps/fleet-vehicles.jpg"
+        imageAlt="custom commercial fleet vehicle graphics"
         imagePosition="left"
       >
         <p className="mb-4">
-          A well-designed fleet wrap program ensures that all your vehicles present a unified brand image. This consistency reinforces your brand identity and creates a professional impression wherever your fleet travels.
+          Royal Signs & Awnings provides a variety of levels of wrap services for all of your vehicle types. From magnets for contractors to full wraps for food trucks, we ensure that your message is properly displayed for the specific vehicle type and use.
+        </p>
+        <p className="mb-4">
+          You may only desire graphics or a logo for some vehicles, while other vehicles may require full, marine-grade wraps. Royal Signs & Awnings works with you to determine the right material, placement, and marketing elements for each of your fleet vehicles, ensuring consistency and precision through all marketing channels.
         </p>
         <p>
-          Our design team works closely with you to develop fleet graphics that accurately represent your brand and make a lasting impression on potential customers.
+          Whether you prefer an identical design for all vehicles, cohesive custom designs for each, or need help determining how to best present your brand and marketing message on your corporate vehicles, Royal Signs & Awnings is with you every mile of the journey.
         </p>
       </ContentSection>
 
       <ContentSection
-        title="Cost-Effective Advertising"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/05/fleet-vehicle-advertising-300x225.jpg"
-        imageAlt="fleet vehicle advertising"
+        title="Custom Crafted For Your Business"
+        image="/images/fleet-wraps/custom-design.jpg"
+        imageAlt="custom design and manufacturing"
       >
         <p className="mb-4">
-          Compared to other forms of advertising, fleet wraps offer an exceptional return on investment. Your wrapped vehicles generate thousands of impressions daily as they travel through the city, reaching potential customers in various neighborhoods.
+          Fleet vehicle graphics by Royal Signs & Awnings are all custom crafted for your business and brand, utilizing your brand messaging, marketing elements, logos, and design ideas.
+        </p>
+        <p className="mb-4">
+          Whether you are a construction company, a landscaper, contractor, delivery service, trucking company, or even just a local business that provides company vehicles, cohesive wraps are a great way to get your business noticed and remembered.
+        </p>
+        <p className="mb-4">
+          With a full wrap design team, we can take your brand elements and design attractive custom wraps that perfectly complement both your message and the vehicle itself. Once we have agreed upon a final wrap design, our in-house production team ensures everything is precisely as you desire, and preps all of the elements for final installation on your commercial vehicles.
         </p>
         <p>
-          With a one-time investment, your fleet wraps continue to work for you 24/7, providing ongoing brand exposure without recurring costs.
+          We are dedicated to delivering high-quality, attractive sign, wrap, and graphic products that deliver for your business. Let's discuss how we can put your vehicles to work for you today!
         </p>
       </ContentSection>
 
@@ -59,10 +75,10 @@ export default function FleetWraps() {
         title="Free Fleet Wraps Consultation"
       >
         <p className="mb-4">
-          Ready to turn your fleet into a powerful marketing tool? Royal Signs & Awnings is here to help you create stunning fleet wraps that maximize your brand exposure and attract new customers.
+          If your business has multiple vehicles on the road, transporting goods or people from location to location, then fleet wraps are a must. There is no better solution for improving your brand visibility within your local market than the consistent, repetitive exposure commercial vehicle wraps provide. Your local wrap & graphics provider, Royal Signs & Awnings is committed to outstanding service and a final product that is sure to impress.
         </p>
         <p className="font-bold">
-          Call Royal Signs & Awnings today at (281) 645-9935 for your Free Consultation with a Fleet Wraps Specialist!
+          Call Royal Signs & Awnings today at <a href="tel:2816459935" className="text-primary hover:underline">(281) 645-9935</a> for your Free Consultation with a Fleet Wraps Expert!
         </p>
       </ContentSection>
     </UniversalPageTemplate>
