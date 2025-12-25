@@ -1,0 +1,22 @@
+{
+  "url": "https://www.houstonsignsandawnings.com/contact-us",
+  "path": "/contact-us",
+  "category": "pages",
+  "content": [
+    {
+      "tag": "H1",
+      "text": "Contact Us"
+    },
+    {
+      "tag": "P",
+      "text": "If you have any questions or comments please fill out the following form and one of our representatives will contact you as soon as possible."
+    }
+  ],
+  "images": {
+    "basePath": "/images/main-menu/contact-us/",
+    "hero": "01-royal-signs-logo-white.png",
+    "gallery": [
+      "02-royal-signs-logo.png"
+    ]
+  }
+}
