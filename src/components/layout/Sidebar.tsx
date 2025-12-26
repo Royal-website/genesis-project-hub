@@ -249,7 +249,7 @@ export function Sidebar({
               Sign Types
             </h3>
           </div>
-          <div className="border border-t-0 border-border rounded-b-lg bg-card max-h-[400px] overflow-y-auto">
+          <div className="border border-t-0 border-border rounded-b-lg bg-card max-h-[400px] overflow-y-scroll scrollbar-thin scrollbar-thumb-primary/30 scrollbar-track-muted/20">
             <ul className="divide-y divide-border">
               {signTypes.map((item) => (
                 <li key={item.path}>
@@ -274,7 +274,7 @@ export function Sidebar({
               Industries
             </h3>
           </div>
-          <div className="border border-t-0 border-border rounded-b-lg bg-card max-h-[400px] overflow-y-auto">
+          <div className="border border-t-0 border-border rounded-b-lg bg-card max-h-[400px] overflow-y-scroll scrollbar-thin scrollbar-thumb-primary/30 scrollbar-track-muted/20">
             <ul className="divide-y divide-border">
               {industries.map((item) => (
                 <li key={item.path}>
