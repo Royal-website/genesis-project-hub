@@ -34,7 +34,7 @@ const AwningSigns = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Content Area */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 lg:pr-8">
               <h2 className="text-3xl font-bold text-foreground border-l-4 border-accent pl-4 mb-6">
                 Houston Awning Signs
               </h2>
@@ -44,7 +44,7 @@ const AwningSigns = () => {
                   Awning signs and canopy signs are common in businesses. These commercial signs are designed to adorn any storefront, but they offer other benefits as well. Effective signage helps promote your business or beautify your shop.
                 </p>
 
-                <div className="float-right ml-6 mb-4 w-72">
+                <div className="float-right ml-4 mb-4 w-48 lg:w-56">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-7-300x225.jpg" 
                     alt="custom awnings and canopy sign"
@@ -72,7 +72,7 @@ const AwningSigns = () => {
                   Increase Brand Visibility
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-8-300x225.jpg" 
                     alt="lighted awning sign"
@@ -100,7 +100,7 @@ const AwningSigns = () => {
                   <Link to="/storefront-signs" className="hover:text-accent">Storefront Signs</Link> with a Sense of Shelter
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-6-300x225.jpg" 
                     alt="hotel awning to protect patrons"
@@ -128,7 +128,7 @@ const AwningSigns = () => {
                   Save Money on Utilities
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-canopy-sign-300x225.jpg" 
                     alt="custom shade awning for storefront"
@@ -153,7 +153,7 @@ const AwningSigns = () => {
                   Full-Service Sign Company
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-5-300x225.jpg" 
                     alt="structural awning sign"
@@ -178,7 +178,7 @@ const AwningSigns = () => {
                   Free Awning Signs Consultation
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/royal-signs-logo-300x108.png" 
                     alt="Royal Signs logo"

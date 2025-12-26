@@ -51,7 +51,7 @@ const IndoorSigns = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Content Area */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 lg:pr-8">
               <h2 className="text-3xl font-bold text-foreground border-l-4 border-accent pl-4 mb-6">
                 Houston Indoor Signs
               </h2>
@@ -61,7 +61,7 @@ const IndoorSigns = () => {
                   Durable, brand-building, and supportive indoor sign and graphic elements supply a whole lot of value to your business or organization. When you need to assist with promoting instinctive wayfinding or keeping staff safe in work areas, your custom indoor signs keep operations running smoothly.
                 </p>
 
-                <div className="float-right ml-6 mb-4 w-72">
+                <div className="float-right ml-4 mb-4 w-48 lg:w-56">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2015/03/Photo-Mar-16-4-37-20-PM-300x225.jpg" 
                     alt="Attractive Custom Lobby Signs"
@@ -93,7 +93,7 @@ const IndoorSigns = () => {
                   Interior Signage For Office Buildings
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/03/elements_massage_int-300x225.jpg" 
                     alt="Attractive Indoor Lobby Sign"
