@@ -167,7 +167,7 @@ const Index = () => {
                       <img
                         src={sign.image}
                         alt={sign.name}
-                        className="w-24 h-24 mx-auto rounded-lg object-cover border-2 border-transparent group-hover:border-accent transition-colors"
+                        className="w-32 h-32 mx-auto rounded-lg object-cover border-2 border-transparent group-hover:border-accent transition-colors"
                         loading="lazy"
                       />
                       <h3 className="mt-2 text-sm font-medium text-foreground group-hover:text-accent transition-colors">
@@ -207,7 +207,7 @@ const Index = () => {
                       <img
                         src={sign.image}
                         alt={sign.name}
-                        className="w-24 h-24 mx-auto rounded-lg object-cover border-2 border-transparent group-hover:border-accent transition-colors"
+                        className="w-32 h-32 mx-auto rounded-lg object-cover border-2 border-transparent group-hover:border-accent transition-colors"
                         loading="lazy"
                       />
                       <h3 className="mt-2 text-sm font-medium text-foreground group-hover:text-accent transition-colors">
@@ -247,7 +247,7 @@ const Index = () => {
                       <img
                         src={vehicle.image}
                         alt={vehicle.name}
-                        className="w-24 h-24 mx-auto rounded-lg object-cover border-2 border-transparent group-hover:border-accent transition-colors"
+                        className="w-32 h-32 mx-auto rounded-lg object-cover border-2 border-transparent group-hover:border-accent transition-colors"
                         loading="lazy"
                       />
                       <h3 className="mt-2 text-sm font-medium text-foreground group-hover:text-accent transition-colors">
