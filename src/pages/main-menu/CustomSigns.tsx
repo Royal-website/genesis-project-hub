@@ -4,6 +4,11 @@ import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
 import customSignsHero from "@/assets/images/custom-signs-hero.jpg";
+import lobbySignDimensional from "@/assets/images/lobby-sign-dimensional.jpg";
+import lobbySignCustom from "@/assets/images/lobby-sign-custom.jpg";
+import lobbySignAcrylic from "@/assets/images/lobby-sign-acrylic.jpg";
+import lobbySignMetal from "@/assets/images/lobby-sign-metal.jpg";
+import lobbySignAttractive from "@/assets/images/lobby-sign-attractive.jpg";
 
 const customSignTypes = [
   { name: "Acrylic Signs", path: "/acrylic-signs", image: "https://cdn.markmywordsmedia.com/sign-images/services/acrylic-signs.jpg" },
@@ -102,10 +107,10 @@ const CustomSigns = () => {
                 </div>
 
                 <div className="grid grid-cols-4 gap-2 mt-4">
-                  <img src="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/IMG_4243-e1510592895752-150x150.jpg" alt="Custom dimensional letter lobby sign" className="rounded-lg w-full" loading="lazy" />
-                  <img src="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/IMG_4243-e1510592895752-150x150.jpg" alt="Custom lobby signage" className="rounded-lg w-full" loading="lazy" />
-                  <img src="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/IMG_4243-e1510592895752-150x150.jpg" alt="attractive acrylic lobby sign" className="rounded-lg w-full" loading="lazy" />
-                  <img src="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/11/IMG_4243-e1510592895752-150x150.jpg" alt="custom lobby signage" className="rounded-lg w-full" loading="lazy" />
+                  <img src={lobbySignDimensional} alt="Custom dimensional letter lobby sign" className="rounded-lg w-full" loading="lazy" />
+                  <img src={lobbySignCustom} alt="Custom lobby signage" className="rounded-lg w-full" loading="lazy" />
+                  <img src={lobbySignAcrylic} alt="attractive acrylic lobby sign" className="rounded-lg w-full" loading="lazy" />
+                  <img src={lobbySignMetal} alt="custom lobby signage" className="rounded-lg w-full" loading="lazy" />
                 </div>
 
                 <div className="prose prose-lg max-w-none text-muted-foreground mt-4">
@@ -123,7 +128,7 @@ const CustomSigns = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/attractive-custom-lobby-signage-300x168.jpg" 
+                    src={lobbySignAttractive}
                     alt="attractive custom lobby signage"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"

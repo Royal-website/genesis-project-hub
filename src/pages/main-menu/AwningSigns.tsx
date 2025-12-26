@@ -3,6 +3,7 @@ import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
+import awningSignsHero from "@/assets/images/awning-signs-hero.jpg";
 
 const AwningSigns = () => {
   return (
@@ -11,7 +12,7 @@ const AwningSigns = () => {
       <section 
         className="relative min-h-[450px] flex items-center"
         style={{
-          backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/Awning-Signs.jpg')",
+          backgroundImage: `url('${awningSignsHero}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
