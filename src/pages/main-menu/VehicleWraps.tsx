@@ -3,6 +3,7 @@ import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
+import vehicleWrapsHero from "@/assets/images/vehicle-wraps-hero.jpg";
 
 const vehicleWrapTypes = [
   { name: "Car Wraps", path: "/car-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/car-wraps.jpg" },
@@ -18,7 +19,7 @@ const VehicleWraps = () => {
       <section 
         className="relative min-h-[450px] flex items-center"
         style={{
-          backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/vehicle-wraps-bg.jpg')",
+          backgroundImage: `url('${vehicleWrapsHero}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
