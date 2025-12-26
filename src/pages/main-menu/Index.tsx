@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { HeroSection } from "@/components/home/HeroSection";
 import { Sidebar } from "@/components/layout/Sidebar";
-import { StickyQuoteWidget } from "@/components/forms/StickyQuoteWidget";
+import { FloatingQuoteWidget } from "@/components/forms/FloatingQuoteWidget";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -190,16 +190,16 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Sidebar with Sticky Quote Form */}
+            {/* Sidebar */}
             <div className="lg:col-span-1">
-              <StickyQuoteWidget />
-              <div className="mt-6">
-                <Sidebar showQuoteForm={false} />
-              </div>
+              <Sidebar showQuoteForm={false} />
             </div>
           </div>
         </div>
       </section>
+      
+      {/* Floating Quote Widget */}
+      <FloatingQuoteWidget />
     </Layout>
   );
 };
