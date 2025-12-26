@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Star } from "lucide-react";
+import { ScrollableList } from "@/components/ui/ScrollableList";
 
 const signTypes = [
   { name: "ADA Signs", path: "/ada-signs" },
@@ -249,19 +250,21 @@ export function Sidebar({
               Sign Types
             </h3>
           </div>
-          <div className="border border-t-0 border-border rounded-b-lg bg-card max-h-[400px] overflow-y-scroll scrollbar-thin scrollbar-thumb-primary/30 scrollbar-track-muted/20">
-            <ul className="divide-y divide-border">
-              {signTypes.map((item) => (
-                <li key={item.path}>
-                  <Link
-                    to={item.path}
-                    className="block px-4 py-2 text-sm text-foreground hover:text-accent hover:bg-muted/50 transition-colors"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div className="border border-t-0 border-border rounded-b-lg bg-card overflow-hidden">
+            <ScrollableList maxHeight="400px">
+              <ul className="divide-y divide-border">
+                {signTypes.map((item) => (
+                  <li key={item.path}>
+                    <Link
+                      to={item.path}
+                      className="block px-4 py-2 text-sm text-foreground hover:text-accent hover:bg-muted/50 transition-colors"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </ScrollableList>
           </div>
         </div>
       )}
@@ -274,19 +277,21 @@ export function Sidebar({
               Industries
             </h3>
           </div>
-          <div className="border border-t-0 border-border rounded-b-lg bg-card max-h-[400px] overflow-y-scroll scrollbar-thin scrollbar-thumb-primary/30 scrollbar-track-muted/20">
-            <ul className="divide-y divide-border">
-              {industries.map((item) => (
-                <li key={item.path}>
-                  <Link
-                    to={item.path}
-                    className="block px-4 py-2 text-sm text-foreground hover:text-accent hover:bg-muted/50 transition-colors"
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div className="border border-t-0 border-border rounded-b-lg bg-card overflow-hidden">
+            <ScrollableList maxHeight="400px">
+              <ul className="divide-y divide-border">
+                {industries.map((item) => (
+                  <li key={item.path}>
+                    <Link
+                      to={item.path}
+                      className="block px-4 py-2 text-sm text-foreground hover:text-accent hover:bg-muted/50 transition-colors"
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </ScrollableList>
           </div>
         </div>
       )}
