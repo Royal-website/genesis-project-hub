@@ -195,6 +195,7 @@ const App = () => (
           <Route path="/canopy-tents" element={<CanopyTents />} />
           <Route path="/car-wraps" element={<CarWraps />} />
           <Route path="/channel-letters" element={<ChannelLetters />} />
+          <Route path="/channel-letters-signs" element={<ChannelLetters />} />
           <Route path="/coronavirus-signage" element={<CoronavirusSignage />} />
           <Route path="/corrugated-signs" element={<CorrugatedSigns />} />
           <Route path="/custom-tablecovers" element={<CustomTablecovers />} />
