@@ -106,7 +106,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/royal-signs-logo.png" 
+                src="/images/royal-signs-logo-white.png" 
                 alt="Royal Signs & Awnings" 
                 className="h-16 w-auto"
               />
