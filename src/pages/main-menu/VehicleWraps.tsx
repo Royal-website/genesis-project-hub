@@ -51,7 +51,7 @@ const VehicleWraps = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Content Area */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 lg:pr-8">
               <h2 className="text-3xl font-bold text-foreground border-l-4 border-accent pl-4 mb-6">
                 Houston Vehicle Wraps & Graphics
               </h2>
@@ -61,7 +61,7 @@ const VehicleWraps = () => {
                   Boost your business and give it a professional look with an investment in vehicle wraps and graphics for your whole fleet – even if that means just one truck. Royal Signs & Awnings is your top source for vehicle wraps, business car wraps, boat wraps, truck wraps, van wraps and more for Houston businesses who want to capture the attention of local customers.
                 </p>
 
-                <div className="float-right ml-6 mb-4 w-72">
+                <div className="float-right ml-4 mb-4 w-48 lg:w-56">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-vehicle-vinyl-car-wrap-graphics-300x169.jpg" 
                     alt="custom full vehicle wrap"
@@ -102,7 +102,7 @@ const VehicleWraps = () => {
                   Full Vehicle Wraps
                 </h3>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={vehicleWrapFull}
                     alt="custom full vehicle wrap"
@@ -127,7 +127,7 @@ const VehicleWraps = () => {
                   Partial Car Wraps
                 </h3>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={vehicleWrapPartial}
                     alt="partial vehicle graphics"
@@ -152,7 +152,7 @@ const VehicleWraps = () => {
                   Vinyl Graphics
                 </h3>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={vehicleVinylLettering}
                     alt="custom vinyl vehicle lettering"
@@ -180,7 +180,7 @@ const VehicleWraps = () => {
                   Vehicle Magnets
                 </h3>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={vehicleMagnet}
                     alt="car magnet"
@@ -211,7 +211,7 @@ const VehicleWraps = () => {
                   Perforated Window Film
                 </h3>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={vehicleWindowFilm}
                     alt="custom perforated window film"
@@ -239,7 +239,7 @@ const VehicleWraps = () => {
                   Professionals Wraps For All Vehicle Types
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={vehicleFoodTruck}
                     alt="custom vinyl food truck wrap"
@@ -288,7 +288,7 @@ const VehicleWraps = () => {
                   Attractive Wraps for Your Entire Fleet
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={vehicleFleet}
                     alt="Custom Fleet Vehicle Wraps"

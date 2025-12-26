@@ -51,7 +51,7 @@ const CustomSigns = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Content Area */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 lg:pr-8">
               <h2 className="text-3xl font-bold text-foreground border-l-4 border-accent pl-4 mb-6">
                 Houston Custom Signs & Graphics
               </h2>
@@ -61,7 +61,7 @@ const CustomSigns = () => {
                   Absolutely nothing features your special brand personality, promotes your latest and hottest products and services, and effectively supports your guests, shoppers, and team members like quality, eye-catching, and unique custom signs by Royal Signs & Awnings!
                 </p>
 
-                <div className="float-right ml-6 mb-4 w-72">
+                <div className="float-right ml-4 mb-4 w-48 lg:w-56">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/custom-building-storefront-outdoor-sign-300x300.jpg" 
                     alt="custom outdoor building signs"
@@ -115,7 +115,7 @@ const CustomSigns = () => {
                   Designed For Your Brand & Business
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={lobbySignAttractive}
                     alt="attractive custom lobby signage"
@@ -170,7 +170,7 @@ const CustomSigns = () => {
                   Our Custom Sign Process
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src={customBannerProduction}
                     alt="custom banner production"
@@ -198,7 +198,7 @@ const CustomSigns = () => {
                   Free Custom Signs Consultation
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/royal-signs-logo-300x108.png" 
                     alt="Royal Signs logo"

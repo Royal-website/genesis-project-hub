@@ -51,7 +51,7 @@ const OutdoorSigns = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Content Area */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 lg:pr-8">
               <h2 className="text-3xl font-bold text-foreground border-l-4 border-accent pl-4 mb-6">
                 Houston Outdoor Signs
               </h2>
@@ -61,7 +61,7 @@ const OutdoorSigns = () => {
                   Royal Signs & Awnings is a trusted designer and manufacturer of outdoor signs in Houston, Texas. Your local sign company can provide you with the best promotional outdoor signs that can build your brand and introduce it to potential consumers. Outdoor signs work by catching the attention of masses as it is visible, effective, and aesthetically pleasing.
                 </p>
 
-                <div className="float-right ml-6 mb-4 w-72">
+                <div className="float-right ml-4 mb-4 w-48 lg:w-56">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/05/awnings-8-300x225.jpg" 
                     alt="lighted awning sign"
@@ -89,7 +89,7 @@ const OutdoorSigns = () => {
                   Storefront & Building Signs
                 </h2>
                 
-                <div className="float-right ml-6 mb-4 w-64">
+                <div className="float-right ml-4 mb-4 w-44 lg:w-52">
                   <img 
                     src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/awning-outdoor-canopy-storefront-building-lightbox-sign-298x300.jpg" 
                     alt="custom outdoor building signs"
