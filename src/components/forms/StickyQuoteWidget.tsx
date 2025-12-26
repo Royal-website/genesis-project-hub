@@ -1,11 +1,39 @@
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
 import { QuoteForm } from "@/components/forms/QuoteForm";
+import { useEffect, useState, useRef } from "react";
 
 export function StickyQuoteWidget() {
+  const [isSticky, setIsSticky] = useState(false);
+  const widgetRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (widgetRef.current) {
+        const rect = widgetRef.current.getBoundingClientRect();
+        setIsSticky(rect.top <= 96); // 96px = top-24 (6rem)
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="sticky top-24 z-40">
-      <div className="bg-primary rounded-lg overflow-hidden shadow-2xl">
+    <div 
+      ref={widgetRef}
+      className="sticky top-24 z-40"
+    >
+      <div 
+        className={`
+          bg-primary rounded-lg overflow-hidden 
+          transition-all duration-300 ease-out
+          ${isSticky 
+            ? "shadow-2xl shadow-black/40 scale-[1.02]" 
+            : "shadow-xl"
+          }
+        `}
+      >
         {/* Header */}
         <div className="py-4 px-6">
           <h3 className="text-xl font-bold text-primary-foreground text-center tracking-wide uppercase">
