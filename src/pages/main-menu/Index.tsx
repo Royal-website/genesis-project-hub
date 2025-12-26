@@ -22,11 +22,11 @@ const Index = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             {/* Left: Headline */}
-            <div className="text-primary-foreground text-center lg:text-left">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-shadow-lg">
+            <div className="text-center lg:text-left">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-shadow-lg text-white">
                 Custom Signs & Awnings
               </h1>
-              <p className="text-xl md:text-2xl font-light mt-4 text-shadow">
+              <p className="text-xl md:text-2xl font-light mt-4 text-shadow text-white/90">
                 Design | Production | Installation
               </p>
             </div>
@@ -57,6 +57,39 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Service Cards Section */}
+      <section className="py-10 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { name: "Indoor Signs", path: "/indoor-signs", image: "/images/main-menu/home/indoor-signs.jpg" },
+              { name: "Outdoor Signs", path: "/outdoor-signs", image: "/images/main-menu/home/outdoor-signs.jpg" },
+              { name: "Awnings", path: "/awning-signs", image: "/images/main-menu/home/awnings.jpg" },
+              { name: "Custom Signs", path: "/custom-signs", image: "/images/main-menu/home/custom-signs.jpg" },
+            ].map((service) => (
+              <div key={service.path} className="border border-border rounded overflow-hidden bg-card text-center">
+                <h3 className="text-lg font-bold py-3 border-b border-border">{service.name}</h3>
+                <Link to={service.path}>
+                  <img 
+                    src={service.image} 
+                    alt={`Royal Signs & Awnings ${service.name}`} 
+                    className="w-full h-40 object-cover"
+                  />
+                </Link>
+                <div className="py-3">
+                  <Link 
+                    to={service.path} 
+                    className="inline-block bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-medium py-2 px-6 rounded transition-colors"
+                  >
+                    LEARN MORE
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       
       {/* Main Content with Sidebar */}
       <section className="py-12">
@@ -64,8 +97,11 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Main Content Area */}
             <div className="lg:col-span-2 lg:pr-8">
+              {/* Houston Sign Company Headline */}
+              <h2 className="text-3xl font-bold mb-6">Houston Sign Company</h2>
+              
               {/* Intro */}
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="mb-6">
                 Want to acquire fantastic exposure for your brand? Using attractive, targeted commercial signage by Houston sign company, Royal Signs & Awnings, you can achieve your branding goals!
               </p>
               
