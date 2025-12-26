@@ -8,10 +8,14 @@ import { useLocationContent, getSectionImage, getDefaultImage } from "@/hooks/us
 // Location data mapping
 const locations: Record<string, { name: string; fullName: string }> = {
   "alief-tx": { name: "Alief", fullName: "Alief, TX" },
+  "baytown-tx": { name: "Baytown", fullName: "Baytown, TX" },
+  "cy-fair-tx": { name: "Cy-Fair", fullName: "Cy-Fair, TX" },
   "houston-tx": { name: "Houston", fullName: "Houston, TX" },
+  "katy-tx": { name: "Katy", fullName: "Katy, TX" },
   "missouri-city-tx": { name: "Missouri City", fullName: "Missouri City, TX" },
   "richmond-tx": { name: "Richmond", fullName: "Richmond, TX" },
   "rosenberg-tx": { name: "Rosenberg", fullName: "Rosenberg, TX" },
+  "spring-tx": { name: "Spring", fullName: "Spring, TX" },
   "sugar-land-tx": { name: "Sugar Land", fullName: "Sugar Land, TX" },
   "thompsons-tx": { name: "Thompsons", fullName: "Thompsons, TX" },
 };

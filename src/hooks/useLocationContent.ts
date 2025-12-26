@@ -52,13 +52,67 @@ function getServiceType(slug: string): string {
   return "sign-company"; // Default for general location pages
 }
 
-// Map slug to correct JSON file name
-function mapSlugToJsonFile(slug: string): string {
-  // "sign-company-{location}" routes use the general location JSON file
-  if (slug.startsWith("sign-company-")) {
-    return slug.replace("sign-company-", "");
+// Extract location from slug (e.g., "indoor-signs-sugar-land-tx" -> "sugar-land-tx")
+function getLocationFromSlug(slug: string): string {
+  for (const service of SERVICE_TYPES) {
+    if (slug.startsWith(`${service}-`)) {
+      return slug.replace(`${service}-`, "");
+    }
   }
   return slug;
+}
+
+// Location fallback mapping for missing JSON files
+const LOCATION_FALLBACKS: Record<string, string> = {
+  "houston-tx": "alief-tx",
+  "katy-tx": "alief-tx",
+  "spring-tx": "alief-tx",
+  "baytown-tx": "alief-tx",
+  "cy-fair-tx": "alief-tx"
+};
+
+// Location display names for title replacement
+const LOCATION_NAMES: Record<string, string> = {
+  "alief-tx": "Alief",
+  "houston-tx": "Houston",
+  "katy-tx": "Katy",
+  "spring-tx": "Spring",
+  "baytown-tx": "Baytown",
+  "cy-fair-tx": "Cy-Fair",
+  "missouri-city-tx": "Missouri City",
+  "richmond-tx": "Richmond",
+  "rosenberg-tx": "Rosenberg",
+  "sugar-land-tx": "Sugar Land",
+  "thompsons-tx": "Thompsons"
+};
+
+// Map slug to correct JSON file name with fallback logic
+function mapSlugToJsonFile(slug: string): { primary: string; fallback?: string } {
+  // "sign-company-{location}" routes use the general location JSON file
+  if (slug.startsWith("sign-company-")) {
+    const location = slug.replace("sign-company-", "");
+    const fallbackLocation = LOCATION_FALLBACKS[location];
+    return {
+      primary: location,
+      fallback: fallbackLocation
+    };
+  }
+  
+  // For service-location pages, try original first, then fallback to alief version
+  for (const service of SERVICE_TYPES) {
+    if (slug.startsWith(`${service}-`)) {
+      const location = slug.replace(`${service}-`, "");
+      const fallbackLocation = LOCATION_FALLBACKS[location];
+      if (fallbackLocation) {
+        return {
+          primary: slug,
+          fallback: `${service}-${fallbackLocation}`
+        };
+      }
+    }
+  }
+  
+  return { primary: slug };
 }
 
 export function useLocationContent(slug: string): LocationContent {
@@ -73,15 +127,34 @@ export function useLocationContent(slug: string): LocationContent {
   useEffect(() => {
     async function fetchContent() {
       try {
-        const jsonSlug = mapSlugToJsonFile(slug);
-        const response = await fetch(`/content/locations/${jsonSlug}.json`);
+        const { primary, fallback } = mapSlugToJsonFile(slug);
+        
+        // Try primary JSON first, then fallback
+        let response = await fetch(`/content/locations/${primary}.json`);
+        let usedFallback = false;
+        let fallbackSource = fallback;
+        
+        if (!response.ok && fallback) {
+          response = await fetch(`/content/locations/${fallback}.json`);
+          usedFallback = true;
+        }
+        
         if (!response.ok) throw new Error("Content not found");
         
         const data = await response.json();
         const items: ContentItem[] = data.content || [];
         
         // Parse content
-        const heroTitle = items.find(i => i.tag === "H1")?.text || "";
+        let heroTitle = items.find(i => i.tag === "H1")?.text || "";
+        
+        // Replace location name in title if using fallback content
+        if (usedFallback && fallbackSource) {
+          const targetLocation = getLocationFromSlug(slug);
+          const sourceLocation = getLocationFromSlug(fallbackSource);
+          const targetName = LOCATION_NAMES[targetLocation] || targetLocation;
+          const sourceName = LOCATION_NAMES[sourceLocation] || sourceLocation;
+          heroTitle = heroTitle.replace(new RegExp(sourceName, "gi"), targetName);
+        }
         const sections: Section[] = [];
         let currentSection: Section | null = null;
         let currentSignTypes: string[] = [];
