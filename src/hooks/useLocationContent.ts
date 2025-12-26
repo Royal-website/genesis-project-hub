@@ -35,6 +35,15 @@ const SIGN_TYPE_H3S = [
   "Wayfinding Signs"
 ];
 
+// Map slug to correct JSON file name
+function mapSlugToJsonFile(slug: string): string {
+  // "sign-company-{location}" routes use the general location JSON file
+  if (slug.startsWith("sign-company-")) {
+    return slug.replace("sign-company-", "");
+  }
+  return slug;
+}
+
 export function useLocationContent(slug: string): LocationContent {
   const [content, setContent] = useState<LocationContent>({
     heroTitle: "",
@@ -47,7 +56,8 @@ export function useLocationContent(slug: string): LocationContent {
   useEffect(() => {
     async function fetchContent() {
       try {
-        const response = await fetch(`/content/locations/${slug}.json`);
+        const jsonSlug = mapSlugToJsonFile(slug);
+        const response = await fetch(`/content/locations/${jsonSlug}.json`);
         if (!response.ok) throw new Error("Content not found");
         
         const data = await response.json();
@@ -123,10 +133,13 @@ export function useLocationContent(slug: string): LocationContent {
 }
 
 async function resolveImage(slug: string): Promise<string> {
+  // Map slug for image path (sign-company- uses location folders)
+  const imageSlug = slug.startsWith("sign-company-") ? slug.replace("sign-company-", "") : slug;
+  
   // Try hero.jpg first, then 04-channel-letters.jpg (common in location folders), then default
   const paths = [
-    `/images/locations/${slug}/hero.jpg`,
-    `/images/locations/${slug}/04-channel-letters.jpg`,
+    `/images/locations/${imageSlug}/hero.jpg`,
+    `/images/locations/${imageSlug}/04-channel-letters.jpg`,
     `/images/_defaults/hero.jpg`
   ];
   
@@ -141,7 +154,8 @@ async function resolveImage(slug: string): Promise<string> {
 }
 
 export function getSectionImage(slug: string, index: number): string {
-  return `/images/locations/${slug}/gallery-${String(index + 1).padStart(2, "0")}.jpg`;
+  const imageSlug = slug.startsWith("sign-company-") ? slug.replace("sign-company-", "") : slug;
+  return `/images/locations/${imageSlug}/gallery-${String(index + 1).padStart(2, "0")}.jpg`;
 }
 
 export function getDefaultImage(): string {
