@@ -4,6 +4,16 @@ import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
 import vehicleWrapsHero from "@/assets/images/vehicle-wraps-hero.jpg";
+import vehicleWrapFull from "@/assets/images/vehicle-wrap-full.jpg";
+import vehicleWrapPartial from "@/assets/images/vehicle-wrap-partial.jpg";
+import vehicleVinylLettering from "@/assets/images/vehicle-vinyl-lettering.jpg";
+import vehicleMagnet from "@/assets/images/vehicle-magnet.jpg";
+import vehicleWindowFilm from "@/assets/images/vehicle-window-film.jpg";
+import vehicleFoodTruck from "@/assets/images/vehicle-food-truck.jpg";
+import vehicleFleet from "@/assets/images/vehicle-fleet.jpg";
+import vehicleCarWrap from "@/assets/images/vehicle-car-wrap.jpg";
+import vehicleBoatWrap from "@/assets/images/vehicle-boat-wrap.jpg";
+import vehicleWrapInstallation from "@/assets/images/vehicle-wrap-installation.jpg";
 
 const vehicleWrapTypes = [
   { name: "Car Wraps", path: "/car-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/car-wraps.jpg" },
@@ -106,7 +116,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-full-vehicle-wrap-300x169.jpg" 
+                    src={vehicleWrapFull}
                     alt="custom full vehicle wrap"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -131,7 +141,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/partial-vehicle-wrap-300x153.jpg" 
+                    src={vehicleWrapPartial}
                     alt="partial vehicle graphics"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -156,7 +166,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-vinyl-vehicle-lettering-300x200.jpg" 
+                    src={vehicleVinylLettering}
                     alt="custom vinyl vehicle lettering"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -184,7 +194,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/car-magnet-300x225.jpg" 
+                    src={vehicleMagnet}
                     alt="car magnet"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -215,7 +225,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-perforated-window-film-300x168.jpg" 
+                    src={vehicleWindowFilm}
                     alt="custom perforated window film"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -243,7 +253,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-food-truck-wrap-300x198.jpg" 
+                    src={vehicleFoodTruck}
                     alt="custom vinyl food truck wrap"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -292,7 +302,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-fleet-vehicle-wraps-300x225.jpg" 
+                    src={vehicleFleet}
                     alt="Custom Fleet Vehicle Wraps"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -323,7 +333,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-car-wrap-300x200.jpg" 
+                    src={vehicleCarWrap}
                     alt="custom car wrap"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -351,7 +361,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-boat-wrap-300x200.jpg" 
+                    src={vehicleBoatWrap}
                     alt="custom boat wrap design"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
@@ -380,7 +390,7 @@ const VehicleWraps = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/06/custom-vehicle-wrap-installation-300x221.jpg" 
+                    src={vehicleWrapInstallation}
                     alt="custom vehicle wrap installation"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"

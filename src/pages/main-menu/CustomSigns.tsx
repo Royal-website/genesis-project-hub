@@ -9,6 +9,7 @@ import lobbySignCustom from "@/assets/images/lobby-sign-custom.jpg";
 import lobbySignAcrylic from "@/assets/images/lobby-sign-acrylic.jpg";
 import lobbySignMetal from "@/assets/images/lobby-sign-metal.jpg";
 import lobbySignAttractive from "@/assets/images/lobby-sign-attractive.jpg";
+import customBannerProduction from "@/assets/images/custom-banner-production.jpg";
 
 const customSignTypes = [
   { name: "Acrylic Signs", path: "/acrylic-signs", image: "https://cdn.markmywordsmedia.com/sign-images/services/acrylic-signs.jpg" },
@@ -183,7 +184,7 @@ const CustomSigns = () => {
                 
                 <div className="float-right ml-6 mb-4 w-64">
                   <img 
-                    src="https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/custom-banner-production-300x169.jpg" 
+                    src={customBannerProduction}
                     alt="custom banner production"
                     className="rounded-lg shadow-lg w-full"
                     loading="lazy"
