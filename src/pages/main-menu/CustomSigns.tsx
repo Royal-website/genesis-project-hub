@@ -3,6 +3,7 @@ import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
+import customSignsHero from "@/assets/images/custom-signs-hero.jpg";
 
 const customSignTypes = [
   { name: "Acrylic Signs", path: "/acrylic-signs", image: "https://cdn.markmywordsmedia.com/sign-images/services/acrylic-signs.jpg" },
@@ -22,7 +23,7 @@ const CustomSigns = () => {
       <section 
         className="relative min-h-[450px] flex items-center"
         style={{
-          backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2018/03/custom-signs-bg.jpg')",
+          backgroundImage: `url('${customSignsHero}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

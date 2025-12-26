@@ -3,6 +3,7 @@ import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
+import outdoorSignsHero from "@/assets/images/outdoor-signs-hero.jpg";
 
 const outdoorSignTypes = [
   { name: "Awning Signs", path: "/awning-signs", image: "https://cdn.markmywordsmedia.com/sign-images/services/awning-signs.jpg" },
@@ -28,7 +29,7 @@ const OutdoorSigns = () => {
       <section 
         className="relative min-h-[450px] flex items-center"
         style={{
-          backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2018/01/exterior-outdoor-sign-service.jpg')",
+          backgroundImage: `url('${outdoorSignsHero}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
