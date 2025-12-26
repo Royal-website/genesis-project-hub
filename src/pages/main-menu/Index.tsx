@@ -1,13 +1,10 @@
-import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Sidebar } from "@/components/layout/Sidebar";
-import { StickyQuoteCard } from "@/components/forms/StickyQuoteCard";
 import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Link } from "react-router-dom";
-import { MessageSquare, X, Star } from "lucide-react";
+import { Star } from "lucide-react";
 
 const Index = () => {
-  const [isMobileFormExpanded, setIsMobileFormExpanded] = useState(false);
 
   return (
     <Layout>
@@ -34,25 +31,25 @@ const Index = () => {
               </p>
             </div>
             
-            {/* Right: Quote Form */}
+            {/* Right: Compact Quote Form */}
             <div className="flex justify-center lg:justify-end">
-              <div className="w-full max-w-md bg-white rounded-lg overflow-hidden shadow-2xl">
-                <div className="bg-primary py-4 px-6">
-                  <h3 className="text-lg md:text-xl font-bold text-primary-foreground text-center tracking-wide">
+              <div className="w-full max-w-sm bg-white rounded-lg overflow-hidden shadow-xl">
+                <div className="bg-primary py-2 px-4">
+                  <h3 className="text-sm font-bold text-primary-foreground text-center tracking-wide">
                     GET A FREE QUOTE
                   </h3>
                 </div>
-                <div className="p-5">
+                <div className="p-3">
                   <QuoteForm variant="hero" compact />
                 </div>
-                <div className="bg-primary py-3 px-6 text-center">
-                  <div className="flex items-center justify-center gap-1 mb-1">
+                <div className="bg-primary py-2 px-4 text-center">
+                  <div className="flex items-center justify-center gap-0.5 mb-0.5">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                      <Star key={i} className="h-3 w-3 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
                   <Link to="/reviews" className="text-primary-foreground/80 hover:text-primary-foreground text-xs underline">
-                    Rated 5.0 Stars (54 Reviews)
+                    5.0 Stars (54 Reviews)
                   </Link>
                 </div>
               </div>
@@ -242,67 +239,13 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Sidebar with Sticky Quote Card - Desktop Only */}
+            {/* Sidebar - No floating form */}
             <div className="hidden lg:block lg:col-span-1">
-              <StickyQuoteCard />
-              <div className="mt-6">
-                <Sidebar showQuoteForm={false} />
-              </div>
+              <Sidebar showQuoteForm={false} />
             </div>
           </div>
         </div>
       </section>
-
-      {/* Mobile: Collapsible floating button + expanded form */}
-      <div className="lg:hidden fixed bottom-4 right-4 z-50">
-        {!isMobileFormExpanded && (
-          <button
-            onClick={() => setIsMobileFormExpanded(true)}
-            className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full p-4 shadow-2xl shadow-black/40 transition-all duration-300 animate-pulse hover:animate-none"
-            aria-label="Get a free quote"
-          >
-            <MessageSquare className="h-6 w-6" />
-          </button>
-        )}
-
-        {isMobileFormExpanded && (
-          <div className="bg-primary rounded-lg overflow-hidden shadow-2xl shadow-black/40 w-[calc(100vw-2rem)] max-w-sm animate-scale-in">
-            <div className="py-3 px-4 flex items-center justify-between">
-              <h3 className="text-lg font-bold text-primary-foreground tracking-wide uppercase">
-                Get A Free Quote
-              </h3>
-              <button
-                onClick={() => setIsMobileFormExpanded(false)}
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                aria-label="Close form"
-              >
-                <X className="h-5 w-5" />
-              </button>
-            </div>
-            
-            <div className="bg-white p-4">
-              <QuoteForm variant="sidebar" compact />
-            </div>
-            
-            <div className="py-3 px-4 text-center">
-              <p className="text-primary-foreground font-bold text-xs mb-1 tracking-wide">
-                RATED 5.0 STARS
-              </p>
-              <div className="flex justify-center gap-0.5 mb-1">
-                {[1, 2, 3, 4, 5].map((star) => (
-                  <Star key={star} className="h-4 w-4 text-yellow-400 fill-yellow-400" />
-                ))}
-              </div>
-              <Link 
-                to="/reviews" 
-                className="text-primary-foreground/80 hover:text-primary-foreground text-xs underline transition-colors"
-              >
-                (Based on 54 Client Reviews)
-              </Link>
-            </div>
-          </div>
-        )}
-      </div>
     </Layout>
   );
 };

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Star } from "lucide-react";
+import { QuoteForm } from "@/components/forms/QuoteForm";
 
 interface Breadcrumb {
   name: string;
@@ -21,41 +22,67 @@ export function HeroWithSidebar({
 }: HeroWithSidebarProps) {
   return (
     <section 
-      className="relative bg-cover bg-center min-h-[400px] md:min-h-[450px]"
+      className="relative bg-cover bg-center py-8 md:py-12"
       style={{ backgroundImage: `url('${backgroundImage}')` }}
     >
-      <div className="absolute inset-0 bg-black/40" />
-      <div className="relative z-10 h-full flex items-center min-h-[400px] md:min-h-[450px]">
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/85 to-primary/50" />
+      <div className="relative z-10">
         <div className="container mx-auto px-4">
-          {/* Title area - takes full width on mobile, 2/3 on desktop */}
-          <div className="lg:w-2/3 text-center lg:text-left py-12">
-            {/* Breadcrumbs */}
-            {breadcrumbs.length > 0 && (
-              <nav className="mb-6">
-                <ol className="flex items-center justify-center lg:justify-start gap-2 text-sm text-white/80">
-                  <li>
-                    <Link to="/" className="hover:text-accent transition-colors">Home</Link>
-                  </li>
-                  {breadcrumbs.map((crumb, index) => (
-                    <li key={crumb.path} className="flex items-center gap-2">
-                      <ChevronRight className="h-4 w-4" />
-                      {index === breadcrumbs.length - 1 ? (
-                        <span className="text-white">{crumb.name}</span>
-                      ) : (
-                        <Link to={crumb.path} className="hover:text-accent transition-colors">{crumb.name}</Link>
-                      )}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+            {/* Left: Title */}
+            <div className="text-center lg:text-left">
+              {/* Breadcrumbs */}
+              {breadcrumbs.length > 0 && (
+                <nav className="mb-4">
+                  <ol className="flex items-center justify-center lg:justify-start gap-2 text-sm text-white/80">
+                    <li>
+                      <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                     </li>
-                  ))}
-                </ol>
-              </nav>
-            )}
+                    {breadcrumbs.map((crumb, index) => (
+                      <li key={crumb.path} className="flex items-center gap-2">
+                        <ChevronRight className="h-4 w-4" />
+                        {index === breadcrumbs.length - 1 ? (
+                          <span className="text-white">{crumb.name}</span>
+                        ) : (
+                          <Link to={crumb.path} className="hover:text-accent transition-colors">{crumb.name}</Link>
+                        )}
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              )}
+              
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 text-shadow-lg leading-tight">
+                {title}
+              </h1>
+              <p className="text-lg md:text-xl text-white/90 text-shadow">
+                {subtitle}
+              </p>
+            </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-shadow-lg leading-tight">
-              {title}
-            </h1>
-            <p className="text-2xl md:text-3xl text-white/90 text-shadow">
-              {subtitle}
-            </p>
+            {/* Right: Compact Quote Form */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="w-full max-w-sm bg-white rounded-lg overflow-hidden shadow-xl">
+                <div className="bg-primary py-2 px-4">
+                  <h3 className="text-sm font-bold text-primary-foreground text-center tracking-wide">
+                    GET A FREE QUOTE
+                  </h3>
+                </div>
+                <div className="p-3">
+                  <QuoteForm variant="hero" compact />
+                </div>
+                <div className="bg-primary py-2 px-4 text-center">
+                  <div className="flex items-center justify-center gap-0.5 mb-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-3 w-3 fill-yellow-400 text-yellow-400" />
+                    ))}
+                  </div>
+                  <Link to="/reviews" className="text-primary-foreground/80 hover:text-primary-foreground text-xs underline">
+                    5.0 Stars (54 Reviews)
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
