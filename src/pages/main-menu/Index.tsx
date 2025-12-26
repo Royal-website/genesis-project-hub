@@ -11,25 +11,52 @@ const Index = () => {
 
   return (
     <Layout>
-      {/* Hero Section */}
+      {/* Hero Section with Form */}
       <section 
-        className="relative min-h-[450px] md:min-h-[500px] flex items-center"
+        className="relative py-12 md:py-16"
         style={{
           backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/verizon-custom-sign.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/85 to-primary/50" />
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="lg:w-2/3 text-primary-foreground">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-shadow-lg">
-              Custom Signs & Awnings
-            </h1>
-            <p className="text-2xl md:text-3xl font-light mt-4 text-shadow">
-              Design | Production | Installation
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            {/* Left: Headline */}
+            <div className="text-primary-foreground text-center lg:text-left">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-shadow-lg">
+                Custom Signs & Awnings
+              </h1>
+              <p className="text-xl md:text-2xl font-light mt-4 text-shadow">
+                Design | Production | Installation
+              </p>
+            </div>
+            
+            {/* Right: Quote Form */}
+            <div className="flex justify-center lg:justify-end">
+              <div className="w-full max-w-md bg-white rounded-lg overflow-hidden shadow-2xl">
+                <div className="bg-primary py-4 px-6">
+                  <h3 className="text-lg md:text-xl font-bold text-primary-foreground text-center tracking-wide">
+                    GET A FREE QUOTE
+                  </h3>
+                </div>
+                <div className="p-5">
+                  <QuoteForm variant="hero" compact />
+                </div>
+                <div className="bg-primary py-3 px-6 text-center">
+                  <div className="flex items-center justify-center gap-1 mb-1">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                    ))}
+                  </div>
+                  <Link to="/reviews" className="text-primary-foreground/80 hover:text-primary-foreground text-xs underline">
+                    Rated 5.0 Stars (54 Reviews)
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
