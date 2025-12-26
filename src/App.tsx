@@ -118,7 +118,7 @@ import {
 const queryClient = new QueryClient();
 
 // Location slugs matching the original site (with -tx suffix)
-const locations = ["alief-tx", "houston-tx", "missouri-city-tx", "richmond-tx", "rosenberg-tx", "sugar-land-tx", "thompsons-tx"];
+const locations = ["alief-tx", "baytown-tx", "cy-fair-tx", "houston-tx", "katy-tx", "missouri-city-tx", "richmond-tx", "rosenberg-tx", "spring-tx", "sugar-land-tx", "thompsons-tx"];
 
 // Services that have location-specific pages
 const services = [
@@ -132,7 +132,7 @@ const services = [
   "pole-signs", 
   "canopy-tents", 
   "monument-signs", 
-  "sign-repair"
+  "sign-repairs"
 ];
 
 const App = () => (
