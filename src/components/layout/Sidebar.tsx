@@ -104,6 +104,58 @@ const substrates = [
   { name: "Metal Signs", path: "/metal-signs" },
 ];
 
+// Credit card icons
+const CardWrapper = ({ children }: { children: React.ReactNode }) => (
+  <div className="rounded-md overflow-hidden shadow-lg shadow-black/30">
+    {children}
+  </div>
+);
+
+const VisaIcon = () => (
+  <CardWrapper>
+    <svg viewBox="0 0 48 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="48" height="32" fill="#1A1F71"/>
+      <path d="M19.5 21H17L19 11H21.5L19.5 21Z" fill="white"/>
+      <path d="M28.5 11.2C28 11 27 10.8 26 10.8C23 10.8 21 12.3 21 14.4C21 16 22.5 16.9 23.5 17.4C24.5 17.9 25 18.3 25 18.8C25 19.6 24 19.9 23 19.9C21.8 19.9 21 19.7 20 19.2L19.5 19L19 22C20 22.4 21.5 22.8 23 22.8C26.2 22.8 28 21.3 28 19C28 17.8 27.3 16.8 25.8 16C25 15.5 24.5 15.2 24.5 14.7C24.5 14.2 25 13.7 26 13.7C26.8 13.7 27.5 13.9 28 14.1L28.3 14.2L28.5 11.2Z" fill="white"/>
+      <path d="M33.5 11H31.5C31 11 30.5 11.2 30.3 11.8L26 21H29.2L29.8 19.3H33.5L33.9 21H36.7L34.5 11H33.5ZM30.5 17C30.8 16.2 31.5 14.2 31.5 14.2C31.5 14.2 31.7 13.7 31.8 13.3L32 14.1C32 14.1 32.5 16.2 32.6 17H30.5Z" fill="white"/>
+      <path d="M14.5 11L11.5 17.8L11.2 16.3C10.7 14.5 9 12.5 7 11.5L9.8 21H13L17.5 11H14.5Z" fill="white"/>
+      <path d="M9.5 11H5L5 11.2C8.5 12 11 14.3 11.7 16.3L10.9 11.8C10.8 11.2 10.3 11 9.5 11Z" fill="#F7B600"/>
+    </svg>
+  </CardWrapper>
+);
+
+const MastercardIcon = () => (
+  <CardWrapper>
+    <svg viewBox="0 0 48 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="48" height="32" fill="#1A1A1A"/>
+      <circle cx="18" cy="16" r="9" fill="#EB001B"/>
+      <circle cx="30" cy="16" r="9" fill="#F79E1B"/>
+      <path d="M24 9.2C25.8 10.7 27 12.7 27 16C27 19.3 25.8 21.3 24 22.8C22.2 21.3 21 19.3 21 16C21 12.7 22.2 10.7 24 9.2Z" fill="#FF5F00"/>
+    </svg>
+  </CardWrapper>
+);
+
+const DiscoverIcon = () => (
+  <CardWrapper>
+    <svg viewBox="0 0 48 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="48" height="32" fill="#232323"/>
+      <path d="M0 0H48V16C36 24 24 28 0 20V0Z" fill="#F47216"/>
+      <circle cx="30" cy="16" r="6" fill="#F47216"/>
+      <text x="12" y="18" fontFamily="Arial" fontSize="7" fontWeight="bold" fill="white">DISCOVER</text>
+    </svg>
+  </CardWrapper>
+);
+
+const AmexIcon = () => (
+  <CardWrapper>
+    <svg viewBox="0 0 48 32" className="h-7 w-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="48" height="32" fill="#006FCF"/>
+      <text x="24" y="13" fontFamily="Arial" fontSize="5" fontWeight="bold" fill="white" textAnchor="middle">AMERICAN</text>
+      <text x="24" y="21" fontFamily="Arial" fontSize="5" fontWeight="bold" fill="white" textAnchor="middle">EXPRESS</text>
+    </svg>
+  </CardWrapper>
+);
+
 interface ClientReview {
   title: string;
   stars: number;
@@ -144,11 +196,10 @@ export function Sidebar({
             We Accept:
           </h3>
           <div className="flex items-center justify-center gap-2 flex-wrap">
-            <img 
-              src="https://www.houstonsignsandawnings.com/wp-content/uploads/2020/09/payment-icon.png" 
-              alt="Payment methods accepted" 
-              className="h-8"
-            />
+            <VisaIcon />
+            <MastercardIcon />
+            <DiscoverIcon />
+            <AmexIcon />
           </div>
         </div>
       )}
