@@ -1,5 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { PageSidebarWithMobileForm } from "@/components/layout/PageSidebarWithMobileForm";
+import { HeroWithForm } from "@/components/sections/HeroWithForm";
 import { Link } from "react-router-dom";
 import customSignsHero from "@/assets/images/custom-signs-hero.jpg";
 import lobbySignDimensional from "@/assets/images/lobby-sign-dimensional.jpg";
@@ -23,28 +24,11 @@ const customSignTypes = [
 const CustomSigns = () => {
   return (
     <Layout>
-      {/* Hero Section */}
-      <section 
-        className="relative min-h-[400px] md:min-h-[450px] flex items-center"
-        style={{
-          backgroundImage: `url('${customSignsHero}')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/60 to-transparent" />
-        
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="lg:w-2/3 text-primary-foreground">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-shadow-lg">
-              Custom Signs & Graphics
-            </h1>
-            <p className="text-2xl md:text-3xl font-light mt-4 text-shadow">
-              Design | Production | Installation
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section with Form */}
+      <HeroWithForm 
+        title="Custom Signs & Graphics"
+        backgroundImage={customSignsHero}
+      />
 
       {/* Main Content with Sidebar */}
       <section className="py-12">

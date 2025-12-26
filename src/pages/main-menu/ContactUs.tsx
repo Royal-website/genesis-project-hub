@@ -1,31 +1,17 @@
 import { Layout } from "@/components/layout/Layout";
+import { HeroWithForm } from "@/components/sections/HeroWithForm";
 import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const ContactUs = () => {
   return (
     <Layout>
-      {/* Hero Section */}
-      <section 
-        className="relative bg-cover bg-center py-16 md:py-24"
-        style={{ backgroundImage: "url('https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="text-center lg:text-left">
-              <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Contact Sign Company
-              </h1>
-              <p className="text-xl text-white/90">We're here to help with all your signage needs</p>
-            </div>
-            <div className="bg-primary rounded-lg p-6">
-              <h3 className="text-xl font-bold text-primary-foreground mb-4 text-center">GET A FREE QUOTE</h3>
-              <QuoteForm variant="hero" />
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section with Form */}
+      <HeroWithForm 
+        title="Contact Sign Company"
+        subtitle="We're here to help with all your signage needs"
+        backgroundImage="https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg"
+      />
 
       {/* Contact Content */}
       <section className="py-12">
