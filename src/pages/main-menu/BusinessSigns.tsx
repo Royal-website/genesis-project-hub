@@ -1,6 +1,7 @@
 import { UniversalPageTemplate } from "@/components/templates/UniversalPageTemplate";
 import { ContentSection, ImageGrid, FreeQuoteBanner, ProcessIcons } from "@/components/sections";
 import { Link } from "react-router-dom";
+import businessSignsHero from "@/assets/images/business-signs-hero.jpg";
 
 const businessSignTypes = [
   { src: "https://www.houstonsignsandawnings.com/wp-content/uploads/2018/07/ADA-signs-room-ID-door-reception-300x225.jpg", alt: "ADA Signs", label: "ADA Signs", path: "/ada-signs" },
@@ -22,7 +23,7 @@ const BusinessSigns = () => {
     <UniversalPageTemplate
       title="Business Signs"
       subtitle="Design | Production | Installation"
-      heroImage="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/business-signs.jpg"
+      heroImage={businessSignsHero}
       breadcrumbs={[{ name: "Business Signs", path: "/business-signs" }]}
       showFreeQuoteBanner={true}
       showCommitmentSection={true}

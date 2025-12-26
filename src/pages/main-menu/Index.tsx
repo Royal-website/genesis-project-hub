@@ -148,10 +148,10 @@ const Index = () => {
                 {/* Vehicle Types Grid */}
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-6">
                   {[
-                    { name: "Car Wraps", path: "/vehicle-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/car-wraps.jpg" },
-                    { name: "Truck Wraps", path: "/vehicle-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/truck-wraps.jpg" },
-                    { name: "Fleet Wraps", path: "/vehicle-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/fleet-wraps.jpg" },
-                    { name: "Van Wraps", path: "/vehicle-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/van-wraps.jpg" },
+                    { name: "Car Wraps", path: "/car-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/car-wraps.jpg" },
+                    { name: "Truck Wraps", path: "/truck-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/truck-wraps.jpg" },
+                    { name: "Fleet Wraps", path: "/fleet-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/fleet-wraps.jpg" },
+                    { name: "Van Wraps", path: "/van-wraps", image: "https://cdn.markmywordsmedia.com/sign-images/services/van-wraps.jpg" },
                   ].map((vehicle, index) => (
                     <Link
                       key={index}

@@ -1,20 +1,26 @@
 import { UniversalPageTemplate } from "@/components/templates/UniversalPageTemplate";
 import { ContentSection } from "@/components/sections/ContentSection";
 import { ImageGrid } from "@/components/sections/ImageGrid";
+import lobbySignsHero from "@/assets/images/lobby-signs-hero.jpg";
+import lobbySignDimensional from "@/assets/images/lobby-sign-dimensional.jpg";
+import lobbySignCustom from "@/assets/images/lobby-sign-custom.jpg";
+import lobbySignAcrylic from "@/assets/images/lobby-sign-acrylic.jpg";
+import lobbySignMetal from "@/assets/images/lobby-sign-metal.jpg";
+import lobbySignAttractive from "@/assets/images/lobby-sign-attractive.jpg";
 
 export default function LobbySigns() {
   const galleryImages = [
-    { src: "https://www.houstonsignsandawnings.com/wp-content/uploads/2015/03/IMG_4252-150x150.jpg", alt: "Custom dimensional letter lobby sign", label: "Dimensional Letters" },
-    { src: "https://www.houstonsignsandawnings.com/wp-content/uploads/2015/03/Photo-Mar-16-4-37-20-PM-150x150.jpg", alt: "Attractive Custom Lobby Signs", label: "Custom Lobby Sign" },
-    { src: "https://www.houstonsignsandawnings.com/wp-content/uploads/2015/03/Godwin-Lobby-sign-150x150.jpg", alt: "Houston Lobby Signs Godwin Lobby sign", label: "Godwin Lobby" },
-    { src: "https://www.houstonsignsandawnings.com/wp-content/uploads/2017/09/lobby-1-150x150.jpg", alt: "Custom Lobby Signs", label: "Lobby Signs" },
+    { src: lobbySignDimensional, alt: "Custom dimensional letter lobby sign", label: "Dimensional Letters" },
+    { src: lobbySignCustom, alt: "Attractive Custom Lobby Signs", label: "Custom Lobby Sign" },
+    { src: lobbySignAcrylic, alt: "Houston Lobby Signs acrylic sign", label: "Acrylic Lobby Sign" },
+    { src: lobbySignMetal, alt: "Custom Lobby Signs", label: "Metal Lobby Sign" },
   ];
 
   return (
     <UniversalPageTemplate
       title="Lobby Signs"
       subtitle="Design | Production | Installation"
-      heroImage="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1920&q=80"
+      heroImage={lobbySignsHero}
       breadcrumbs={[
         { name: "Home", path: "/" },
         { name: "Lobby Signs", path: "/lobby-signs" },
@@ -47,7 +53,7 @@ export default function LobbySigns() {
 
       <ContentSection
         title="Lobby Logo Signs"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/interior-block-300x176.jpg"
+        image={lobbySignCustom}
         imageAlt="Houston Lobby Signs interior block"
         imagePosition="left"
       >
@@ -58,7 +64,7 @@ export default function LobbySigns() {
 
       <ContentSection
         title="Cohesive Business Signage Collection"
-        image="https://www.houstonsignsandawnings.com/wp-content/uploads/2017/09/lobby-5-300x140.jpg"
+        image={lobbySignAttractive}
         imageAlt="Attractive Custom Lobby Sign"
       >
         <p>

@@ -3,6 +3,7 @@ import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Link } from "react-router-dom";
 import { Star } from "lucide-react";
+import indoorSignsHero from "@/assets/images/indoor-signs-hero.jpg";
 
 const indoorSignTypes = [
   { name: "Channel Letters", path: "/channel-letters", image: "https://cdn.markmywordsmedia.com/sign-images/services/channel-letters.jpg" },
@@ -22,7 +23,7 @@ const IndoorSigns = () => {
       <section 
         className="relative min-h-[450px] flex items-center"
         style={{
-          backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/indoor-signs-new.png')",
+          backgroundImage: `url('${indoorSignsHero}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
