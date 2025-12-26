@@ -4,7 +4,7 @@ import { Sidebar } from "@/components/layout/Sidebar";
 import { HeroWithQuoteForm } from "@/components/sections/HeroWithQuoteForm";
 import { FreeQuoteBanner } from "@/components/sections/FreeQuoteBanner";
 import { CommitmentSection } from "@/components/sections/CommitmentSection";
-import { StickyQuoteWidget } from "@/components/forms/StickyQuoteWidget";
+import { FloatingQuoteWidget } from "@/components/forms/FloatingQuoteWidget";
 
 interface Breadcrumb {
   name: string;
@@ -81,19 +81,16 @@ export function UniversalPageTemplate({
               )}
             </div>
 
-            {/* Sidebar with Sticky Quote Form */}
+            {/* Sidebar */}
             <div className="lg:col-span-1">
-              {/* Sticky Quote Widget at top */}
-              <StickyQuoteWidget />
-              
-              {/* Other sidebar sections */}
-              <div className="mt-6">
-                <Sidebar {...sidebarProps} showQuoteForm={false} />
-              </div>
+              <Sidebar {...sidebarProps} showQuoteForm={false} />
             </div>
           </div>
         </div>
       </section>
+      
+      {/* Floating Quote Widget */}
+      <FloatingQuoteWidget />
     </Layout>
   );
 }

@@ -20,9 +20,10 @@ type FormData = z.infer<typeof formSchema>;
 interface QuoteFormProps {
   variant?: "hero" | "sidebar" | "inline";
   className?: string;
+  compact?: boolean;
 }
 
-export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) {
+export function QuoteForm({ variant = "hero", className = "", compact = false }: QuoteFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
   
@@ -56,7 +57,7 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
 
   return (
     <div className={className}>
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-3">
+      <form onSubmit={handleSubmit(onSubmit)} className={compact ? "space-y-2" : "space-y-3"}>
         <div>
           <Input
             placeholder="Full Name"
@@ -95,9 +96,9 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
         <div>
           <Textarea
             placeholder="What type and size of signage do you need?"
-            rows={4}
+            rows={compact ? 2 : 4}
             {...register("message")}
-            className="bg-white text-foreground border-border resize-none"
+            className={`bg-white text-foreground border-border resize-none ${compact ? "text-sm" : ""}`}
           />
           {errors.message && (
             <p className="text-destructive text-xs mt-1">{errors.message.message}</p>
@@ -107,10 +108,10 @@ export function QuoteForm({ variant = "hero", className = "" }: QuoteFormProps) 
         <Button 
           type="submit" 
           disabled={isSubmitting}
-          className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold py-3"
+          className={`w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold ${compact ? "py-2 text-sm" : "py-3"}`}
         >
           {isSubmitting ? "Sending..." : "Request My Quote"}
-          <Hand className="ml-2 h-5 w-5" />
+          <Hand className={compact ? "ml-1 h-4 w-4" : "ml-2 h-5 w-5"} />
         </Button>
       </form>
     </div>
