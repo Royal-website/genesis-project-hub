@@ -47,6 +47,10 @@
     --brand-gold: 45 100% 50%;
     --brand-gray: 210 10% 40%;
     --brand-light-gray: 210 20% 96%;
+    
+    /* Typography Colors */
+    --heading-color: 0 0% 0%;
+    --paragraph-color: 0 0% 33%;
 
     --sidebar-background: 181 100% 10%;
     --sidebar-foreground: 0 0% 100%;
@@ -104,13 +108,38 @@
   }
 
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background antialiased;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.43;
+    color: hsl(var(--paragraph-color));
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    color: hsl(var(--heading-color));
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.43;
+    color: hsl(var(--paragraph-color));
   }
 }
 

@@ -65,6 +65,8 @@ export default {
           gray: "hsl(var(--brand-gray))",
           "light-gray": "hsl(var(--brand-light-gray))",
         },
+        heading: "hsl(var(--heading-color))",
+        paragraph: "hsl(var(--paragraph-color))",
       },
       borderRadius: {
         lg: "var(--radius)",
