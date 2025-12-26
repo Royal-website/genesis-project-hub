@@ -1,13 +1,38 @@
+import { useState } from "react";
 import { Layout } from "@/components/layout/Layout";
-import { HeroSection } from "@/components/home/HeroSection";
 import { Sidebar } from "@/components/layout/Sidebar";
-import { FloatingQuoteWidget } from "@/components/forms/FloatingQuoteWidget";
+import { StickyQuoteCard } from "@/components/forms/StickyQuoteCard";
+import { QuoteForm } from "@/components/forms/QuoteForm";
 import { Link } from "react-router-dom";
+import { MessageSquare, X, Star } from "lucide-react";
 
 const Index = () => {
+  const [isMobileFormExpanded, setIsMobileFormExpanded] = useState(false);
+
   return (
     <Layout>
-      <HeroSection />
+      {/* Hero Section */}
+      <section 
+        className="relative min-h-[450px] md:min-h-[500px] flex items-center"
+        style={{
+          backgroundImage: "url('https://www.houstonsignsandawnings.com/wp-content/uploads/2013/09/verizon-custom-sign.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/40" />
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="lg:w-2/3 text-primary-foreground">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-shadow-lg">
+              Custom Signs & Awnings
+            </h1>
+            <p className="text-2xl md:text-3xl font-light mt-4 text-shadow">
+              Design | Production | Installation
+            </p>
+          </div>
+        </div>
+      </section>
       
       {/* Main Content with Sidebar */}
       <section className="py-12">
@@ -190,16 +215,67 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Sidebar */}
-            <div className="lg:col-span-1">
-              <Sidebar showQuoteForm={false} />
+            {/* Sidebar with Sticky Quote Card - Desktop Only */}
+            <div className="hidden lg:block lg:col-span-1">
+              <StickyQuoteCard />
+              <div className="mt-6">
+                <Sidebar showQuoteForm={false} />
+              </div>
             </div>
           </div>
         </div>
       </section>
-      
-      {/* Floating Quote Widget */}
-      <FloatingQuoteWidget />
+
+      {/* Mobile: Collapsible floating button + expanded form */}
+      <div className="lg:hidden fixed bottom-4 right-4 z-50">
+        {!isMobileFormExpanded && (
+          <button
+            onClick={() => setIsMobileFormExpanded(true)}
+            className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full p-4 shadow-2xl shadow-black/40 transition-all duration-300 animate-pulse hover:animate-none"
+            aria-label="Get a free quote"
+          >
+            <MessageSquare className="h-6 w-6" />
+          </button>
+        )}
+
+        {isMobileFormExpanded && (
+          <div className="bg-primary rounded-lg overflow-hidden shadow-2xl shadow-black/40 w-[calc(100vw-2rem)] max-w-sm animate-scale-in">
+            <div className="py-3 px-4 flex items-center justify-between">
+              <h3 className="text-lg font-bold text-primary-foreground tracking-wide uppercase">
+                Get A Free Quote
+              </h3>
+              <button
+                onClick={() => setIsMobileFormExpanded(false)}
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                aria-label="Close form"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+            
+            <div className="bg-white p-4">
+              <QuoteForm variant="sidebar" compact />
+            </div>
+            
+            <div className="py-3 px-4 text-center">
+              <p className="text-primary-foreground font-bold text-xs mb-1 tracking-wide">
+                RATED 5.0 STARS
+              </p>
+              <div className="flex justify-center gap-0.5 mb-1">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="h-4 w-4 text-yellow-400 fill-yellow-400" />
+                ))}
+              </div>
+              <Link 
+                to="/reviews" 
+                className="text-primary-foreground/80 hover:text-primary-foreground text-xs underline transition-colors"
+              >
+                (Based on 54 Client Reviews)
+              </Link>
+            </div>
+          </div>
+        )}
+      </div>
     </Layout>
   );
 };

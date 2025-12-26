@@ -14,7 +14,7 @@ interface Breadcrumb {
   path: string;
 }
 
-interface UniversalPageTemplateProps {
+interface UnifiedPageTemplateProps {
   // Hero Section
   title: string;
   subtitle?: string;
@@ -41,7 +41,7 @@ interface UniversalPageTemplateProps {
   };
 }
 
-export function UniversalPageTemplate({
+export function UnifiedPageTemplate({
   title,
   subtitle,
   heroImage,
@@ -52,7 +52,7 @@ export function UniversalPageTemplate({
   commitmentContent = "We deliver the professional signs, wraps, graphics, and displays you need to attract and retain more customers and clients. Our experienced professionals are dedicated to delivering the right products and support throughout custom sign design, expert production, installation, and beyond for all of your signage products. Anytime you need effective and functional signs, produced to your specifications, that fits your budget, and completed according to your time guidelines, trust Royal Signs & Awnings. We are the professional Houston sign company you can count on for your business signage needs.",
   commitmentTitle = "Our Commitment To You",
   sidebarProps = {},
-}: UniversalPageTemplateProps) {
+}: UnifiedPageTemplateProps) {
   const [isMobileFormExpanded, setIsMobileFormExpanded] = useState(false);
 
   return (
@@ -71,10 +71,13 @@ export function UniversalPageTemplate({
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Content Area */}
             <div className="lg:col-span-2">
+              {/* Main Content passed as children */}
               {children}
               
+              {/* Free Quote Banner */}
               {showFreeQuoteBanner && <FreeQuoteBanner className="my-8" />}
               
+              {/* Commitment Section */}
               {showCommitmentSection && (
                 <CommitmentSection
                   title={commitmentTitle}
@@ -83,9 +86,12 @@ export function UniversalPageTemplate({
               )}
             </div>
 
-            {/* Sidebar with Sticky Quote Card - Desktop Only */}
+            {/* Sidebar with Sticky Quote Card */}
             <div className="hidden lg:block lg:col-span-1">
+              {/* Sticky Quote Card - stays fixed while scrolling */}
               <StickyQuoteCard />
+              
+              {/* Other sidebar sections below (will scroll normally) */}
               <div className="mt-6">
                 <Sidebar {...sidebarProps} showQuoteForm={false} />
               </div>
@@ -96,6 +102,7 @@ export function UniversalPageTemplate({
 
       {/* Mobile: Collapsible floating button + expanded form */}
       <div className="lg:hidden fixed bottom-4 right-4 z-50">
+        {/* Collapsed Button */}
         {!isMobileFormExpanded && (
           <button
             onClick={() => setIsMobileFormExpanded(true)}
@@ -106,6 +113,7 @@ export function UniversalPageTemplate({
           </button>
         )}
 
+        {/* Expanded Form */}
         {isMobileFormExpanded && (
           <div className="bg-primary rounded-lg overflow-hidden shadow-2xl shadow-black/40 w-[calc(100vw-2rem)] max-w-sm animate-scale-in">
             <div className="py-3 px-4 flex items-center justify-between">
