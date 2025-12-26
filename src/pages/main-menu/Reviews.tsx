@@ -1,4 +1,5 @@
 import { Layout } from "@/components/layout/Layout";
+import { HeroWithForm } from "@/components/sections/HeroWithForm";
 import { Star, Quote } from "lucide-react";
 
 const reviews = [
@@ -49,22 +50,12 @@ const reviews = [
 const Reviews = () => {
   return (
     <Layout>
-      {/* Hero Section */}
-      <section className="bg-primary py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">
-            Customer Reviews
-          </h1>
-          <div className="flex justify-center gap-1 mb-4">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <Star key={star} className="h-8 w-8 text-accent fill-accent" />
-            ))}
-          </div>
-          <p className="text-xl text-primary-foreground/90">
-            Rated 5.0 Stars Based on 54 Client Reviews
-          </p>
-        </div>
-      </section>
+      {/* Hero Section with Form */}
+      <HeroWithForm 
+        title="Customer Reviews"
+        subtitle="Rated 5.0 Stars Based on 54 Client Reviews"
+        backgroundImage="https://cdn.markmywordsmedia.com/sign-images/segments/outdoor-signs-segment.jpg"
+      />
 
       {/* Reviews Grid */}
       <section className="py-12 bg-muted">
