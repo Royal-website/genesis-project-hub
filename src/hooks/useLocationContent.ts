@@ -35,6 +35,23 @@ const SIGN_TYPE_H3S = [
   "Wayfinding Signs"
 ];
 
+// Service types that have dedicated image folders
+const SERVICE_TYPES = [
+  "sign-company", "indoor-signs", "outdoor-signs", "awning-signs",
+  "custom-signs", "business-signs", "metal-signs", "pole-signs",
+  "canopy-tents", "monument-signs", "sign-repairs"
+];
+
+// Extract service type from slug (e.g., "indoor-signs-sugar-land-tx" -> "indoor-signs")
+function getServiceType(slug: string): string {
+  for (const service of SERVICE_TYPES) {
+    if (slug.startsWith(service)) {
+      return service;
+    }
+  }
+  return "sign-company"; // Default for general location pages
+}
+
 // Map slug to correct JSON file name
 function mapSlugToJsonFile(slug: string): string {
   // "sign-company-{location}" routes use the general location JSON file
@@ -133,13 +150,11 @@ export function useLocationContent(slug: string): LocationContent {
 }
 
 async function resolveImage(slug: string): Promise<string> {
-  // Map slug for image path (sign-company- uses location folders)
-  const imageSlug = slug.startsWith("sign-company-") ? slug.replace("sign-company-", "") : slug;
+  const serviceType = getServiceType(slug);
   
-  // Try hero.jpg first, then 04-channel-letters.jpg (common in location folders), then default
+  // Use service-based hero images (reusable across all locations)
   const paths = [
-    `/images/locations/${imageSlug}/hero.jpg`,
-    `/images/locations/${imageSlug}/04-channel-letters.jpg`,
+    `/images/services/${serviceType}/hero.jpg`,
     `/images/_defaults/hero.jpg`
   ];
   
@@ -154,10 +169,11 @@ async function resolveImage(slug: string): Promise<string> {
 }
 
 export function getSectionImage(slug: string, index: number): string {
-  const imageSlug = slug.startsWith("sign-company-") ? slug.replace("sign-company-", "") : slug;
-  return `/images/locations/${imageSlug}/gallery-${String(index + 1).padStart(2, "0")}.jpg`;
+  const serviceType = getServiceType(slug);
+  // Use service-based section images (reusable across all locations)
+  return `/images/services/${serviceType}/section-${String(index + 1).padStart(2, "0")}.jpg`;
 }
 
 export function getDefaultImage(): string {
-  return `/images/_defaults/gallery-01.jpg`;
+  return `/images/services/sign-company/section-01.jpg`;
 }
