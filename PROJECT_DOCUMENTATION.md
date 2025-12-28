@@ -6,7 +6,7 @@ This documentation covers everything created in this Lovable project for importi
 
 ---
 
-## 🏗️ Technology Stack
+## Technology Stack
 
 - **Framework**: React 18 with TypeScript
 - **Build Tool**: Vite
@@ -19,7 +19,7 @@ This documentation covers everything created in this Lovable project for importi
 
 ---
 
-## 📁 Complete Folder Structure
+## Complete Folder Structure
 
 ```
 /
@@ -160,17 +160,17 @@ This documentation covers everything created in this Lovable project for importi
 
 ---
 
-## 🎨 Design System
+## Design System
 
-### Brand Colors (defined in `src/index.css`)
+### Brand Colors (defined in src/index.css)
 
 | Color | HSL Value | Usage |
 |-------|-----------|-------|
-| Primary (Dark Teal) | `181 100% 10%` | Main brand color, headers, buttons |
-| Accent (Orange) | `37 100% 50%` | CTAs, highlights, hover states |
-| Brand Gold | `45 100% 50%` | Accents |
-| Heading Color | `0 0% 0%` | All headings |
-| Paragraph Color | `0 0% 33%` | Body text |
+| Primary (Dark Teal) | 181 100% 10% | Main brand color, headers, buttons |
+| Accent (Orange) | 37 100% 50% | CTAs, highlights, hover states |
+| Brand Gold | 45 100% 50% | Accents |
+| Heading Color | 0 0% 0% | All headings |
+| Paragraph Color | 0 0% 33% | Body text |
 
 ### Typography
 - **Font Family**: Roboto (Google Fonts)
@@ -180,40 +180,40 @@ This documentation covers everything created in this Lovable project for importi
 
 ---
 
-## 📄 Page Structure
+## Page Structure
 
 ### Main Menu Pages (8 pages)
 | Route | Component | Description |
 |-------|-----------|-------------|
-| `/` | Index.tsx | Homepage |
-| `/indoor-signs` | IndoorSigns.tsx | Indoor signs service |
-| `/outdoor-signs` | OutdoorSigns.tsx | Outdoor signs service |
-| `/awning-signs` | AwningSigns.tsx | Awning signs service |
-| `/vehicle-wraps` | VehicleWraps.tsx | Vehicle wraps service |
-| `/custom-signs` | CustomSigns.tsx | Custom signs service |
-| `/business-signs` | BusinessSigns.tsx | Business signs service |
-| `/reviews` | Reviews.tsx | Customer reviews |
-| `/contact-us` | ContactUs.tsx | Contact page |
+| / | Index.tsx | Homepage |
+| /indoor-signs | IndoorSigns.tsx | Indoor signs service |
+| /outdoor-signs | OutdoorSigns.tsx | Outdoor signs service |
+| /awning-signs | AwningSigns.tsx | Awning signs service |
+| /vehicle-wraps | VehicleWraps.tsx | Vehicle wraps service |
+| /custom-signs | CustomSigns.tsx | Custom signs service |
+| /business-signs | BusinessSigns.tsx | Business signs service |
+| /reviews | Reviews.tsx | Customer reviews |
+| /contact-us | ContactUs.tsx | Contact page |
 
 ### Industry Pages (32 pages)
-Examples: `/automotive-signs`, `/bank-signs`, `/church-signs`, `/restaurant-signs`, `/retail-signs`, etc.
+Examples: /automotive-signs, /bank-signs, /church-signs, /restaurant-signs, /retail-signs, etc.
 
 ### Sign Type Pages (55 pages)
-Examples: `/ada-signs`, `/channel-letters`, `/monument-signs`, `/pole-signs`, `/led-signs`, etc.
+Examples: /ada-signs, /channel-letters, /monument-signs, /pole-signs, /led-signs, etc.
 
 ### Location Pages (Dynamic - 121+ combinations)
-- **City Pages**: `/alief-tx`, `/houston-tx`, `/katy-tx`, `/spring-tx`, etc.
-- **Service + City**: `/awning-signs-alief-tx`, `/monument-signs-houston-tx`, etc.
+- **City Pages**: /alief-tx, /houston-tx, /katy-tx, /spring-tx, etc.
+- **Service + City**: /awning-signs-alief-tx, /monument-signs-houston-tx, etc.
 
 **Supported Locations (11):**
-- Alief, Baytown, Cy-Fair, Houston, Katy, Missouri City, Richmond, Rosenberg, Spring, Sugar Land, Thompsons
+Alief, Baytown, Cy-Fair, Houston, Katy, Missouri City, Richmond, Rosenberg, Spring, Sugar Land, Thompsons
 
 **Location Services (11):**
-- sign-company, indoor-signs, outdoor-signs, awning-signs, custom-signs, business-signs, metal-signs, pole-signs, canopy-tents, monument-signs, sign-repairs
+sign-company, indoor-signs, outdoor-signs, awning-signs, custom-signs, business-signs, metal-signs, pole-signs, canopy-tents, monument-signs, sign-repairs
 
 ---
 
-## 📦 Key Components
+## Key Components
 
 ### Layout Components
 - **Header.tsx**: Top navigation with logo, phone, main menu links
@@ -233,9 +233,9 @@ Examples: `/ada-signs`, `/channel-letters`, `/monument-signs`, `/pole-signs`, `/
 
 ---
 
-## 📝 JSON Content Structure
+## JSON Content Structure
 
-Content files in `public/content/` follow this structure:
+Content files in public/content/ follow this structure:
 
 ```json
 {
@@ -258,134 +258,118 @@ Content files in `public/content/` follow this structure:
 
 ---
 
-## 🖼️ Images
+## Images
 
 ### Image Organization
-- `/public/images/signtypes/` - Sign type page images
-- `/public/images/industries/` - Industry page images
-- `/public/images/locations/` - Location-specific images
-- `/public/images/main-menu/` - Main menu page images
-- `/public/images/_defaults/` - Fallback images
+- /public/images/signtypes/ - Sign type page images
+- /public/images/industries/ - Industry page images
+- /public/images/locations/ - Location-specific images
+- /public/images/main-menu/ - Main menu page images
+- /public/images/_defaults/ - Fallback images
 
 ### Image Naming Convention
-Images in each folder are typically numbered: `01-*.jpg`, `02-*.jpg`, etc.
+Images in each folder are typically numbered: 01-*.jpg, 02-*.jpg, etc.
 
 ---
 
-## 🔌 Dependencies
+## Dependencies
 
 ### Core Dependencies
-```json
-{
-  "react": "^18.3.1",
-  "react-dom": "^18.3.1",
-  "react-router-dom": "^6.30.1",
-  "@tanstack/react-query": "^5.83.0",
-  "lucide-react": "^0.462.0"
-}
-```
+- react: ^18.3.1
+- react-dom: ^18.3.1
+- react-router-dom: ^6.30.1
+- @tanstack/react-query: ^5.83.0
+- lucide-react: ^0.462.0
 
 ### UI Components (shadcn/ui)
-```json
-{
-  "@radix-ui/react-accordion": "^1.2.11",
-  "@radix-ui/react-dialog": "^1.1.14",
-  "@radix-ui/react-navigation-menu": "^1.2.13",
-  "@radix-ui/react-tabs": "^1.1.12",
-  "@radix-ui/react-tooltip": "^2.1.7"
-  // ... and 20+ more Radix UI packages
-}
-```
+- @radix-ui/react-accordion: ^1.2.11
+- @radix-ui/react-dialog: ^1.1.14
+- @radix-ui/react-navigation-menu: ^1.2.13
+- @radix-ui/react-tabs: ^1.1.12
+- @radix-ui/react-tooltip: ^2.1.7
+- ... and 20+ more Radix UI packages
 
 ### Styling
-```json
-{
-  "tailwindcss": "latest",
-  "tailwindcss-animate": "^1.0.7",
-  "tailwind-scrollbar": "^4.0.2",
-  "class-variance-authority": "^0.7.1",
-  "clsx": "^2.1.1",
-  "tailwind-merge": "^2.6.0"
-}
-```
+- tailwindcss: latest
+- tailwindcss-animate: ^1.0.7
+- tailwind-scrollbar: ^4.0.2
+- class-variance-authority: ^0.7.1
+- clsx: ^2.1.1
+- tailwind-merge: ^2.6.0
 
 ### Forms
-```json
-{
-  "react-hook-form": "^7.61.1",
-  "@hookform/resolvers": "^3.10.0",
-  "zod": "^3.25.76"
-}
-```
+- react-hook-form: ^7.61.1
+- @hookform/resolvers: ^3.10.0
+- zod: ^3.25.76
 
 ---
 
-## 🚀 Import Instructions for New Lovable Account
+## Import Instructions for New Lovable Account
 
 ### Step 1: Connect GitHub
-1. In the new Lovable account, go to **Project Settings** → **GitHub**
-2. Click **Connect to GitHub**
+1. In the new Lovable account, go to Project Settings > GitHub
+2. Click Connect to GitHub
 3. Authorize Lovable GitHub App
 4. Select the repository containing this project
 
 ### Step 2: After Import
 1. The project should load automatically
 2. All routes, components, and content should work immediately
-3. Check that images load from `/public/images/`
+3. Check that images load from /public/images/
 
 ### Step 3: Verify
-- Navigate to homepage `/`
+- Navigate to homepage /
 - Test main menu navigation
 - Test Sign Types sidebar (scrollable with fade gradient)
 - Test Industries sidebar
-- Test location pages (e.g., `/houston-tx`, `/monument-signs-alief-tx`)
+- Test location pages (e.g., /houston-tx, /monument-signs-alief-tx)
 
 ---
 
-## 📋 Features Implemented
+## Features Implemented
 
 ### Navigation
-- ✅ Responsive header with logo and phone number
-- ✅ Main navigation menu (8 items)
-- ✅ Collapsible sidebar with Sign Types & Industries
-- ✅ Scrollable menus with fade gradient and "More" button
-- ✅ Mobile-responsive hamburger menu
+- Responsive header with logo and phone number
+- Main navigation menu (8 items)
+- Collapsible sidebar with Sign Types & Industries
+- Scrollable menus with fade gradient and "More" button
+- Mobile-responsive hamburger menu
 
 ### Pages
-- ✅ 8 Main menu pages
-- ✅ 32 Industry-specific pages
-- ✅ 55 Sign type pages
-- ✅ 121+ Location combination pages (dynamic)
-- ✅ 404 Not Found page
+- 8 Main menu pages
+- 32 Industry-specific pages
+- 55 Sign type pages
+- 121+ Location combination pages (dynamic)
+- 404 Not Found page
 
 ### Content Management
-- ✅ JSON-based content system
-- ✅ Dynamic page templates
-- ✅ SEO-friendly page structure
-- ✅ Image galleries with hero images
+- JSON-based content system
+- Dynamic page templates
+- SEO-friendly page structure
+- Image galleries with hero images
 
 ### UI/UX
-- ✅ White footer text styling
-- ✅ Custom scrollbar styling
-- ✅ Fade gradients for scrollable areas
-- ✅ Quote request forms
-- ✅ Responsive design throughout
+- White footer text styling
+- Custom scrollbar styling
+- Fade gradients for scrollable areas
+- Quote request forms
+- Responsive design throughout
 
 ---
 
-## 🔧 Configuration Files
+## Configuration Files
 
 | File | Purpose |
 |------|---------|
-| `tailwind.config.ts` | Tailwind CSS configuration with custom colors |
-| `src/index.css` | CSS design system with HSL color variables |
-| `vite.config.ts` | Vite build configuration |
-| `tsconfig.json` | TypeScript configuration |
-| `components.json` | shadcn/ui component configuration |
+| tailwind.config.ts | Tailwind CSS configuration with custom colors |
+| src/index.css | CSS design system with HSL color variables |
+| vite.config.ts | Vite build configuration |
+| tsconfig.json | TypeScript configuration |
+| components.json | shadcn/ui component configuration |
 
 ---
 
-## 📞 Contact Information (Site Content)
+## Contact Information (Site Content)
 
 - **Company**: Royal Signs & Awnings
 - **Phone**: (281) 645-9935
@@ -394,5 +378,5 @@ Images in each folder are typically numbered: `01-*.jpg`, `02-*.jpg`, etc.
 
 ---
 
-*Generated: December 2024*
-*This documentation is for importing the project into a new Lovable account via GitHub.*
+Generated: December 2024
+This documentation is for importing the project into a new Lovable account via GitHub.
