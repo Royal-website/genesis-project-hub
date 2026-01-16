@@ -109,14 +109,15 @@
 
   body {
     @apply bg-background antialiased;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.43;
     color: hsl(var(--paragraph-color));
+    overflow-x: hidden;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+  h1, h2, h3, h4, h5, h6, strong {
+    font-family: Arial, sans-serif;
     font-weight: 700;
     color: hsl(var(--heading-color));
   }
@@ -124,6 +125,7 @@
   h1 {
     font-size: 36px;
     line-height: 1.1;
+    margin-top: 0;
   }
 
   h2 {
@@ -136,10 +138,61 @@
     line-height: 1.2;
   }
 
+  h4 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
   p {
+    font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.43;
     color: hsl(var(--paragraph-color));
+  }
+
+  /* Links in headings */
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, strong a {
+    color: hsl(var(--heading-color));
+    text-decoration: none;
+  }
+
+  h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, strong a:hover {
+    color: hsl(210, 60%, 40%);
+  }
+
+  /* Global image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Logo image sizes */
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .logo img {
+      max-width: 82%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .logo img {
+      max-width: 280px;
+      width: 70%;
+    }
   }
 }
 
@@ -150,5 +203,17 @@
   
   .text-shadow-lg {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  }
+
+  /* Full-width images */
+  .pa_image {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .pa_image img {
+    width: 100%;
+    height: auto;
   }
 }
