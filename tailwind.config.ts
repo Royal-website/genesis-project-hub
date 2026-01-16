@@ -74,7 +74,17 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
+        sans: ['Arial', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
+      },
+      fontSize: {
+        'h1': ['36px', { lineHeight: '1.1', fontWeight: '700' }],
+        'h2': ['36px', { lineHeight: '1.1', fontWeight: '700' }],
+        'h3': ['28px', { lineHeight: '1.2', fontWeight: '700' }],
+        'h4': ['22px', { lineHeight: '1.3', fontWeight: '700' }],
+        'h5': ['18px', { lineHeight: '1.4', fontWeight: '700' }],
+        'h6': ['16px', { lineHeight: '1.4', fontWeight: '700' }],
+        'body': ['16px', { lineHeight: '1.43' }],
       },
       keyframes: {
         "accordion-down": {
