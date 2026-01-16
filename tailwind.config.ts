@@ -74,7 +74,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ['Arial', 'sans-serif'],
+        sans: ['Roboto', 'Arial', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
       },
       fontSize: {
